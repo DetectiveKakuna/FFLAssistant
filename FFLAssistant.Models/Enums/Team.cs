@@ -1,0 +1,37 @@
+﻿namespace FFLAssistant.Models.Enums;
+
+public enum Team
+{
+    ARI,
+    ATL,
+    BAL,
+    BUF,
+    CAR,
+    CHI,
+    CIN,
+    CLE,
+    DAL,
+    DEN,
+    DET,
+    GB,
+    HOU,
+    IND,
+    JAX,
+    KC,
+    LAC,
+    LAR,
+    LV,
+    MIA,
+    MIN,
+    NE,
+    NO,
+    NYG,
+    NYJ,
+    PHI,
+    PIT,
+    SF,
+    SEA,
+    TB,
+    TEN,
+    WAS
+}

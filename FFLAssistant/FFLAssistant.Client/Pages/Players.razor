@@ -1,0 +1,185 @@
+﻿@page "/players"
+@rendermode InteractiveAuto
+@using FFLAssistant.Models.Players
+@using FFLAssistant.Models.Enums
+@using MudBlazor
+@using Position = FFLAssistant.Models.Enums.Position;
+
+<PageTitle>Players</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+    <MudText Typo="Typo.h3" Class="mb-4">Players</MudText>
+
+    @if (players?.Count == 0)
+    {
+        <!-- Skeleton Loaders -->
+        <MudCard Class="mb-4">
+            <MudCardContent>
+                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Height="56px" Class="mb-2" />
+                <MudGrid>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudSkeleton SkeletonType="SkeletonType.Rectangle" Height="40px" />
+                    </MudItem>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudSkeleton SkeletonType="SkeletonType.Rectangle" Height="40px" />
+                    </MudItem>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudSkeleton SkeletonType="SkeletonType.Rectangle" Height="40px" />
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard>
+            <MudCardContent>
+                @for (int i = 0; i < 10; i++)
+                {
+                    <MudGrid Class="mb-3">
+                        @for (int j = 0; j < 7; j++)
+                        {
+                            <MudItem xs="12" sm="6" md="2">
+                                <MudSkeleton SkeletonType="SkeletonType.Text" Height="24px" />
+                            </MudItem>
+                        }
+                    </MudGrid>
+                }
+            </MudCardContent>
+        </MudCard>
+    }
+    else
+    {
+        <!-- Filters -->
+        <MudCard Class="mb-4">
+            <MudCardContent>
+                <MudText Typo="Typo.h6" Class="mb-3">Filters</MudText>
+                <MudGrid>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudTextField @bind-Value="searchText"
+                                      @bind-Value:after="OnFiltersChanged"
+                                      Label="Search Players"
+                                      Variant="Variant.Outlined"
+                                      Immediate="true"
+                                      DebounceInterval="300"
+                                      Adornment="Adornment.End"
+                                      AdornmentIcon="Icons.Material.Filled.Search" />
+                    </MudItem>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudAutocomplete T="Team?"
+                                         @bind-Value="selectedTeam"
+                                         @bind-Value:after="OnFiltersChanged"
+                                         Label="Team"
+                                         Variant="Variant.Outlined"
+                                         SearchFunc="@SearchTeams"
+                                         ToStringFunc="@(t => t?.ToString() ?? string.Empty)"
+                                         Clearable="true" />
+                    </MudItem>
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudAutocomplete T="Position?"
+                                         @bind-Value="selectedPosition"
+                                         @bind-Value:after="OnFiltersChanged"
+                                         Label="Position"
+                                         Variant="Variant.Outlined"
+                                         SearchFunc="@SearchPositions"
+                                         ToStringFunc="@(p => p?.ToString() ?? string.Empty)"
+                                         Clearable="true" />
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+        </MudCard>
+
+        <!-- Players Table with Server-side Pagination -->
+        <MudCard>
+            <MudCardContent>
+                <MudDataGrid @ref="dataGrid"
+                             ServerData="@(new Func<GridState<Player>, Task<GridData<Player>>>(ServerReload))"
+                             T="Player"
+                             Sortable="true"
+                             Filterable="false"
+                             Dense="true"
+                             Hover="true"
+                             Bordered="true"
+                             Striped="true"
+                             FixedHeader="true"
+                             Height="600px"
+                             PageSize="50"
+                             InitialState="@currentGridState">
+                    <Columns>
+                        <PropertyColumn Property="x => x.FirstName" Title="First Name" Sortable="true" />
+                        <PropertyColumn Property="x => x.LastName" Title="Last Name" Sortable="true" />
+                        <TemplateColumn Title="Team" Sortable="false" SortBy="@(x => x.Team?.ToString())">
+                            <CellTemplate>
+                                @if (context.Item.Team.HasValue)
+                                {
+                                    <MudChip Color="Color.Primary" Size="Size.Small">
+                                        @context.Item.Team
+                                    </MudChip>
+                                }
+                                else
+                                {
+                                    <MudChip Color="Color.Default" Size="Size.Small">N/A</MudChip>
+                                }
+                            </CellTemplate>
+                        </TemplateColumn>
+                        <TemplateColumn Title="Position(s)" Sortable="false">
+                            <CellTemplate>
+                                @if (context.Item.Positions?.Count > 0)
+                                {
+                                    @foreach (var position in context.Item.Positions.Take(2))
+                                    {
+                                        <MudChip Color="Color.Secondary" Size="Size.Small" Class="ma-1">
+                                            @position
+                                        </MudChip>
+                                    }
+                                    @if (context.Item.Positions.Count > 2)
+                                    {
+                                        <MudChip Color="Color.Secondary" Size="Size.Small" Class="ma-1">
+                                            +@(context.Item.Positions.Count - 2)
+                                        </MudChip>
+                                    }
+                                }
+                                else
+                                {
+                                    <MudText Typo="Typo.body2">None</MudText>
+                                }
+                            </CellTemplate>
+                        </TemplateColumn>
+                        <TemplateColumn Title="Depth Chart" Sortable="true" SortBy="@(x => x.DepthChartPosition ?? 999)">
+                            <CellTemplate>
+                                @if (context.Item.DepthChartPosition.HasValue && context.Item.DepthChartPosition > 0)
+                                {
+                                    <MudText Typo="Typo.body2">@context.Item.DepthChartPosition</MudText>
+                                }
+                                else
+                                {
+                                    <MudText Typo="Typo.body2" Class="mud-text-secondary">N/A</MudText>
+                                }
+                            </CellTemplate>
+                        </TemplateColumn>
+                        <PropertyColumn Property="x => x.Age" Title="Age" Sortable="true" />
+                        <PropertyColumn Property="x => x.YearsExperience" Title="Exp" Sortable="true" />
+                        <TemplateColumn Title="Status" Sortable="false">
+                            <CellTemplate>
+                                @if (context.Item.InjuryStatus.HasValue)
+                                {
+                                    <MudText Typo="Typo.body2" Style="@($"color: {GetInjuryStatusColorString(context.Item.InjuryStatus.Value)}")">
+                                        @context.Item.InjuryStatus
+                                    </MudText>
+                                }
+                                else
+                                {
+                                    <MudText Typo="Typo.body2" Class="mud-success-text">Healthy</MudText>
+                                }
+                            </CellTemplate>
+                        </TemplateColumn>
+                    </Columns>
+                    <NoRecordsContent>
+                        <MudText Typo="Typo.body1">No players found matching the current filters.</MudText>
+                    </NoRecordsContent>
+                    <PagerContent>
+                        <MudDataGridPager T="Player" />
+                    </PagerContent>
+                </MudDataGrid>
+            </MudCardContent>
+        </MudCard>
+    }
+</MudContainer>

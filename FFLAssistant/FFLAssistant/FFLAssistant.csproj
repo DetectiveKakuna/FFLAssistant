@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FFLAssistant.Repositories\FFLAssistant.Repositories.csproj" />
+    <ProjectReference Include="..\..\FFLAssistant.ServiceDefaults\FFLAssistant.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\FFLAssistant.Services\FFLAssistant.Services.csproj" />
+    <ProjectReference Include="..\FFLAssistant.Client\FFLAssistant.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.*" />
+  </ItemGroup>
+
+</Project>

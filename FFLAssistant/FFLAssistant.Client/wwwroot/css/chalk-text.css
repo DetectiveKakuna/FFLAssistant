@@ -1,0 +1,71 @@
+﻿@font-face {
+    font-family: 'ChalkFont';
+    src: url('../fonts/chalk-font.ttf') format('truetype'), 
+         url('../fonts/chalk-font.otf') format('opentype');
+/*         url('../fonts/chalk-font.woff2') format('woff2'), 
+         url('../fonts/chalk-font.woff') format('woff'), */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* AppBar */
+.mud-layout .mud-appbar,
+.mud-appbar {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.mud-layout .mud-appbar .mud-typography,
+.mud-appbar .mud-typography,
+.mud-layout .mud-appbar .mud-text,
+.mud-appbar .mud-text {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 3rem !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+}
+
+/* NavBar */
+.mud-layout .mud-drawer .mud-nav-menu,
+.mud-drawer .mud-nav-menu {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 2.5rem !important;
+}
+
+.mud-layout .mud-drawer .mud-nav-menu .mud-nav-link,
+.mud-drawer .mud-nav-menu .mud-nav-link {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: normal;
+    font-size: 2.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    min-height: 4rem !important;
+    padding: 0.5rem 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.mud-layout .mud-drawer .mud-nav-menu .mud-nav-link .mud-nav-link-text,
+.mud-drawer .mud-nav-menu .mud-nav-link .mud-nav-link-text,
+.mud-layout .mud-drawer .mud-nav-menu .mud-nav-link .mud-button-label,
+.mud-drawer .mud-nav-menu .mud-nav-link .mud-button-label {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 2.5rem !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    letter-spacing: 0.5px;
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 0 0 0 !important;
+    margin: 0 !important;
+    vertical-align: middle !important;
+}
+
+/* Force remove any default MudBlazor padding/margins that might interfere */
+.mud-drawer .mud-nav-menu .mud-nav-link * {
+    box-sizing: border-box !important;
+}
+
+.mud-drawer * {
+    font-family: 'ChalkFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
