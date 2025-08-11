@@ -34,11 +34,11 @@ public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> lo
 
             var draftState = new DraftState
             {
-                TotalTeams = await GetTotalTeamsAsync(page),
+                Teams = await GetTeamsAsync(page),
                 CurrentPick = await GetCurrentPickAsync(page),
+                TotalRounds = await GetTotalRoundsAsync(page),
                 Picks = await GetPicksAsync(page)
             };
-
             await page.CloseAsync();
 
             _logger.LogInformation("Successfully scraped draft state for league");
@@ -63,17 +63,101 @@ public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> lo
         });
     }
 
-    private async Task<int> GetTotalTeamsAsync(IPage page)
+    private async Task<List<DraftTeam>> GetTeamsAsync(IPage page)
+    {
+        var teams = new List<DraftTeam>();
+
+        try
+        {
+            // Find all team columns
+            var teamColumns = await page.QuerySelectorAllAsync("div.team-column");
+
+            _logger.LogDebug("Found {Count} team columns", teamColumns.Count);
+
+            for (int i = 0; i < teamColumns.Count; i++)
+            {
+                try
+                {
+                    // Find the header text within this team column
+                    var headerElement = await teamColumns[i].QuerySelectorAsync("h1.header-text");
+
+                    if (headerElement == null)
+                    {
+                        _logger.LogWarning("No header-text element found in team column {Position}", i + 1);
+                        continue;
+                    }
+
+                    // Get the text content of the header
+                    var headerText = await headerElement.TextContentAsync();
+
+                    if (string.IsNullOrEmpty(headerText))
+                    {
+                        _logger.LogWarning("Empty header text in team column {Position}", i + 1);
+                        continue;
+                    }
+
+                    var teamName = headerText.Trim();
+                    var isMyTeam = teamName.Equals(_config.UserName, StringComparison.OrdinalIgnoreCase);
+
+                    var team = new DraftTeam
+                    {
+                        Position = i + 1,
+                        TeamName = teamName,
+                        IsMyTeam = isMyTeam
+                    };
+
+                    teams.Add(team);
+
+                    if (isMyTeam)
+                    {
+                        _logger.LogDebug("Found my team '{TeamName}' at position {Position}", teamName, i + 1);
+                    }
+                    else
+                    {
+                        _logger.LogDebug("Found team '{TeamName}' at position {Position}", teamName, i + 1);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Error processing team column at position {Position}", i + 1);
+                }
+            }
+
+            _logger.LogInformation("Successfully extracted {Count} teams", teams.Count);
+            return teams;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error extracting teams");
+            return teams;
+        }
+    }
+
+    private async Task<int> GetTotalRoundsAsync(IPage page)
     {
         try
         {
             // Count the number of .team-column divs
-            var teamColumns = await page.QuerySelectorAllAsync("div.team-column");
-            
-            var totalTeams = teamColumns.Count;
-            _logger.LogDebug("Found {TotalTeams} team columns", totalTeams);
-            
-            return totalTeams;
+            var randomTeamColumn = await page.QuerySelectorAsync("div.team-column");
+
+            if (randomTeamColumn == null)
+            {
+                _logger.LogWarning("No team column found to count rounds");
+                return 0;
+            }
+
+            // Find all rows in the first team column
+            var rowCount = await randomTeamColumn.QuerySelectorAllAsync("div.cell-container");
+
+            if (rowCount.Count == 0)
+            {
+                _logger.LogWarning("No rows found in the team column to count rounds");
+                return 0;
+            }
+
+            _logger.LogDebug("Found {TotalTeams} team columns", rowCount.Count);
+
+            return rowCount.Count;
         }
         catch (Exception ex)
         {

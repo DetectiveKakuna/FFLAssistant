@@ -21,7 +21,8 @@
     "bestRank": 1,
     "worstRank": 3,
     "averageRank": 1.14,
-    "standardDeviation": 0.49
+    "standardDeviation": 0.49,
+    "isDrafted": false
   },
   {
     "player": {
@@ -45,7 +46,8 @@
     "bestRank": 2,
     "worstRank": 8,
     "averageRank": 3,
-    "standardDeviation": 1.51
+    "standardDeviation": 1.51,
+    "isDrafted": false
   },
   {
     "player": {
@@ -69,7 +71,8 @@
     "bestRank": 1,
     "worstRank": 6,
     "averageRank": 3.92,
-    "standardDeviation": 1.39
+    "standardDeviation": 1.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -93,7 +96,8 @@
     "bestRank": 2,
     "worstRank": 8,
     "averageRank": 3.94,
-    "standardDeviation": 1.07
+    "standardDeviation": 1.07,
+    "isDrafted": false
   },
   {
     "player": {
@@ -117,7 +121,8 @@
     "bestRank": 2,
     "worstRank": 20,
     "averageRank": 6.44,
-    "standardDeviation": 3.69
+    "standardDeviation": 3.69,
+    "isDrafted": false
   },
   {
     "player": {
@@ -141,7 +146,8 @@
     "bestRank": 4,
     "worstRank": 12,
     "averageRank": 7.27,
-    "standardDeviation": 2.17
+    "standardDeviation": 2.17,
+    "isDrafted": false
   },
   {
     "player": {
@@ -165,7 +171,8 @@
     "bestRank": 4,
     "worstRank": 14,
     "averageRank": 7.38,
-    "standardDeviation": 1.96
+    "standardDeviation": 1.96,
+    "isDrafted": false
   },
   {
     "player": {
@@ -189,7 +196,8 @@
     "bestRank": 4,
     "worstRank": 15,
     "averageRank": 9.03,
-    "standardDeviation": 2.63
+    "standardDeviation": 2.63,
+    "isDrafted": false
   },
   {
     "player": {
@@ -213,7 +221,8 @@
     "bestRank": 4,
     "worstRank": 20,
     "averageRank": 9.59,
-    "standardDeviation": 4.17
+    "standardDeviation": 4.17,
+    "isDrafted": false
   },
   {
     "player": {
@@ -237,7 +246,8 @@
     "bestRank": 5,
     "worstRank": 19,
     "averageRank": 9.71,
-    "standardDeviation": 2.44
+    "standardDeviation": 2.44,
+    "isDrafted": false
   },
   {
     "player": {
@@ -261,7 +271,8 @@
     "bestRank": 7,
     "worstRank": 18,
     "averageRank": 10.71,
-    "standardDeviation": 2.07
+    "standardDeviation": 2.07,
+    "isDrafted": false
   },
   {
     "player": {
@@ -285,7 +296,8 @@
     "bestRank": 9,
     "worstRank": 19,
     "averageRank": 13.3,
-    "standardDeviation": 2.78
+    "standardDeviation": 2.78,
+    "isDrafted": false
   },
   {
     "player": {
@@ -309,7 +321,8 @@
     "bestRank": 2,
     "worstRank": 40,
     "averageRank": 13.86,
-    "standardDeviation": 8.34
+    "standardDeviation": 8.34,
+    "isDrafted": false
   },
   {
     "player": {
@@ -333,7 +346,8 @@
     "bestRank": 8,
     "worstRank": 30,
     "averageRank": 16.15,
-    "standardDeviation": 3.94
+    "standardDeviation": 3.94,
+    "isDrafted": false
   },
   {
     "player": {
@@ -357,7 +371,8 @@
     "bestRank": 5,
     "worstRank": 42,
     "averageRank": 17,
-    "standardDeviation": 6.23
+    "standardDeviation": 6.23,
+    "isDrafted": false
   },
   {
     "player": {
@@ -381,7 +396,8 @@
     "bestRank": 11,
     "worstRank": 35,
     "averageRank": 18.32,
-    "standardDeviation": 4.22
+    "standardDeviation": 4.22,
+    "isDrafted": false
   },
   {
     "player": {
@@ -405,7 +421,8 @@
     "bestRank": 10,
     "worstRank": 27,
     "averageRank": 18.45,
-    "standardDeviation": 4.87
+    "standardDeviation": 4.87,
+    "isDrafted": false
   },
   {
     "player": {
@@ -429,7 +446,8 @@
     "bestRank": 10,
     "worstRank": 137,
     "averageRank": 18.98,
-    "standardDeviation": 15.2
+    "standardDeviation": 15.2,
+    "isDrafted": false
   },
   {
     "player": {
@@ -453,7 +471,8 @@
     "bestRank": 13,
     "worstRank": 46,
     "averageRank": 20.52,
-    "standardDeviation": 7.72
+    "standardDeviation": 7.72,
+    "isDrafted": false
   },
   {
     "player": {
@@ -477,7 +496,8 @@
     "bestRank": 15,
     "worstRank": 72,
     "averageRank": 22.26,
-    "standardDeviation": 8.92
+    "standardDeviation": 8.92,
+    "isDrafted": false
   },
   {
     "player": {
@@ -501,7 +521,8 @@
     "bestRank": 10,
     "worstRank": 52,
     "averageRank": 23.03,
-    "standardDeviation": 6.93
+    "standardDeviation": 6.93,
+    "isDrafted": false
   },
   {
     "player": {
@@ -525,7 +546,8 @@
     "bestRank": 11,
     "worstRank": 43,
     "averageRank": 23.38,
-    "standardDeviation": 8.14
+    "standardDeviation": 8.14,
+    "isDrafted": false
   },
   {
     "player": {
@@ -549,7 +571,8 @@
     "bestRank": 13,
     "worstRank": 47,
     "averageRank": 24.29,
-    "standardDeviation": 7.78
+    "standardDeviation": 7.78,
+    "isDrafted": false
   },
   {
     "player": {
@@ -573,7 +596,8 @@
     "bestRank": 13,
     "worstRank": 43,
     "averageRank": 25.44,
-    "standardDeviation": 6
+    "standardDeviation": 6,
+    "isDrafted": false
   },
   {
     "player": {
@@ -597,7 +621,8 @@
     "bestRank": 21,
     "worstRank": 36,
     "averageRank": 25.5,
-    "standardDeviation": 2.49
+    "standardDeviation": 2.49,
+    "isDrafted": false
   },
   {
     "player": {
@@ -621,7 +646,8 @@
     "bestRank": 24,
     "worstRank": 36,
     "averageRank": 26.21,
-    "standardDeviation": 2.58
+    "standardDeviation": 2.58,
+    "isDrafted": false
   },
   {
     "player": {
@@ -645,7 +671,8 @@
     "bestRank": 16,
     "worstRank": 46,
     "averageRank": 27.68,
-    "standardDeviation": 7.38
+    "standardDeviation": 7.38,
+    "isDrafted": false
   },
   {
     "player": {
@@ -669,7 +696,8 @@
     "bestRank": 13,
     "worstRank": 49,
     "averageRank": 28.76,
-    "standardDeviation": 7.29
+    "standardDeviation": 7.29,
+    "isDrafted": false
   },
   {
     "player": {
@@ -693,7 +721,8 @@
     "bestRank": 13,
     "worstRank": 48,
     "averageRank": 30.2,
-    "standardDeviation": 7.34
+    "standardDeviation": 7.34,
+    "isDrafted": false
   },
   {
     "player": {
@@ -717,7 +746,8 @@
     "bestRank": 13,
     "worstRank": 45,
     "averageRank": 30.21,
-    "standardDeviation": 5.77
+    "standardDeviation": 5.77,
+    "isDrafted": false
   },
   {
     "player": {
@@ -741,7 +771,8 @@
     "bestRank": 25,
     "worstRank": 54,
     "averageRank": 33.5,
-    "standardDeviation": 6.38
+    "standardDeviation": 6.38,
+    "isDrafted": false
   },
   {
     "player": {
@@ -765,7 +796,8 @@
     "bestRank": 17,
     "worstRank": 64,
     "averageRank": 33.56,
-    "standardDeviation": 7.06
+    "standardDeviation": 7.06,
+    "isDrafted": false
   },
   {
     "player": {
@@ -789,7 +821,8 @@
     "bestRank": 15,
     "worstRank": 96,
     "averageRank": 33.61,
-    "standardDeviation": 11.26
+    "standardDeviation": 11.26,
+    "isDrafted": false
   },
   {
     "player": {
@@ -813,7 +846,8 @@
     "bestRank": 26,
     "worstRank": 58,
     "averageRank": 34.61,
-    "standardDeviation": 8.59
+    "standardDeviation": 8.59,
+    "isDrafted": false
   },
   {
     "player": {
@@ -837,7 +871,8 @@
     "bestRank": 26,
     "worstRank": 53,
     "averageRank": 37.15,
-    "standardDeviation": 8.79
+    "standardDeviation": 8.79,
+    "isDrafted": false
   },
   {
     "player": {
@@ -861,7 +896,8 @@
     "bestRank": 18,
     "worstRank": 68,
     "averageRank": 37.2,
-    "standardDeviation": 8.3
+    "standardDeviation": 8.3,
+    "isDrafted": false
   },
   {
     "player": {
@@ -885,7 +921,8 @@
     "bestRank": 19,
     "worstRank": 54,
     "averageRank": 37.61,
-    "standardDeviation": 7.83
+    "standardDeviation": 7.83,
+    "isDrafted": false
   },
   {
     "player": {
@@ -909,7 +946,8 @@
     "bestRank": 24,
     "worstRank": 52,
     "averageRank": 38.23,
-    "standardDeviation": 5.74
+    "standardDeviation": 5.74,
+    "isDrafted": false
   },
   {
     "player": {
@@ -933,7 +971,8 @@
     "bestRank": 19,
     "worstRank": 60,
     "averageRank": 38.86,
-    "standardDeviation": 7.39
+    "standardDeviation": 7.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -957,7 +996,8 @@
     "bestRank": 22,
     "worstRank": 52,
     "averageRank": 40.21,
-    "standardDeviation": 6.21
+    "standardDeviation": 6.21,
+    "isDrafted": false
   },
   {
     "player": {
@@ -981,7 +1021,8 @@
     "bestRank": 22,
     "worstRank": 74,
     "averageRank": 40.45,
-    "standardDeviation": 9.88
+    "standardDeviation": 9.88,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1005,7 +1046,8 @@
     "bestRank": 23,
     "worstRank": 57,
     "averageRank": 44.23,
-    "standardDeviation": 6.14
+    "standardDeviation": 6.14,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1029,7 +1071,8 @@
     "bestRank": 27,
     "worstRank": 86,
     "averageRank": 45.15,
-    "standardDeviation": 11.08
+    "standardDeviation": 11.08,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1053,7 +1096,8 @@
     "bestRank": 26,
     "worstRank": 58,
     "averageRank": 46.48,
-    "standardDeviation": 9.15
+    "standardDeviation": 9.15,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1077,7 +1121,8 @@
     "bestRank": 34,
     "worstRank": 66,
     "averageRank": 46.8,
-    "standardDeviation": 5.83
+    "standardDeviation": 5.83,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1101,7 +1146,8 @@
     "bestRank": 27,
     "worstRank": 83,
     "averageRank": 47.67,
-    "standardDeviation": 8.94
+    "standardDeviation": 8.94,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1125,7 +1171,8 @@
     "bestRank": 34,
     "worstRank": 87,
     "averageRank": 48.74,
-    "standardDeviation": 8.99
+    "standardDeviation": 8.99,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1149,7 +1196,8 @@
     "bestRank": 22,
     "worstRank": 116,
     "averageRank": 50.05,
-    "standardDeviation": 15.12
+    "standardDeviation": 15.12,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1173,7 +1221,8 @@
     "bestRank": 37,
     "worstRank": 81,
     "averageRank": 52.2,
-    "standardDeviation": 9.24
+    "standardDeviation": 9.24,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1197,7 +1246,8 @@
     "bestRank": 40,
     "worstRank": 66,
     "averageRank": 52.42,
-    "standardDeviation": 6.27
+    "standardDeviation": 6.27,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1221,7 +1271,8 @@
     "bestRank": 38,
     "worstRank": 66,
     "averageRank": 53.14,
-    "standardDeviation": 5.56
+    "standardDeviation": 5.56,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1245,7 +1296,8 @@
     "bestRank": 24,
     "worstRank": 108,
     "averageRank": 53.8,
-    "standardDeviation": 19.66
+    "standardDeviation": 19.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1269,7 +1321,8 @@
     "bestRank": 28,
     "worstRank": 90,
     "averageRank": 54.48,
-    "standardDeviation": 12.77
+    "standardDeviation": 12.77,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1293,7 +1346,8 @@
     "bestRank": 25,
     "worstRank": 141,
     "averageRank": 56.97,
-    "standardDeviation": 19.33
+    "standardDeviation": 19.33,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1317,7 +1371,8 @@
     "bestRank": 26,
     "worstRank": 120,
     "averageRank": 57.52,
-    "standardDeviation": 15.57
+    "standardDeviation": 15.57,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1341,7 +1396,8 @@
     "bestRank": 37,
     "worstRank": 95,
     "averageRank": 59.95,
-    "standardDeviation": 13.43
+    "standardDeviation": 13.43,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1365,7 +1421,8 @@
     "bestRank": 25,
     "worstRank": 120,
     "averageRank": 60.06,
-    "standardDeviation": 16.97
+    "standardDeviation": 16.97,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1389,7 +1446,8 @@
     "bestRank": 35,
     "worstRank": 95,
     "averageRank": 63.7,
-    "standardDeviation": 13.95
+    "standardDeviation": 13.95,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1413,7 +1471,8 @@
     "bestRank": 45,
     "worstRank": 98,
     "averageRank": 63.79,
-    "standardDeviation": 11
+    "standardDeviation": 11,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1437,7 +1496,8 @@
     "bestRank": 37,
     "worstRank": 90,
     "averageRank": 64.14,
-    "standardDeviation": 13.52
+    "standardDeviation": 13.52,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1461,7 +1521,8 @@
     "bestRank": 53,
     "worstRank": 100,
     "averageRank": 64.89,
-    "standardDeviation": 10.03
+    "standardDeviation": 10.03,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1485,7 +1546,8 @@
     "bestRank": 45,
     "worstRank": 88,
     "averageRank": 64.97,
-    "standardDeviation": 8.27
+    "standardDeviation": 8.27,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1509,7 +1571,8 @@
     "bestRank": 31,
     "worstRank": 86,
     "averageRank": 68.55,
-    "standardDeviation": 10.62
+    "standardDeviation": 10.62,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1533,7 +1596,8 @@
     "bestRank": 50,
     "worstRank": 101,
     "averageRank": 68.98,
-    "standardDeviation": 9.7
+    "standardDeviation": 9.7,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1557,7 +1621,8 @@
     "bestRank": 37,
     "worstRank": 91,
     "averageRank": 69.21,
-    "standardDeviation": 12.48
+    "standardDeviation": 12.48,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1581,7 +1646,8 @@
     "bestRank": 53,
     "worstRank": 157,
     "averageRank": 69.32,
-    "standardDeviation": 17.69
+    "standardDeviation": 17.69,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1605,7 +1671,8 @@
     "bestRank": 44,
     "worstRank": 114,
     "averageRank": 70.29,
-    "standardDeviation": 14.45
+    "standardDeviation": 14.45,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1629,7 +1696,8 @@
     "bestRank": 54,
     "worstRank": 107,
     "averageRank": 70.77,
-    "standardDeviation": 14.52
+    "standardDeviation": 14.52,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1653,7 +1721,8 @@
     "bestRank": 45,
     "worstRank": 151,
     "averageRank": 71.29,
-    "standardDeviation": 17.84
+    "standardDeviation": 17.84,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1677,7 +1746,8 @@
     "bestRank": 49,
     "worstRank": 283,
     "averageRank": 73.58,
-    "standardDeviation": 30.2
+    "standardDeviation": 30.2,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1701,7 +1771,8 @@
     "bestRank": 55,
     "worstRank": 117,
     "averageRank": 73.82,
-    "standardDeviation": 9.77
+    "standardDeviation": 9.77,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1725,7 +1796,8 @@
     "bestRank": 56,
     "worstRank": 115,
     "averageRank": 74.32,
-    "standardDeviation": 15.06
+    "standardDeviation": 15.06,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1749,7 +1821,8 @@
     "bestRank": 55,
     "worstRank": 116,
     "averageRank": 76.41,
-    "standardDeviation": 9.49
+    "standardDeviation": 9.49,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1773,7 +1846,8 @@
     "bestRank": 58,
     "worstRank": 107,
     "averageRank": 76.76,
-    "standardDeviation": 14.53
+    "standardDeviation": 14.53,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1797,7 +1871,8 @@
     "bestRank": 44,
     "worstRank": 114,
     "averageRank": 76.98,
-    "standardDeviation": 13.76
+    "standardDeviation": 13.76,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1821,7 +1896,8 @@
     "bestRank": 47,
     "worstRank": 109,
     "averageRank": 77.94,
-    "standardDeviation": 14.39
+    "standardDeviation": 14.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1845,7 +1921,8 @@
     "bestRank": 41,
     "worstRank": 132,
     "averageRank": 78.68,
-    "standardDeviation": 21.79
+    "standardDeviation": 21.79,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1869,7 +1946,8 @@
     "bestRank": 45,
     "worstRank": 310,
     "averageRank": 79.82,
-    "standardDeviation": 35.01
+    "standardDeviation": 35.01,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1893,7 +1971,8 @@
     "bestRank": 58,
     "worstRank": 112,
     "averageRank": 80.24,
-    "standardDeviation": 14.64
+    "standardDeviation": 14.64,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1917,7 +1996,8 @@
     "bestRank": 41,
     "worstRank": 110,
     "averageRank": 80.89,
-    "standardDeviation": 14.43
+    "standardDeviation": 14.43,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1941,7 +2021,8 @@
     "bestRank": 60,
     "worstRank": 233,
     "averageRank": 82.53,
-    "standardDeviation": 24.85
+    "standardDeviation": 24.85,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1965,7 +2046,8 @@
     "bestRank": 56,
     "worstRank": 130,
     "averageRank": 83.41,
-    "standardDeviation": 14.04
+    "standardDeviation": 14.04,
+    "isDrafted": false
   },
   {
     "player": {
@@ -1989,7 +2071,8 @@
     "bestRank": 56,
     "worstRank": 110,
     "averageRank": 84.08,
-    "standardDeviation": 13.5
+    "standardDeviation": 13.5,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2013,7 +2096,8 @@
     "bestRank": 54,
     "worstRank": 122,
     "averageRank": 84.76,
-    "standardDeviation": 15.26
+    "standardDeviation": 15.26,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2037,7 +2121,8 @@
     "bestRank": 54,
     "worstRank": 109,
     "averageRank": 84.94,
-    "standardDeviation": 13.07
+    "standardDeviation": 13.07,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2061,7 +2146,8 @@
     "bestRank": 66,
     "worstRank": 134,
     "averageRank": 86.88,
-    "standardDeviation": 10.93
+    "standardDeviation": 10.93,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2085,7 +2171,8 @@
     "bestRank": 44,
     "worstRank": 136,
     "averageRank": 88.33,
-    "standardDeviation": 19.17
+    "standardDeviation": 19.17,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2109,7 +2196,8 @@
     "bestRank": 58,
     "worstRank": 146,
     "averageRank": 89.61,
-    "standardDeviation": 21.66
+    "standardDeviation": 21.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2133,7 +2221,8 @@
     "bestRank": 72,
     "worstRank": 123,
     "averageRank": 90.08,
-    "standardDeviation": 13.78
+    "standardDeviation": 13.78,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2157,7 +2246,8 @@
     "bestRank": 60,
     "worstRank": 156,
     "averageRank": 90.76,
-    "standardDeviation": 17.38
+    "standardDeviation": 17.38,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2181,7 +2271,8 @@
     "bestRank": 58,
     "worstRank": 128,
     "averageRank": 93.14,
-    "standardDeviation": 16.44
+    "standardDeviation": 16.44,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2205,7 +2296,8 @@
     "bestRank": 69,
     "worstRank": 307,
     "averageRank": 94.15,
-    "standardDeviation": 30.03
+    "standardDeviation": 30.03,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2229,7 +2321,8 @@
     "bestRank": 57,
     "worstRank": 127,
     "averageRank": 94.5,
-    "standardDeviation": 13.55
+    "standardDeviation": 13.55,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2253,7 +2346,8 @@
     "bestRank": 62,
     "worstRank": 129,
     "averageRank": 97.86,
-    "standardDeviation": 15.07
+    "standardDeviation": 15.07,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2277,7 +2371,8 @@
     "bestRank": 60,
     "worstRank": 151,
     "averageRank": 98.11,
-    "standardDeviation": 17.62
+    "standardDeviation": 17.62,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2301,7 +2396,8 @@
     "bestRank": 62,
     "worstRank": 133,
     "averageRank": 98.29,
-    "standardDeviation": 13.83
+    "standardDeviation": 13.83,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2325,7 +2421,8 @@
     "bestRank": 51,
     "worstRank": 141,
     "averageRank": 98.41,
-    "standardDeviation": 19.15
+    "standardDeviation": 19.15,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2349,7 +2446,8 @@
     "bestRank": 70,
     "worstRank": 139,
     "averageRank": 99.39,
-    "standardDeviation": 14.91
+    "standardDeviation": 14.91,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2373,7 +2471,8 @@
     "bestRank": 51,
     "worstRank": 139,
     "averageRank": 99.45,
-    "standardDeviation": 17.37
+    "standardDeviation": 17.37,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2397,7 +2496,8 @@
     "bestRank": 62,
     "worstRank": 128,
     "averageRank": 101.17,
-    "standardDeviation": 15.8
+    "standardDeviation": 15.8,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2421,7 +2521,8 @@
     "bestRank": 50,
     "worstRank": 127,
     "averageRank": 101.68,
-    "standardDeviation": 17.66
+    "standardDeviation": 17.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2445,7 +2546,8 @@
     "bestRank": 61,
     "worstRank": 127,
     "averageRank": 101.95,
-    "standardDeviation": 14.18
+    "standardDeviation": 14.18,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2469,7 +2571,8 @@
     "bestRank": 71,
     "worstRank": 149,
     "averageRank": 98.6,
-    "standardDeviation": 19.89
+    "standardDeviation": 19.89,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2493,7 +2596,8 @@
     "bestRank": 66,
     "worstRank": 178,
     "averageRank": 107.29,
-    "standardDeviation": 14.72
+    "standardDeviation": 14.72,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2517,7 +2621,8 @@
     "bestRank": 78,
     "worstRank": 150,
     "averageRank": 107.7,
-    "standardDeviation": 12.69
+    "standardDeviation": 12.69,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2541,7 +2646,8 @@
     "bestRank": 84,
     "worstRank": 154,
     "averageRank": 108.21,
-    "standardDeviation": 15.16
+    "standardDeviation": 15.16,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2565,7 +2671,8 @@
     "bestRank": 76,
     "worstRank": 200,
     "averageRank": 107.34,
-    "standardDeviation": 23.98
+    "standardDeviation": 23.98,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2589,7 +2696,8 @@
     "bestRank": 84,
     "worstRank": 289,
     "averageRank": 112,
-    "standardDeviation": 27.27
+    "standardDeviation": 27.27,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2613,7 +2721,8 @@
     "bestRank": 85,
     "worstRank": 144,
     "averageRank": 114.08,
-    "standardDeviation": 13.84
+    "standardDeviation": 13.84,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2637,7 +2746,8 @@
     "bestRank": 91,
     "worstRank": 145,
     "averageRank": 114.64,
-    "standardDeviation": 10.12
+    "standardDeviation": 10.12,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2661,7 +2771,8 @@
     "bestRank": 77,
     "worstRank": 176,
     "averageRank": 115.21,
-    "standardDeviation": 21.23
+    "standardDeviation": 21.23,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2685,7 +2796,8 @@
     "bestRank": 77,
     "worstRank": 151,
     "averageRank": 115.33,
-    "standardDeviation": 19.14
+    "standardDeviation": 19.14,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2709,7 +2821,8 @@
     "bestRank": 84,
     "worstRank": 180,
     "averageRank": 115.62,
-    "standardDeviation": 20.32
+    "standardDeviation": 20.32,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2733,7 +2846,8 @@
     "bestRank": 82,
     "worstRank": 141,
     "averageRank": 116.18,
-    "standardDeviation": 12.5
+    "standardDeviation": 12.5,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2757,7 +2871,8 @@
     "bestRank": 78,
     "worstRank": 152,
     "averageRank": 117.68,
-    "standardDeviation": 12.09
+    "standardDeviation": 12.09,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2781,7 +2896,8 @@
     "bestRank": 88,
     "worstRank": 145,
     "averageRank": 117.68,
-    "standardDeviation": 13.85
+    "standardDeviation": 13.85,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2805,7 +2921,8 @@
     "bestRank": 61,
     "worstRank": 179,
     "averageRank": 117.71,
-    "standardDeviation": 27.23
+    "standardDeviation": 27.23,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2829,7 +2946,8 @@
     "bestRank": 81,
     "worstRank": 181,
     "averageRank": 119.94,
-    "standardDeviation": 23.2
+    "standardDeviation": 23.2,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2853,7 +2971,8 @@
     "bestRank": 76,
     "worstRank": 163,
     "averageRank": 119.18,
-    "standardDeviation": 19.25
+    "standardDeviation": 19.25,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2877,7 +2996,8 @@
     "bestRank": 96,
     "worstRank": 172,
     "averageRank": 123.73,
-    "standardDeviation": 19.35
+    "standardDeviation": 19.35,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2901,7 +3021,8 @@
     "bestRank": 97,
     "worstRank": 320,
     "averageRank": 124.79,
-    "standardDeviation": 30.14
+    "standardDeviation": 30.14,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2925,7 +3046,8 @@
     "bestRank": 51,
     "worstRank": 297,
     "averageRank": 125.12,
-    "standardDeviation": 38.59
+    "standardDeviation": 38.59,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2949,7 +3071,8 @@
     "bestRank": 85,
     "worstRank": 161,
     "averageRank": 121.05,
-    "standardDeviation": 17.39
+    "standardDeviation": 17.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2973,7 +3096,8 @@
     "bestRank": 61,
     "worstRank": 228,
     "averageRank": 125.35,
-    "standardDeviation": 29.99
+    "standardDeviation": 29.99,
+    "isDrafted": false
   },
   {
     "player": {
@@ -2997,7 +3121,8 @@
     "bestRank": 84,
     "worstRank": 290,
     "averageRank": 126.85,
-    "standardDeviation": 35.02
+    "standardDeviation": 35.02,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3021,7 +3146,8 @@
     "bestRank": 57,
     "worstRank": 221,
     "averageRank": 120.73,
-    "standardDeviation": 32.24
+    "standardDeviation": 32.24,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3045,7 +3171,8 @@
     "bestRank": 93,
     "worstRank": 165,
     "averageRank": 131.86,
-    "standardDeviation": 12.97
+    "standardDeviation": 12.97,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3069,7 +3196,8 @@
     "bestRank": 95,
     "worstRank": 201,
     "averageRank": 133.3,
-    "standardDeviation": 19.63
+    "standardDeviation": 19.63,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3093,7 +3221,8 @@
     "bestRank": 74,
     "worstRank": 188,
     "averageRank": 131.82,
-    "standardDeviation": 21.74
+    "standardDeviation": 21.74,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3117,7 +3246,8 @@
     "bestRank": 84,
     "worstRank": 183,
     "averageRank": 136,
-    "standardDeviation": 17.42
+    "standardDeviation": 17.42,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3141,7 +3271,8 @@
     "bestRank": 112,
     "worstRank": 181,
     "averageRank": 134.08,
-    "standardDeviation": 13.32
+    "standardDeviation": 13.32,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3165,7 +3296,8 @@
     "bestRank": 98,
     "worstRank": 247,
     "averageRank": 136.65,
-    "standardDeviation": 20.73
+    "standardDeviation": 20.73,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3189,7 +3321,8 @@
     "bestRank": 96,
     "worstRank": 296,
     "averageRank": 141.7,
-    "standardDeviation": 33.66
+    "standardDeviation": 33.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3213,7 +3346,8 @@
     "bestRank": 108,
     "worstRank": 177,
     "averageRank": 142.09,
-    "standardDeviation": 17.47
+    "standardDeviation": 17.47,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3237,7 +3371,8 @@
     "bestRank": 77,
     "worstRank": 247,
     "averageRank": 130.75,
-    "standardDeviation": 34.85
+    "standardDeviation": 34.85,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3261,7 +3396,8 @@
     "bestRank": 113,
     "worstRank": 254,
     "averageRank": 139.18,
-    "standardDeviation": 23.05
+    "standardDeviation": 23.05,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3285,7 +3421,8 @@
     "bestRank": 75,
     "worstRank": 204,
     "averageRank": 143.41,
-    "standardDeviation": 23.77
+    "standardDeviation": 23.77,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3309,7 +3446,8 @@
     "bestRank": 113,
     "worstRank": 241,
     "averageRank": 143.46,
-    "standardDeviation": 19.37
+    "standardDeviation": 19.37,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3333,7 +3471,8 @@
     "bestRank": 106,
     "worstRank": 194,
     "averageRank": 148.53,
-    "standardDeviation": 17.39
+    "standardDeviation": 17.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3357,7 +3496,8 @@
     "bestRank": 113,
     "worstRank": 323,
     "averageRank": 150.26,
-    "standardDeviation": 28.73
+    "standardDeviation": 28.73,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3381,7 +3521,8 @@
     "bestRank": 96,
     "worstRank": 228,
     "averageRank": 146.97,
-    "standardDeviation": 27.45
+    "standardDeviation": 27.45,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3405,7 +3546,8 @@
     "bestRank": 116,
     "worstRank": 227,
     "averageRank": 147.82,
-    "standardDeviation": 16.55
+    "standardDeviation": 16.55,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3429,7 +3571,8 @@
     "bestRank": 109,
     "worstRank": 226,
     "averageRank": 152.62,
-    "standardDeviation": 27.64
+    "standardDeviation": 27.64,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3453,7 +3596,8 @@
     "bestRank": 80,
     "worstRank": 280,
     "averageRank": 149.62,
-    "standardDeviation": 41.91
+    "standardDeviation": 41.91,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3477,7 +3621,8 @@
     "bestRank": 98,
     "worstRank": 291,
     "averageRank": 150.65,
-    "standardDeviation": 31.8
+    "standardDeviation": 31.8,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3501,7 +3646,8 @@
     "bestRank": 115,
     "worstRank": 261,
     "averageRank": 155.11,
-    "standardDeviation": 22.95
+    "standardDeviation": 22.95,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3525,7 +3671,8 @@
     "bestRank": 89,
     "worstRank": 226,
     "averageRank": 151.42,
-    "standardDeviation": 20.66
+    "standardDeviation": 20.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3549,7 +3696,8 @@
     "bestRank": 122,
     "worstRank": 201,
     "averageRank": 158.68,
-    "standardDeviation": 16.65
+    "standardDeviation": 16.65,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3573,7 +3721,8 @@
     "bestRank": 68,
     "worstRank": 244,
     "averageRank": 155.82,
-    "standardDeviation": 32.79
+    "standardDeviation": 32.79,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3597,7 +3746,8 @@
     "bestRank": 101,
     "worstRank": 247,
     "averageRank": 157.18,
-    "standardDeviation": 23.82
+    "standardDeviation": 23.82,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3621,7 +3771,8 @@
     "bestRank": 131,
     "worstRank": 200,
     "averageRank": 157.23,
-    "standardDeviation": 14.35
+    "standardDeviation": 14.35,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3645,7 +3796,8 @@
     "bestRank": 117,
     "worstRank": 247,
     "averageRank": 154.16,
-    "standardDeviation": 22.06
+    "standardDeviation": 22.06,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3669,7 +3821,8 @@
     "bestRank": 118,
     "worstRank": 284,
     "averageRank": 158.97,
-    "standardDeviation": 31.48
+    "standardDeviation": 31.48,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3693,7 +3846,8 @@
     "bestRank": 93,
     "worstRank": 244,
     "averageRank": 159.32,
-    "standardDeviation": 25.16
+    "standardDeviation": 25.16,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3717,7 +3871,8 @@
     "bestRank": 96,
     "worstRank": 235,
     "averageRank": 159.77,
-    "standardDeviation": 30.69
+    "standardDeviation": 30.69,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3741,7 +3896,8 @@
     "bestRank": 126,
     "worstRank": 221,
     "averageRank": 160.49,
-    "standardDeviation": 19.81
+    "standardDeviation": 19.81,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3765,7 +3921,8 @@
     "bestRank": 95,
     "worstRank": 298,
     "averageRank": 157.73,
-    "standardDeviation": 39.71
+    "standardDeviation": 39.71,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3789,7 +3946,8 @@
     "bestRank": 127,
     "worstRank": 259,
     "averageRank": 161.88,
-    "standardDeviation": 26.19
+    "standardDeviation": 26.19,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3813,7 +3971,8 @@
     "bestRank": 150,
     "worstRank": 182,
     "averageRank": 152.97,
-    "standardDeviation": 7.7
+    "standardDeviation": 7.7,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3837,7 +3996,8 @@
     "bestRank": 120,
     "worstRank": 261,
     "averageRank": 164.48,
-    "standardDeviation": 25.28
+    "standardDeviation": 25.28,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3861,7 +4021,8 @@
     "bestRank": 115,
     "worstRank": 324,
     "averageRank": 168.1,
-    "standardDeviation": 32.73
+    "standardDeviation": 32.73,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3885,7 +4046,8 @@
     "bestRank": 105,
     "worstRank": 253,
     "averageRank": 165.82,
-    "standardDeviation": 31.25
+    "standardDeviation": 31.25,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3909,7 +4071,8 @@
     "bestRank": 109,
     "worstRank": 301,
     "averageRank": 169.98,
-    "standardDeviation": 34.61
+    "standardDeviation": 34.61,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3933,7 +4096,8 @@
     "bestRank": 81,
     "worstRank": 222,
     "averageRank": 170.52,
-    "standardDeviation": 28.62
+    "standardDeviation": 28.62,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3957,7 +4121,8 @@
     "bestRank": 134,
     "worstRank": 250,
     "averageRank": 168.66,
-    "standardDeviation": 23.07
+    "standardDeviation": 23.07,
+    "isDrafted": false
   },
   {
     "player": {
@@ -3981,7 +4146,8 @@
     "bestRank": 106,
     "worstRank": 286,
     "averageRank": 172.42,
-    "standardDeviation": 34.45
+    "standardDeviation": 34.45,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4005,7 +4171,8 @@
     "bestRank": 131,
     "worstRank": 338,
     "averageRank": 165.57,
-    "standardDeviation": 38.49
+    "standardDeviation": 38.49,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4029,7 +4196,8 @@
     "bestRank": 108,
     "worstRank": 246,
     "averageRank": 176.73,
-    "standardDeviation": 24.68
+    "standardDeviation": 24.68,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4053,7 +4221,8 @@
     "bestRank": 118,
     "worstRank": 254,
     "averageRank": 172.41,
-    "standardDeviation": 30.03
+    "standardDeviation": 30.03,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4077,7 +4246,8 @@
     "bestRank": 116,
     "worstRank": 306,
     "averageRank": 173.16,
-    "standardDeviation": 38.33
+    "standardDeviation": 38.33,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4101,7 +4271,8 @@
     "bestRank": 131,
     "worstRank": 282,
     "averageRank": 174.08,
-    "standardDeviation": 28.78
+    "standardDeviation": 28.78,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4125,7 +4296,8 @@
     "bestRank": 150,
     "worstRank": 187,
     "averageRank": 163.3,
-    "standardDeviation": 7.67
+    "standardDeviation": 7.67,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4149,7 +4321,8 @@
     "bestRank": 101,
     "worstRank": 270,
     "averageRank": 176.38,
-    "standardDeviation": 40.02
+    "standardDeviation": 40.02,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4173,7 +4346,8 @@
     "bestRank": 96,
     "worstRank": 301,
     "averageRank": 176.94,
-    "standardDeviation": 49.06
+    "standardDeviation": 49.06,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4197,7 +4371,8 @@
     "bestRank": 124,
     "worstRank": 334,
     "averageRank": 185.11,
-    "standardDeviation": 38.61
+    "standardDeviation": 38.61,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4221,7 +4396,8 @@
     "bestRank": 160,
     "worstRank": 195,
     "averageRank": 171.5,
-    "standardDeviation": 7.3
+    "standardDeviation": 7.3,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4245,7 +4421,8 @@
     "bestRank": 160,
     "worstRank": 189,
     "averageRank": 167.9,
-    "standardDeviation": 6.6
+    "standardDeviation": 6.6,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4269,7 +4446,8 @@
     "bestRank": 166,
     "worstRank": 191,
     "averageRank": 175.02,
-    "standardDeviation": 6.62
+    "standardDeviation": 6.62,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4293,7 +4471,8 @@
     "bestRank": 127,
     "worstRank": 314,
     "averageRank": 189.11,
-    "standardDeviation": 30.08
+    "standardDeviation": 30.08,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4317,7 +4496,8 @@
     "bestRank": 114,
     "worstRank": 263,
     "averageRank": 183.1,
-    "standardDeviation": 31.2
+    "standardDeviation": 31.2,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4341,7 +4521,8 @@
     "bestRank": 123,
     "worstRank": 294,
     "averageRank": 193.09,
-    "standardDeviation": 38.86
+    "standardDeviation": 38.86,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4365,7 +4546,8 @@
     "bestRank": 142,
     "worstRank": 309,
     "averageRank": 197.35,
-    "standardDeviation": 36.19
+    "standardDeviation": 36.19,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4389,7 +4571,8 @@
     "bestRank": 171,
     "worstRank": 206,
     "averageRank": 185.77,
-    "standardDeviation": 7.66
+    "standardDeviation": 7.66,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4413,7 +4596,8 @@
     "bestRank": 118,
     "worstRank": 288,
     "averageRank": 197.11,
-    "standardDeviation": 41.58
+    "standardDeviation": 41.58,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4437,7 +4621,8 @@
     "bestRank": 105,
     "worstRank": 305,
     "averageRank": 194.41,
-    "standardDeviation": 42.49
+    "standardDeviation": 42.49,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4461,7 +4646,8 @@
     "bestRank": 127,
     "worstRank": 302,
     "averageRank": 191.65,
-    "standardDeviation": 35.17
+    "standardDeviation": 35.17,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4485,7 +4671,8 @@
     "bestRank": 171,
     "worstRank": 234,
     "averageRank": 189.26,
-    "standardDeviation": 9.39
+    "standardDeviation": 9.39,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4509,7 +4696,8 @@
     "bestRank": 166,
     "worstRank": 354,
     "averageRank": 189.46,
-    "standardDeviation": 28.55
+    "standardDeviation": 28.55,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4533,7 +4721,8 @@
     "bestRank": 179,
     "worstRank": 203,
     "averageRank": 186.47,
-    "standardDeviation": 2.67
+    "standardDeviation": 2.67,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4557,7 +4746,8 @@
     "bestRank": 166,
     "worstRank": 211,
     "averageRank": 186.67,
-    "standardDeviation": 6.34
+    "standardDeviation": 6.34,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4581,7 +4771,8 @@
     "bestRank": 186,
     "worstRank": 217,
     "averageRank": 192.72,
-    "standardDeviation": 4.37
+    "standardDeviation": 4.37,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4605,7 +4796,8 @@
     "bestRank": 184,
     "worstRank": 277,
     "averageRank": 193.95,
-    "standardDeviation": 14.95
+    "standardDeviation": 14.95,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4629,7 +4821,8 @@
     "bestRank": 155,
     "worstRank": 291,
     "averageRank": 203.67,
-    "standardDeviation": 32.67
+    "standardDeviation": 32.67,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4653,7 +4846,8 @@
     "bestRank": 137,
     "worstRank": 289,
     "averageRank": 206.74,
-    "standardDeviation": 33.2
+    "standardDeviation": 33.2,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4677,7 +4871,8 @@
     "bestRank": 141,
     "worstRank": 266,
     "averageRank": 198.65,
-    "standardDeviation": 21.74
+    "standardDeviation": 21.74,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4701,7 +4896,8 @@
     "bestRank": 182,
     "worstRank": 215,
     "averageRank": 193.1,
-    "standardDeviation": 4.31
+    "standardDeviation": 4.31,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4725,7 +4921,8 @@
     "bestRank": 148,
     "worstRank": 335,
     "averageRank": 199.87,
-    "standardDeviation": 28.78
+    "standardDeviation": 28.78,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4749,7 +4946,8 @@
     "bestRank": 143,
     "worstRank": 294,
     "averageRank": 205.38,
-    "standardDeviation": 36.01
+    "standardDeviation": 36.01,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4773,7 +4971,8 @@
     "bestRank": 184,
     "worstRank": 278,
     "averageRank": 202.29,
-    "standardDeviation": 16.91
+    "standardDeviation": 16.91,
+    "isDrafted": false
   },
   {
     "player": {
@@ -4797,6 +4996,7 @@
     "bestRank": 149,
     "worstRank": 263,
     "averageRank": 204.68,
-    "standardDeviation": 20.14
+    "standardDeviation": 20.14,
+    "isDrafted": false
   }
 ]

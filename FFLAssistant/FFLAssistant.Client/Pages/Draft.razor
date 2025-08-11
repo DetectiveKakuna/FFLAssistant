@@ -4,46 +4,58 @@
 
 <PageTitle>Draft Board</PageTitle>
 
-<MudContainer MaxWidth="MaxWidth.ExtraExtraLarge" Class="pa-2" Style="background-color: #2d4a2b; min-height: 100vh;">
-    @if (draftPickCards != null && currentDraftState != null)
-    {
-        <!-- Team Headers -->
-        <MudGrid Class="mb-2" Spacing="1">
-            @for (int team = 1; team <= currentDraftState.TotalTeams; team++)
+<MudGrid>
+    <MudItem xs="12" Class="px-1">
+        <MudContainer Fixed=true Class="pa-2">
+            @if (draftPickCards != null && currentDraftState != null)
             {
-                var teamNumber = team.ToString();
-                <MudItem xs="1">
-                    <MudPaper Class="pa-2 text-center"
-                              Style="background-color: #8b4513; color: #f5f5dc; border-radius: 4px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1px solid #4a6348;"
-                              Elevation="0">
-                        <MudText Typo="Typo.caption" Style="font-weight: bold; font-size: 11px;">
-                            Team @teamNumber
-                        </MudText>
-                    </MudPaper>
-                </MudItem>
-            }
-        </MudGrid>
-
-        <!-- Draft Board -->
-        @for (int round = 1; round <= totalRounds; round++)
-        {
-            var roundPicks = GetPicksForRound(round);
-            <MudGrid Class="mb-1" Spacing="1">
-                @foreach (var pick in roundPicks)
+                <!-- Team Headers -->
+                <MudGrid Class="mb-2" Spacing="1">
+                    @foreach (var team in currentDraftState.Teams)
+                    {
+                        <MudItem xs="1">
+                            <MudPaper Class="pa-2 text-center"
+                                      Style="background-color: #8b4513; color: #f5f5dc; border-radius: 4px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1px solid #4a6348;"
+                                      Elevation="0">
+                                <MudText Typo="Typo.caption" Style="font-weight: bold; font-size: 11px;">
+                                    @team.TeamName
+                                </MudText>
+                            </MudPaper>
+                        </MudItem>
+                    }
+                </MudGrid>
+                <!-- Draft Board -->
+                @for (int round = currentDraftState.FirstRelevantRound; round <= currentDraftState.FirstRelevantRound + 2; round++)
                 {
-                    <MudItem xs="1">
-                        <DraftPickCard PickCard="pick" />
-                    </MudItem>
+                    var roundPicks = GetPicksForRound(round);
+                    <MudGrid Class="mb-1" Spacing="1">
+                        @foreach (var pick in roundPicks)
+                        {
+                            <MudItem xs="1">
+                                <DraftPickCard PickCard="pick" MyTeamIndex="myTeamIndex ?? 0" TotalTeams="currentDraftState.TotalTeams"/>
+                            </MudItem>
+                        }
+                    </MudGrid>
                 }
-            </MudGrid>
-        }
-    }
-    else
-    {
-        <!-- Loading State -->
-        <div style="display: flex; justify-content: center; align-items: center; height: 400px;">
-            <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
-            <MudText Typo="Typo.h6" Class="ml-3" Style="color: #f5f5dc;">Loading draft...</MudText>
-        </div>
-    }
-</MudContainer>
+            }
+            else
+            {
+                <!-- Loading State -->
+                <div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+                    <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
+                    <MudText Typo="Typo.h6" Class="ml-3" Style="color: #f5f5dc;">Loading draft...</MudText>
+                </div>
+            }
+        </MudContainer>
+    </MudItem>
+    <MudItem xs="12">
+        <MudGrid>
+            <MudItem xs="2">suggestions</MudItem>
+            <MudItem xs="2">qbs</MudItem>
+            <MudItem xs="2">rbs</MudItem>
+            <MudItem xs="2">wrs</MudItem>
+            <MudItem xs="2">tes</MudItem>
+            <MudItem xs="2">k/def</MudItem>
+        </MudGrid>
+    </MudItem>
+</MudGrid>

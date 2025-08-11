@@ -2,37 +2,57 @@
 using FFLAssistant.Models.Components;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.AspNetCore.Components;
+using System.Linq;
 
 namespace FFLAssistant.Client.Pages;
 
 public partial class Draft : ComponentBase
 {
+    [Inject] private IDraftRankingsService DraftRankingsService { get; set; } = default!;
     [Inject] private ISleeperLiveDraftService SleeperService { get; set; } = default!;
     [Inject] private ISleeperPlayersService SleeperPlayerService { get; set; } = default!;
 
     private List<DraftPickCardModel>? draftPickCards;
+    private IList<DraftRanking>? draftRankings;
     private DraftState? currentDraftState;
     private IList<Player>? allPlayers;
-    private const int totalRounds = 16; // This could also be dynamic if needed
     private const string draftId = "1260412747493933056"; // Your draft ID
+    private int? myTeamIndex => currentDraftState?.Teams.FindIndex(t => t.IsMyTeam);
 
     protected override async Task OnInitializedAsync()
     {
-        await LoadDraftBoardAsync();
+        await LoadDataFiles();
+        await GetDraftState();
+        StateHasChanged();
     }
 
-    private async Task LoadDraftBoardAsync()
+    private async Task LoadDataFiles()
     {
         try
         {
             // Load players first
             allPlayers = await SleeperPlayerService.GetPlayersAsync();
 
+            // Load rankings second
+            draftRankings = await DraftRankingsService.GetDraftRankingsAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+            Console.WriteLine($"Error loading draft: {ex.Message}");
+        }
+    }
+
+    private async Task GetDraftState()
+    {
+        try
+        {
             currentDraftState = await SleeperService.GetDraftStateAsync(draftId);
+
             if (currentDraftState != null)
             {
-                await BuildDraftPickCards(currentDraftState);
-                StateHasChanged(); // Force re-render after data is loaded
+
+                BuildDraftPickCards(currentDraftState);
             }
         }
         catch (Exception ex)
@@ -42,12 +62,12 @@ public partial class Draft : ComponentBase
         }
     }
 
-    private async Task BuildDraftPickCards(DraftState draftState)
+    private void BuildDraftPickCards(DraftState draftState)
     {
         draftPickCards = [];
 
         // Use the dynamic team count from draft state
-        var totalPicks = draftState.TotalTeams * totalRounds;
+        var totalPicks = draftState.TotalTeams * draftState.TotalRounds;
 
         // Create all possible picks (snake draft order)
         for (int pick = 1; pick <= totalPicks; pick++)

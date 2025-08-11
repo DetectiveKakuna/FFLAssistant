@@ -20,7 +20,7 @@
                 <!-- Player Name (Top Left) -->
                 <div style="margin-top: 2px; margin-right: 30px; flex-shrink: 0;">
                     <MudText Typo="Typo.body2" 
-                             Style="@GetPlayerNameStyle()">
+                             Style="@PlayerNameStyle">
                         @($"{PickCard.Player.FirstName?.Substring(0, 1)}.{PickCard.Player.LastName}")
                     </MudText>
                 </div>
@@ -40,7 +40,7 @@
                     @if (!string.IsNullOrEmpty(positionTeam))
                     {
                         <MudText Typo="Typo.caption" 
-                                 Style="@GetPositionTeamStyle()">
+                                 Style="@PositionTeamStyle">
                             @positionTeam
                         </MudText>
                     }
@@ -52,8 +52,8 @@
             <!-- Active Pick Content -->
             <div style="display: flex; align-items: center; justify-content: center; height: 100%; margin-right: 30px;">
                 <MudText Typo="Typo.caption" 
-                         Style="@GetActivePickTextStyle()">
-                    ON THE CLOCK
+                         Style="@ActivePickTextStyle">
+                    TIME TO PANIC
                 </MudText>
             </div>
         }

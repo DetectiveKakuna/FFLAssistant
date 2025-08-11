@@ -11,6 +11,8 @@ public class ColorPalette
     public const string FootballBrown = "#8b4513";        // Classic football brown
     public const string FieldLineGreen = "#4a6348";       // Field line color
     public const string ActivePickYellow = "#ffd900";     // Active pick highlight
+    public const string FootballFlagYellow = "#ffdc00";   // Yellow football flag color
+    public const string MidnightHuddle = "#022047";       // Navy blue color
 
     // Position-specific colors
     public const string Position_RB = "#73c2a5";    // Muted teal-green
