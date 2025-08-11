@@ -1,5 +1,5 @@
-﻿using FFLAssistant.Models.Configurations;
-using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
+using FFLAssistant.Models.Configurations;
 using FFLAssistant.Repositories.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;

@@ -1,4 +1,4 @@
-﻿namespace FFLAssistant.Models.Players;
+﻿namespace FFLAssistant.Models;
 
 public class DraftRanking
 {

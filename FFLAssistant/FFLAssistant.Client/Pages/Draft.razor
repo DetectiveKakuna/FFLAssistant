@@ -1,0 +1,49 @@
+﻿@page "/draft"
+@using FFLAssistant.Models.Components
+@using FFLAssistant.Client.Components
+
+<PageTitle>Draft Board</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.ExtraExtraLarge" Class="pa-2" Style="background-color: #2d4a2b; min-height: 100vh;">
+    @if (draftPickCards != null && currentDraftState != null)
+    {
+        <!-- Team Headers -->
+        <MudGrid Class="mb-2" Spacing="1">
+            @for (int team = 1; team <= currentDraftState.TotalTeams; team++)
+            {
+                var teamNumber = team.ToString();
+                <MudItem xs="1">
+                    <MudPaper Class="pa-2 text-center"
+                              Style="background-color: #8b4513; color: #f5f5dc; border-radius: 4px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1px solid #4a6348;"
+                              Elevation="0">
+                        <MudText Typo="Typo.caption" Style="font-weight: bold; font-size: 11px;">
+                            Team @teamNumber
+                        </MudText>
+                    </MudPaper>
+                </MudItem>
+            }
+        </MudGrid>
+
+        <!-- Draft Board -->
+        @for (int round = 1; round <= totalRounds; round++)
+        {
+            var roundPicks = GetPicksForRound(round);
+            <MudGrid Class="mb-1" Spacing="1">
+                @foreach (var pick in roundPicks)
+                {
+                    <MudItem xs="1">
+                        <DraftPickCard PickCard="pick" />
+                    </MudItem>
+                }
+            </MudGrid>
+        }
+    }
+    else
+    {
+        <!-- Loading State -->
+        <div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+            <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
+            <MudText Typo="Typo.h6" Class="ml-3" Style="color: #f5f5dc;">Loading draft...</MudText>
+        </div>
+    }
+</MudContainer>

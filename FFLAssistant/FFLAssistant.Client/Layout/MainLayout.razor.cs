@@ -1,4 +1,5 @@
-﻿using MudBlazor;
+﻿using FFLAssistant.Models;
+using MudBlazor;
 
 namespace FFLAssistant.Client.Layout;
 
@@ -22,14 +23,6 @@ public partial class MainLayout
     private const string White = "#ffffff";
     private const string Gray929F = "#92929f";
     private const string Gray1A1A27 = "#1a1a27";
-
-    // Football-themed color constants
-    private const string Blackboard = "#1c1c1c";           // Deep blackboard black
-    private const string ChalkDust = "#e8e8e8";            // Slightly dusty chalk color
-    private const string ChalkWhite = "#f5f5dc";           // Off-white like field chalk lines
-    private const string GrassyGreenDark = "#2d4a2b";      // Dark grassy green
-    private const string GrassyGreenMedium = "#3d5a3b";    // Medium grassy green
-    private const string FootballBrown = "#8b4513";        // Classic football brown
 
     private readonly PaletteDark _darkPalette = new()
     {
@@ -78,12 +71,12 @@ public partial class MainLayout
         DarkLighten = "#32323a",
 
         // Background Colors
-        Background = GrassyGreenDark,
+        Background = ColorPalette.GrassyGreenDark,
         BackgroundGray = "#243423",
-        Surface = GrassyGreenMedium,
+        Surface = ColorPalette.GrassyGreenMedium,
 
         // Text Colors
-        TextPrimary = ChalkWhite,
+        TextPrimary = ColorPalette.ChalkWhite,
         TextSecondary = Gray929F,
         TextDisabled = "#ffffff33",
 
@@ -93,13 +86,13 @@ public partial class MainLayout
         ActionDisabledBackground = "#605f6d4d",
 
         // AppBar
-        AppbarBackground = FootballBrown,
-        AppbarText = ChalkWhite,
+        AppbarBackground = ColorPalette.FootballBrown,
+        AppbarText = ColorPalette.ChalkWhite,
 
         // Drawer/Navigation
-        DrawerBackground = Blackboard,
-        DrawerText = ChalkWhite,
-        DrawerIcon = ChalkDust,
+        DrawerBackground = ColorPalette.Blackboard,
+        DrawerText = ColorPalette.ChalkWhite,
+        DrawerIcon = ColorPalette.ChalkDust,
 
         // Lines and Dividers
         LinesDefault = "#4a6348",
@@ -115,7 +108,7 @@ public partial class MainLayout
         White = White,
         GrayDefault = "#95939f",
         GrayLight = "#4a6348",
-        GrayLighter = GrassyGreenMedium,
+        GrayLighter = ColorPalette.GrassyGreenMedium,
         GrayDark = "#6c757d",
         GrayDarker = "#343a40",
 

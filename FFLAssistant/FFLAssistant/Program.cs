@@ -17,6 +17,8 @@ builder.AddServiceDefaults();
 // Add configuration
 builder.Services.Configure<SleeperConfiguration>(
     builder.Configuration.GetSection(SleeperConfiguration.SectionName));
+builder.Services.Configure<DraftRankingsConfiguration>(
+    builder.Configuration.GetSection(DraftRankingsConfiguration.SectionName));
 
 // Add MudBlazor services
 builder.Services.AddMudServices();
@@ -35,6 +37,7 @@ builder.Services.AddScoped<ISleeperPlayersRepository, SleeperPlayersRepository>(
 builder.Services.AddScoped<IBorisChenService, BorisChenService>();
 builder.Services.AddScoped<IDraftRankingsService, DraftRankingsService>();
 builder.Services.AddScoped<ISleeperApiService, SleeperApiService>();
+builder.Services.AddScoped<ISleeperLiveDraftService, SleeperLiveDraftService>();
 builder.Services.AddScoped<ISleeperPlayersService, SleeperPlayersService>();
 
 // Add cache services for server-side components

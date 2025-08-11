@@ -1,6 +1,6 @@
 ﻿using Blazored.LocalStorage;
 using FFLAssistant.Client.Cache.Services.Interfaces;
-using FFLAssistant.Models.Players;
+using FFLAssistant.Models;
 using Microsoft.JSInterop;
 
 namespace FFLAssistant.Client.Cache.Services;

@@ -1,9 +1,9 @@
 ﻿using FFLAssistant.Models.Enums;
 
-namespace FFLAssistant.Models.Players;
+namespace FFLAssistant.Models;
 public class Player
 {
-    public int Id { get; set; }
+    public string Id { get; set; } = string.Empty;
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
     public string FullName => $"{FirstName} {LastName}";
@@ -14,4 +14,5 @@ public class Player
     public int Age { get; set; }
     public int YearsExperience { get; set; }
     public InjuryStatus? InjuryStatus { get; set; }
+    public bool IsDefense => Positions.Contains(Position.DEF);
 }

@@ -1,4 +1,4 @@
-﻿using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
 
 namespace FFLAssistant.Repositories.Interfaces;
 public interface IDraftRankingsRepository

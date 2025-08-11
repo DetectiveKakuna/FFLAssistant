@@ -1,4 +1,4 @@
-﻿using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
 using FFLAssistant.Repositories.Interfaces;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.Extensions.Logging;

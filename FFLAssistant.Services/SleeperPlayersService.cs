@@ -1,4 +1,4 @@
-using FFLAssistant.Models.Players;
+using FFLAssistant.Models;
 using FFLAssistant.Repositories.Interfaces;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.Extensions.Logging;
@@ -34,7 +34,7 @@ public class SleeperPlayersService(
         }
     }
 
-    public async Task RefreshPlayersAsync()
+    private async Task RefreshPlayersAsync()
     {
         try
         {
@@ -56,7 +56,7 @@ public class SleeperPlayersService(
         }
     }
 
-    public async Task<bool> IsRefreshNeededAsync()
+    private async Task<bool> IsRefreshNeededAsync()
     {
         try
         {

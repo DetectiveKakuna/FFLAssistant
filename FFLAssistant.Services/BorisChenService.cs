@@ -1,6 +1,8 @@
-﻿using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
+using FFLAssistant.Models.Configurations;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using System.Globalization;
 
 namespace FFLAssistant.Services;
@@ -8,20 +10,29 @@ namespace FFLAssistant.Services;
 public class BorisChenService(
     HttpClient httpClient,
     ISleeperPlayersService sleeperPlayersService,
+    IOptions<DraftRankingsConfiguration> draftRankingsOptions,
     ILogger<BorisChenService> logger) : IBorisChenService
 {
     private readonly HttpClient _httpClient = httpClient;
     private readonly ISleeperPlayersService _sleeperPlayersService = sleeperPlayersService;
+    private readonly DraftRankingsConfiguration _draftRankingsConfig = draftRankingsOptions.Value;
     private readonly ILogger<BorisChenService> _logger = logger;
+
+    // Name mapping dictionary for players whose names don't match between Boris Chen CSV and Sleeper
+    private static readonly Dictionary<string, string> NameMappingDictionary = new(StringComparer.OrdinalIgnoreCase)
+    {
+        // Boris Chen CSV Name -> Sleeper Player Name format (FirstName LastName)
+        { "Marquise Brown", "Hollywood Brown" },
+    };
     
     public async Task<IList<DraftRanking>?> FetchDraftRankingsAsync()
     {
         try
         {
-            _logger.LogInformation("Fetching draft rankings from external source");
+            _logger.LogInformation("Fetching draft rankings from external source: {CsvUrl}", _draftRankingsConfig.RankingsCsvPath);
 
-            // Fetch CSV data from the URL
-            var response = await _httpClient.GetAsync("https://s3-us-west-1.amazonaws.com/fftiers/out/weekly-ALL-PPR.csv");
+            // Fetch CSV data from the configured URL
+            var response = await _httpClient.GetAsync(_draftRankingsConfig.RankingsCsvPath);
             response.EnsureSuccessStatusCode();
             
             var csvContent = await response.Content.ReadAsStringAsync();
@@ -51,30 +62,39 @@ public class BorisChenService(
     {
         var result = new List<DraftRanking>();
         var lines = csvContent.Split('\n', StringSplitOptions.RemoveEmptyEntries);
-        
+
+        var unmatchedPlayers = new List<string>();
+
         // Skip header line
         for (int i = 1; i < lines.Length; i++)
         {
             try
             {
                 var columns = ParseCsvLine(lines[i]);
-                if (columns.Length < 7) continue; // Skip incomplete rows
+                if (columns.Length < 8) continue; // Skip incomplete rows - CSV has 8 columns
                 
-                var playerName = columns[0].Trim();
-                var tier = columns[1].Trim();
+                // CSV Format: "Rank","Player.Name","Tier","Position","Best.Rank","Worst.Rank","Avg.Rank","Std.Dev"
+                var overallRankStr = columns[0].Trim();
+                var playerName = columns[1].Trim();
+                var tier = columns[2].Trim();
+                var position = columns[3].Trim();
+                var bestRankStr = columns[4].Trim();
+                var worstRankStr = columns[5].Trim();
+                var avgRankStr = columns[6].Trim();
+                var stdDevStr = columns[7].Trim();
                 
                 // Parse ranking data
-                if (!int.TryParse(columns[2], out var overallRank)) continue;
-                if (!int.TryParse(columns[3], out var bestRank)) continue;
-                if (!int.TryParse(columns[4], out var worstRank)) continue;
-                if (!double.TryParse(columns[5], NumberStyles.Float, CultureInfo.InvariantCulture, out var averageRank)) continue;
-                if (!double.TryParse(columns[6], NumberStyles.Float, CultureInfo.InvariantCulture, out var standardDeviation)) continue;
+                if (!int.TryParse(overallRankStr, out var overallRank)) continue;
+                if (!int.TryParse(bestRankStr, out var bestRank)) continue;
+                if (!int.TryParse(worstRankStr, out var worstRank)) continue;
+                if (!double.TryParse(avgRankStr, NumberStyles.Float, CultureInfo.InvariantCulture, out var averageRank)) continue;
+                if (!double.TryParse(stdDevStr, NumberStyles.Float, CultureInfo.InvariantCulture, out var standardDeviation)) continue;
 
                 // Find matching player
                 var matchedPlayer = FindMatchingPlayer(playerName, sleeperPlayers);
                 if (matchedPlayer == null)
                 {
-                    _logger.LogDebug("No matching player found for: {PlayerName}", playerName);
+                    unmatchedPlayers.Add(playerName);
                     continue;
                 }
 
@@ -134,25 +154,24 @@ public class BorisChenService(
         // Clean the CSV player name
         var cleanCsvName = CleanPlayerName(csvPlayerName);
         
-        // Try exact match first
+        // First try the name mapping dictionary
+        if (NameMappingDictionary.TryGetValue(cleanCsvName, out var mappedName))
+        {
+            var mappedMatch = sleeperPlayers.FirstOrDefault(p => 
+                string.Equals(p.FullName, mappedName, StringComparison.OrdinalIgnoreCase) ||
+                string.Equals($"{p.FirstName} {p.LastName}", mappedName, StringComparison.OrdinalIgnoreCase));
+            
+            if (mappedMatch != null) return mappedMatch;
+        }
+        
+        // Try exact match
         var exactMatch = sleeperPlayers.FirstOrDefault(p => 
             string.Equals(p.FullName, cleanCsvName, StringComparison.OrdinalIgnoreCase) ||
             string.Equals($"{p.FirstName} {p.LastName}", cleanCsvName, StringComparison.OrdinalIgnoreCase));
         
         if (exactMatch != null) return exactMatch;
         
-        // Try partial matches
-        var partialMatch = sleeperPlayers.FirstOrDefault(p =>
-            cleanCsvName.Contains(p.LastName, StringComparison.OrdinalIgnoreCase) &&
-            cleanCsvName.Contains(p.FirstName, StringComparison.OrdinalIgnoreCase));
-        
-        if (partialMatch != null) return partialMatch;
-        
-        // Try last name only match as fallback
-        var lastNameMatch = sleeperPlayers.FirstOrDefault(p =>
-            string.Equals(p.LastName, cleanCsvName.Split(' ').LastOrDefault(), StringComparison.OrdinalIgnoreCase));
-        
-        return lastNameMatch;
+        return null;
     }
 
     private static string CleanPlayerName(string name)

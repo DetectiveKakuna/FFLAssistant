@@ -1,4 +1,4 @@
-﻿using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
