@@ -20,6 +20,7 @@ builder.Services.AddScoped<IPlayersFiltersCache, PlayersFiltersCache>();
 // Register client-side API services
 builder.Services.AddScoped<ISleeperLiveDraftService, ClientSleeperLiveDraftService>();
 builder.Services.AddScoped<ISleeperPlayersService, ClientSleeperPlayersService>();
+builder.Services.AddScoped<IDraftRankingsService, ClientDraftRankingsService>();
 
 // Configure HttpClient
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

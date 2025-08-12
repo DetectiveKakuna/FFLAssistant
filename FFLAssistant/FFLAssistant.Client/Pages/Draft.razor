@@ -1,6 +1,8 @@
 ﻿@page "/draft"
 @using FFLAssistant.Models.Components
 @using FFLAssistant.Client.Components
+@using FFLAssistant.Models.Enums
+@using Position = FFLAssistant.Models.Enums.Position
 
 <PageTitle>Draft Board</PageTitle>
 
@@ -48,14 +50,42 @@
             }
         </MudContainer>
     </MudItem>
-    <MudItem xs="12">
-        <MudGrid>
-            <MudItem xs="2">suggestions</MudItem>
-            <MudItem xs="2">qbs</MudItem>
-            <MudItem xs="2">rbs</MudItem>
-            <MudItem xs="2">wrs</MudItem>
-            <MudItem xs="2">tes</MudItem>
-            <MudItem xs="2">k/def</MudItem>
-        </MudGrid>
+    <MudItem xs="12" Class="pr-6">
+
+        @if (draftRankings != null)
+        {
+            <MudGrid Spacing="2">
+                <MudItem xs="4">
+                    @* TODO reccomendations *@
+                </MudItem>
+                <MudItem xs="2">
+                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.QB)"
+                                       Title="Quarterbacks"
+                                       DefaultDisplay="10" />
+                </MudItem>
+                <MudItem xs="2">
+                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.RB)"
+                                       Title="Running Backs"
+                                       DefaultDisplay="10" />
+                </MudItem>
+                <MudItem xs="2">
+                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.WR)"
+                                       Title="Wide Receivers"
+                                       DefaultDisplay="10" />
+                </MudItem>
+                <MudItem xs="2">
+                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.TE)"
+                                       Title="Tight Ends"
+                                       DefaultDisplay="10" />
+                </MudItem>
+            </MudGrid>
+        }
+        else
+        {
+            <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
+                <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+                <MudText Typo="Typo.body1" Class="ml-3" Style="color: #f5f5dc;">Loading rankings...</MudText>
+            </div>
+        }
     </MudItem>
 </MudGrid>

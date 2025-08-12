@@ -1,5 +1,6 @@
 ﻿using FFLAssistant.Models;
 using FFLAssistant.Models.Components;
+using FFLAssistant.Models.Enums;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.AspNetCore.Components;
 using System.Linq;
@@ -51,8 +52,18 @@ public partial class Draft : ComponentBase
 
             if (currentDraftState != null)
             {
-
                 BuildDraftPickCards(currentDraftState);
+
+                // Set the draft state on the draft rankings
+                if (draftRankings != null)
+                {
+                    var pickedIds = currentDraftState.Picks
+                        .Where(p => !string.IsNullOrEmpty(p.PlayerId))
+                        .Select(p => p.PlayerId);
+
+                    draftRankings.Where(r => pickedIds.Contains(r.Player.Id)).ToList()
+                                 .ForEach(r => r.IsDrafted = true);
+                }
             }
         }
         catch (Exception ex)
@@ -110,5 +121,16 @@ public partial class Draft : ComponentBase
         }
 
         return roundPicks;
+    }
+
+    private List<DraftRanking> GetRankingsByPosition(Position position)
+    {
+        if (draftRankings == null)
+            return [];
+
+        return draftRankings
+            .Where(r => r.Player.Positions?.Contains(position) == true)
+            .OrderBy(r => r.OverallRank)
+            .ToList();
     }
 }

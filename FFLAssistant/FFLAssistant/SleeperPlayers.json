@@ -262,7 +262,7 @@
     "team": 31,
     "age": 31,
     "yearsExperience": 9,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -452,7 +452,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": null,
+    "depthChartPosition": 6,
     "team": null,
     "age": 25,
     "yearsExperience": 3,
@@ -956,7 +956,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 9,
+    "depthChartPosition": 7,
     "team": 5,
     "age": 28,
     "yearsExperience": 6,
@@ -2338,7 +2338,7 @@
     "team": 12,
     "age": 29,
     "yearsExperience": 8,
-    "injuryStatus": 5,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -4086,7 +4086,7 @@
     "team": 15,
     "age": 27,
     "yearsExperience": 4,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -4440,7 +4440,7 @@
     "team": 15,
     "age": 31,
     "yearsExperience": 9,
-    "injuryStatus": 4,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -4628,11 +4628,11 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 5,
     "team": 27,
     "age": 32,
     "yearsExperience": 10,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -5309,8 +5309,8 @@
     "sortableFullName": "Gipson, Trevis",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
-    "age": 27,
+    "team": 27,
+    "age": 28,
     "yearsExperience": 5,
     "injuryStatus": null,
     "isDefense": false
@@ -7008,7 +7008,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 3,
     "team": 1,
     "age": 24,
     "yearsExperience": 3,
@@ -8115,7 +8115,7 @@
     "sortableFullName": "Mbaeteka, Roy",
     "positions": [],
     "depthChartPosition": null,
-    "team": 7,
+    "team": null,
     "age": 25,
     "yearsExperience": 3,
     "injuryStatus": null,
@@ -8664,11 +8664,11 @@
     "positions": [
       2
     ],
-    "depthChartPosition": null,
-    "team": 18,
+    "depthChartPosition": 10,
+    "team": null,
     "age": 25,
     "yearsExperience": 4,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -10788,7 +10788,7 @@
     "team": 12,
     "age": 30,
     "yearsExperience": 7,
-    "injuryStatus": 5,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -11493,6 +11493,20 @@
     "depthChartPosition": null,
     "team": 13,
     "age": 25,
+    "yearsExperience": 0,
+    "injuryStatus": null,
+    "isDefense": false
+  },
+  {
+    "id": "13254",
+    "firstName": "Nate",
+    "lastName": "Matlack",
+    "fullName": "Nate Matlack",
+    "sortableFullName": "Matlack, Nate",
+    "positions": [],
+    "depthChartPosition": null,
+    "team": 15,
+    "age": 23,
     "yearsExperience": 0,
     "injuryStatus": null,
     "isDefense": false
@@ -14074,7 +14088,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 8,
+    "depthChartPosition": 9,
     "team": 27,
     "age": 23,
     "yearsExperience": 0,
@@ -14399,7 +14413,7 @@
       1
     ],
     "depthChartPosition": null,
-    "team": 10,
+    "team": null,
     "age": 24,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -16202,7 +16216,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 9,
+    "depthChartPosition": 7,
     "team": 27,
     "age": 29,
     "yearsExperience": 7,
@@ -20810,7 +20824,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 2,
     "team": 27,
     "age": 27,
     "yearsExperience": 4,
@@ -22380,7 +22394,7 @@
     "team": null,
     "age": 29,
     "yearsExperience": 6,
-    "injuryStatus": 4,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -23176,7 +23190,7 @@
     "positions": [],
     "depthChartPosition": null,
     "team": 30,
-    "age": 30,
+    "age": 31,
     "yearsExperience": 8,
     "injuryStatus": null,
     "isDefense": false
@@ -24691,7 +24705,7 @@
       2
     ],
     "depthChartPosition": null,
-    "team": 7,
+    "team": null,
     "age": 0,
     "yearsExperience": 0,
     "injuryStatus": null,
@@ -33086,7 +33100,7 @@
     "positions": [],
     "depthChartPosition": 2,
     "team": 3,
-    "age": 21,
+    "age": 22,
     "yearsExperience": 0,
     "injuryStatus": null,
     "isDefense": false
@@ -33504,7 +33518,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": 4,
     "team": 9,
     "age": 23,
     "yearsExperience": 0,
@@ -33628,7 +33642,7 @@
     "team": 19,
     "age": 27,
     "yearsExperience": 6,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -34632,7 +34646,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": null,
+    "depthChartPosition": 6,
     "team": null,
     "age": 29,
     "yearsExperience": 7,
@@ -39042,7 +39056,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 5,
     "team": 29,
     "age": 26,
     "yearsExperience": 2,
@@ -39495,7 +39509,7 @@
     "sortableFullName": "George, Allan",
     "positions": [],
     "depthChartPosition": null,
-    "team": 31,
+    "team": null,
     "age": 26,
     "yearsExperience": 3,
     "injuryStatus": null,
@@ -41202,7 +41216,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 7,
+    "depthChartPosition": 8,
     "team": 27,
     "age": 28,
     "yearsExperience": 5,
@@ -41860,7 +41874,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 8,
+    "depthChartPosition": 9,
     "team": 5,
     "age": 27,
     "yearsExperience": 5,
@@ -41920,7 +41934,7 @@
     "positions": [
       0
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": null,
     "team": 30,
     "age": 30,
     "yearsExperience": 7,
@@ -43590,7 +43604,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": 4,
     "team": 27,
     "age": 25,
     "yearsExperience": 2,
@@ -43768,7 +43782,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 10,
+    "depthChartPosition": null,
     "team": 18,
     "age": 26,
     "yearsExperience": 4,
@@ -43800,7 +43814,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 5,
     "team": 30,
     "age": 23,
     "yearsExperience": 0,
@@ -45232,7 +45246,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 7,
+    "depthChartPosition": 8,
     "team": 2,
     "age": 30,
     "yearsExperience": 7,
@@ -48653,7 +48667,7 @@
       3
     ],
     "depthChartPosition": null,
-    "team": null,
+    "team": 26,
     "age": 24,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -49044,7 +49058,7 @@
     "team": 20,
     "age": 29,
     "yearsExperience": 6,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -49490,7 +49504,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 4,
     "team": 23,
     "age": 33,
     "yearsExperience": 10,
@@ -52404,7 +52418,7 @@
     ],
     "depthChartPosition": null,
     "team": 8,
-    "age": 23,
+    "age": 24,
     "yearsExperience": 0,
     "injuryStatus": null,
     "isDefense": false
@@ -52929,7 +52943,7 @@
     "sortableFullName": "Perry, Mark",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
+    "team": 5,
     "age": 24,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -53229,10 +53243,10 @@
       2
     ],
     "depthChartPosition": null,
-    "team": 22,
+    "team": null,
     "age": 23,
     "yearsExperience": 0,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -54406,7 +54420,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 3,
     "team": 15,
     "age": 31,
     "yearsExperience": 8,
@@ -56802,8 +56816,8 @@
     "positions": [
       3
     ],
-    "depthChartPosition": null,
-    "team": null,
+    "depthChartPosition": 5,
+    "team": 17,
     "age": 25,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -57811,7 +57825,7 @@
     "sortableFullName": "Fehoko, Viliami",
     "positions": [],
     "depthChartPosition": null,
-    "team": 31,
+    "team": null,
     "age": 25,
     "yearsExperience": 2,
     "injuryStatus": null,
@@ -58019,7 +58033,7 @@
     "sortableFullName": "Rush, Darius",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
+    "team": 7,
     "age": 25,
     "yearsExperience": 2,
     "injuryStatus": null,
@@ -58244,7 +58258,7 @@
     "team": 30,
     "age": 27,
     "yearsExperience": 5,
-    "injuryStatus": 5,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -58708,7 +58722,7 @@
     ],
     "depthChartPosition": 3,
     "team": 22,
-    "age": 21,
+    "age": 22,
     "yearsExperience": 0,
     "injuryStatus": null,
     "isDefense": false
@@ -59513,7 +59527,7 @@
     "sortableFullName": "Minkins, Josh",
     "positions": [],
     "depthChartPosition": null,
-    "team": 21,
+    "team": null,
     "age": 23,
     "yearsExperience": 0,
     "injuryStatus": null,
@@ -61110,7 +61124,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": 5,
     "team": 23,
     "age": 22,
     "yearsExperience": 0,
@@ -61873,7 +61887,7 @@
     "sortableFullName": "Spector, Baylon",
     "positions": [],
     "depthChartPosition": null,
-    "team": 3,
+    "team": null,
     "age": 26,
     "yearsExperience": 3,
     "injuryStatus": null,
@@ -64889,10 +64903,10 @@
     "sortableFullName": "Henningsen, Matt",
     "positions": [],
     "depthChartPosition": null,
-    "team": 9,
+    "team": null,
     "age": 26,
     "yearsExperience": 3,
-    "injuryStatus": 4,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -66573,7 +66587,7 @@
     "sortableFullName": "Gonzalez, Michael",
     "positions": [],
     "depthChartPosition": null,
-    "team": 1,
+    "team": 20,
     "age": 0,
     "yearsExperience": 0,
     "injuryStatus": null,
@@ -66617,7 +66631,7 @@
     "sortableFullName": "Hampton, Dominique",
     "positions": [],
     "depthChartPosition": null,
-    "team": 31,
+    "team": null,
     "age": 25,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -67444,7 +67458,7 @@
     "positions": [
       0
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 4,
     "team": 27,
     "age": 24,
     "yearsExperience": 0,
@@ -67856,7 +67870,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": 4,
     "team": 15,
     "age": 24,
     "yearsExperience": 1,
@@ -69478,8 +69492,8 @@
     "positions": [
       1
     ],
-    "depthChartPosition": null,
-    "team": null,
+    "depthChartPosition": 5,
+    "team": 5,
     "age": 27,
     "yearsExperience": 3,
     "injuryStatus": null,
@@ -70808,6 +70822,20 @@
     "isDefense": false
   },
   {
+    "id": "13253",
+    "firstName": "JayVian",
+    "lastName": "Farr",
+    "fullName": "JayVian Farr",
+    "sortableFullName": "Farr, JayVian",
+    "positions": [],
+    "depthChartPosition": null,
+    "team": 29,
+    "age": 0,
+    "yearsExperience": 0,
+    "injuryStatus": null,
+    "isDefense": false
+  },
+  {
     "id": "8884",
     "firstName": "JJ",
     "lastName": "Howland",
@@ -71100,7 +71128,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 9,
+    "depthChartPosition": 11,
     "team": 18,
     "age": 25,
     "yearsExperience": 2,
@@ -78566,7 +78594,7 @@
     "team": 27,
     "age": 29,
     "yearsExperience": 6,
-    "injuryStatus": 5,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -82146,7 +82174,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 5,
     "team": 1,
     "age": 26,
     "yearsExperience": 2,
@@ -82446,7 +82474,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 2,
+    "depthChartPosition": 3,
     "team": 27,
     "age": 30,
     "yearsExperience": 7,
@@ -84004,7 +84032,7 @@
     "positions": [],
     "depthChartPosition": 1,
     "team": 5,
-    "age": 28,
+    "age": 29,
     "yearsExperience": 6,
     "injuryStatus": null,
     "isDefense": false
@@ -84192,9 +84220,9 @@
     "positions": [
       1
     ],
-    "depthChartPosition": null,
-    "team": null,
-    "age": 22,
+    "depthChartPosition": 4,
+    "team": 29,
+    "age": 23,
     "yearsExperience": 1,
     "injuryStatus": null,
     "isDefense": false
@@ -86584,8 +86612,8 @@
     "positions": [
       0
     ],
-    "depthChartPosition": null,
-    "team": null,
+    "depthChartPosition": 3,
+    "team": 30,
     "age": 33,
     "yearsExperience": 10,
     "injuryStatus": null,
@@ -87754,7 +87782,7 @@
     "team": 31,
     "age": 26,
     "yearsExperience": 5,
-    "injuryStatus": 4,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -91892,7 +91920,7 @@
     "fullName": "Ameer Speed",
     "sortableFullName": "Speed, Ameer",
     "positions": [],
-    "depthChartPosition": 3,
+    "depthChartPosition": null,
     "team": 5,
     "age": 25,
     "yearsExperience": 2,
@@ -93755,8 +93783,8 @@
     "sortableFullName": "Peko, Kyle",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
-    "age": 31,
+    "team": 21,
+    "age": 32,
     "yearsExperience": 9,
     "injuryStatus": null,
     "isDefense": false
@@ -95436,7 +95464,7 @@
     "team": null,
     "age": 31,
     "yearsExperience": 7,
-    "injuryStatus": 4,
+    "injuryStatus": null,
     "isDefense": false
   },
   {
@@ -96222,6 +96250,20 @@
     "team": null,
     "age": 24,
     "yearsExperience": 3,
+    "injuryStatus": null,
+    "isDefense": false
+  },
+  {
+    "id": "13252",
+    "firstName": "Alphonzo",
+    "lastName": "Tuputala",
+    "fullName": "Alphonzo Tuputala",
+    "sortableFullName": "Tuputala, Alphonzo",
+    "positions": [],
+    "depthChartPosition": null,
+    "team": 28,
+    "age": 0,
+    "yearsExperience": 0,
     "injuryStatus": null,
     "isDefense": false
   },
@@ -97800,7 +97842,7 @@
     ],
     "depthChartPosition": 2,
     "team": 13,
-    "age": 23,
+    "age": 24,
     "yearsExperience": 2,
     "injuryStatus": null,
     "isDefense": false
@@ -98094,7 +98136,7 @@
     ],
     "depthChartPosition": null,
     "team": 24,
-    "age": 25,
+    "age": 26,
     "yearsExperience": 2,
     "injuryStatus": null,
     "isDefense": false
@@ -98564,7 +98606,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 3,
     "team": 23,
     "age": 25,
     "yearsExperience": 3,
@@ -98802,7 +98844,7 @@
     "fullName": "LaMareon James",
     "sortableFullName": "James, LaMareon",
     "positions": [],
-    "depthChartPosition": 3,
+    "depthChartPosition": 2,
     "team": 7,
     "age": 0,
     "yearsExperience": 0,
@@ -99854,7 +99896,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 4,
     "team": 30,
     "age": 29,
     "yearsExperience": 5,
@@ -101420,7 +101462,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 4,
     "team": 27,
     "age": 34,
     "yearsExperience": 12,
@@ -101526,7 +101568,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 7,
+    "depthChartPosition": 6,
     "team": 29,
     "age": 24,
     "yearsExperience": 2,
@@ -103272,7 +103314,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 6,
+    "depthChartPosition": 5,
     "team": 29,
     "age": 32,
     "yearsExperience": 9,
@@ -103896,7 +103938,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 5,
     "team": 22,
     "age": 24,
     "yearsExperience": 1,
@@ -103972,7 +104014,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 4,
     "team": 22,
     "age": 25,
     "yearsExperience": 3,
@@ -104658,7 +104700,7 @@
     "positions": [
       0
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": null,
     "team": 27,
     "age": 25,
     "yearsExperience": 1,
@@ -106318,7 +106360,7 @@
     "positions": [],
     "depthChartPosition": null,
     "team": 14,
-    "age": 26,
+    "age": 27,
     "yearsExperience": 4,
     "injuryStatus": null,
     "isDefense": false
@@ -106360,7 +106402,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 7,
+    "depthChartPosition": 8,
     "team": 5,
     "age": 23,
     "yearsExperience": 2,
@@ -109273,7 +109315,7 @@
     "sortableFullName": "Victor, Mikey",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
+    "team": 26,
     "age": 25,
     "yearsExperience": 1,
     "injuryStatus": null,
@@ -109863,9 +109905,9 @@
     "sortableFullName": "Holmes, Christian",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
-    "age": 26,
-    "yearsExperience": 2,
+    "team": 7,
+    "age": 27,
+    "yearsExperience": 3,
     "injuryStatus": null,
     "isDefense": false
   },
@@ -111600,7 +111642,7 @@
     "positions": [
       3
     ],
-    "depthChartPosition": 4,
+    "depthChartPosition": 3,
     "team": 9,
     "age": 26,
     "yearsExperience": 2,
@@ -113407,7 +113449,7 @@
     "sortableFullName": "Hamilton, Antonio",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
+    "team": 31,
     "age": 32,
     "yearsExperience": 9,
     "injuryStatus": null,
@@ -113452,7 +113494,7 @@
     "positions": [
       1
     ],
-    "depthChartPosition": 3,
+    "depthChartPosition": 4,
     "team": 1,
     "age": 26,
     "yearsExperience": 2,
@@ -115286,8 +115328,8 @@
     "positions": [
       2
     ],
-    "depthChartPosition": null,
-    "team": null,
+    "depthChartPosition": 9,
+    "team": 18,
     "age": 27,
     "yearsExperience": 5,
     "injuryStatus": null,
@@ -115822,7 +115864,7 @@
     "team": 12,
     "age": 27,
     "yearsExperience": 5,
-    "injuryStatus": null,
+    "injuryStatus": 2,
     "isDefense": false
   },
   {
@@ -116308,7 +116350,7 @@
     ],
     "depthChartPosition": 9,
     "team": 1,
-    "age": 25,
+    "age": 26,
     "yearsExperience": 2,
     "injuryStatus": null,
     "isDefense": false
@@ -117454,7 +117496,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 8,
+    "depthChartPosition": 9,
     "team": 2,
     "age": 26,
     "yearsExperience": 2,
@@ -120678,7 +120720,7 @@
     "positions": [
       2
     ],
-    "depthChartPosition": 5,
+    "depthChartPosition": 7,
     "team": 29,
     "age": 23,
     "yearsExperience": 0,
@@ -125909,9 +125951,9 @@
     "sortableFullName": "Bassey, Essang",
     "positions": [],
     "depthChartPosition": null,
-    "team": null,
-    "age": 26,
-    "yearsExperience": 4,
+    "team": 31,
+    "age": 27,
+    "yearsExperience": 5,
     "injuryStatus": null,
     "isDefense": false
   },
