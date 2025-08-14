@@ -1,0 +1,20 @@
+﻿:root {
+    /* Theme colors */
+    --blackboard: #1c1c1c; /* Deep blackboard black */
+    --chalk-dust: #e8e8e8; /* Slightly dusty chalk color */
+    --chalk-white: #f5f5dc; /* Off-white like field chalk lines */
+    --grassy-green-dark: #2d4a2b; /* Dark grassy green */
+    --grassy-green-medium: #3d5a3b; /* Medium grassy green */
+    --football-brown: #8b4513; /* Classic football brown */
+    --field-line-green: #4a6348; /* Field line color */
+    --active-pick-yellow: #ffd900; /* Active pick highlight */
+    --football-flag-yellow: #ffdc00; /* Yellow football flag color */
+    --midnight-huddle: #022047; /* Navy blue color */
+    /* Position-specific colors */
+    --position-rb: #73c2a5; /* Muted teal-green */
+    --position-wr: #46a2ca; /* Muted blue */
+    --position-qb: #bf5e85; /* Muted pink */
+    --position-te: #cc8c4a; /* Muted orange */
+    --position-k: #9395d0; /* Muted purple */
+    --position-def: #9a5f4e; /* Muted brown */
+}

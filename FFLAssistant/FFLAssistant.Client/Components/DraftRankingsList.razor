@@ -17,16 +17,18 @@
             <!-- Compact View -->
             <div style="min-height: 120px;">
                 @{
-                    var availablePlayers = FilteredRankings.Where(r => !r.IsDrafted).Take(DefaultDisplay).ToList();
+                    var availablePlayers = Rankings.Where(r => !r.IsDrafted).Take(DefaultDisplay).ToList();
                 }
 
                 @foreach (var ranking in availablePlayers)
                 {
-                    <MudText Typo="Typo.body2"
-                             Class="mb-1 px-5"
-                             Style="@GetPlayerTextStyle()">
-                        @($"{ranking.OverallRank}. {ranking.Player.FullName} - {ranking.Player.Team}")
-                    </MudText>
+                    <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
+                        <MudText Typo="Typo.body2"
+                                 Class="mb-1 px-5"
+                                 Style="@GetPlayerTextStyle()">
+                            @GetDisplayText(ranking)
+                        </MudText>
+                    </MudLink>
                 }
 
                 @if (availablePlayers.Count == 0)
@@ -52,16 +54,18 @@
         {
             <!-- Expanded View -->
             <div style="height: 50vh; overflow-y: auto;">
-                @foreach (var ranking in FilteredRankings)
+                @foreach (var ranking in Rankings)
                 {
-                    <MudText Typo="Typo.body2"
-                             Class="mb-1 px-5"
-                             Style="@GetPlayerTextStyle(ranking.IsDrafted)">
-                        @($"{ranking.OverallRank}. {ranking.Player.FullName} - {ranking.Player.Team}")
-                    </MudText>
+                    <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
+                        <MudText Typo="Typo.body2"
+                                 Class="mb-1 px-5"
+                                 Style="@GetPlayerTextStyle()">
+                            @GetDisplayText(ranking)
+                        </MudText>
+                    </MudLink>
                 }
 
-                @if (!FilteredRankings.Any())
+                @if (!Rankings.Any())
                 {
                     <MudText Typo="Typo.body2"
                              Class="text-center mt-4"

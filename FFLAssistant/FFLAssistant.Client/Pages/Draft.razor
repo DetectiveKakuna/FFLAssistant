@@ -54,30 +54,60 @@
 
         @if (draftRankings != null)
         {
-            <MudGrid Spacing="2">
-                <MudItem xs="4">
-                    @* TODO reccomendations *@
+            <MudGrid>
+                <MudItem xs="3">
+                    <MudStack>
+                        <MudText Typo="Typo.h6" Class="mb-2" Align="Align.Center">Top Recommendations</MudText>
+                        @if (draftRankings.Any())
+                        {
+                            var top5Reccomendations = draftRankings
+                                .Where(r => !r.IsDrafted)
+                                .OrderBy(r => r.OverallRank)
+                                .Take(5);
+
+                            foreach (var ranking in top5Reccomendations)
+                            {
+                                <PlayerCardSmall Player="@ranking.Player"
+                                                Ranking="@ranking.OverallRank" />
+                            }
+                        }
+                        else
+                        {
+                            <MudText Typo="Typo.body2">No recommendations available</MudText>
+                        }
+                    </MudStack>
                 </MudItem>
                 <MudItem xs="2">
-                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.QB)"
-                                       Title="Quarterbacks"
-                                       DefaultDisplay="10" />
+                    <DraftRankingsList Rankings="@draftRankings.ToList()"
+                                       Title="All Positions"
+                                       ShowPositions=true
+                                       DefaultDisplay="20" />
                 </MudItem>
-                <MudItem xs="2">
-                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.RB)"
-                                       Title="Running Backs"
-                                       DefaultDisplay="10" />
+                <MudItem xs="7" Class="pl-2">
+                    <MudGrid Spacing="2">
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.QB)"
+                                               Title="Quarterbacks"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.RB)"
+                                               Title="Running Backs"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.WR)"
+                                               Title="Wide Receivers"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.TE)"
+                                               Title="Tight Ends"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                    </MudGrid>
                 </MudItem>
-                <MudItem xs="2">
-                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.WR)"
-                                       Title="Wide Receivers"
-                                       DefaultDisplay="10" />
-                </MudItem>
-                <MudItem xs="2">
-                    <DraftRankingsList FilteredRankings="@GetRankingsByPosition(Position.TE)"
-                                       Title="Tight Ends"
-                                       DefaultDisplay="10" />
-                </MudItem>
+                
             </MudGrid>
         }
         else

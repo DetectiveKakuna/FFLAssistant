@@ -14,5 +14,7 @@ public class Player
     public int Age { get; set; }
     public int YearsExperience { get; set; }
     public InjuryStatus? InjuryStatus { get; set; }
+
+    public Position? PrimaryPosition => Positions.Count > 0 ? Positions.First() : null;
     public bool IsDefense => Positions.Contains(Position.DEF);
 }

@@ -58,7 +58,7 @@ public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> lo
         _playwright = await Playwright.CreateAsync();
         _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
         {
-            Headless = false,
+            Headless = true,
             Args = ["--no-sandbox", "--disable-dev-shm-usage"]
         });
     }

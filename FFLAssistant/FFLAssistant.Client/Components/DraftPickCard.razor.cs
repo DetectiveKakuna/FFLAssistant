@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace FFLAssistant.Client.Components;
 
-public partial class DraftPickCard
+public partial class DraftPickCard : ComponentBase
 {
     [Parameter] public DraftPickCardModel PickCard { get; set; } = null!;
     [Parameter] public int MyTeamIndex { get; set; }

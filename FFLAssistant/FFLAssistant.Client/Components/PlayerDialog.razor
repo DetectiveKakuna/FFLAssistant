@@ -1,0 +1,83 @@
+﻿<MudPaper Class="pa-4" Style="@GetDialogStyle()">
+    <MudGrid>
+        <MudItem xs="5">
+            <MudContainer Class="d-flex justify-center">
+                <MudText Typo="Typo.h3">@Player.FullName</MudText>
+                @if (Player.InjuryStatus is not null)
+                {
+                    <MudText Typo="Typo.h3">•</MudText>
+                    <MudText Typo="Typo.h3" Style="color: red;">•</MudText>
+                }
+            </MudContainer>
+
+            <MudContainer Class="d-flex justify-center">
+                <MudImage Src="@HeadshotUrl" Class="rounded-lg" Height="160" Width="160" />
+            </MudContainer>
+
+            <!-- Wrap both grid and content in a container with same margins -->
+            <MudContainer Class="ms-1 me-3 mt-10 pb-5">
+                <MudGrid Style="background-color: var(--grassy-green-medium);">
+                    <MudItem Class="ps-0 py-5" xs="5">
+                        <MudStack Spacing="1">
+                            <MudContainer Class="d-flex align-center">
+                                <MudText Typo="Typo.h5">Team:</MudText>
+                                <MudText Typo="Typo.h6" Class="ps-2">@Player.Team</MudText>
+                            </MudContainer>
+                            <MudContainer Class="d-flex align-center">
+                                <MudText Typo="Typo.h5">Age:</MudText>
+                                <MudText Typo="Typo.h6" Class="ps-2">@Player.Age</MudText>
+                            </MudContainer>
+                            <MudContainer Class="d-flex align-center">
+                                <MudText Typo="Typo.h5">Exp:</MudText>
+                                <MudText Typo="Typo.h6" Class="ps-2">@Player.YearsExperience</MudText>
+                            </MudContainer>
+                        </MudStack>
+                    </MudItem>
+
+                    <MudItem xs="7" Class="d-flex align-center justify-center ps-0 pt-0">
+                        <MudPaper Style="@GetPositionDepthStyle()">
+                            <MudStack Spacing="1">
+                                <MudText Typo="Typo.h2" Align="Align.Center">@Player.PrimaryPosition</MudText>
+                                <MudContainer Class="d-flex align-center justify-center">
+                                    <MudText Typo="Typo.h5">Depth Chart:</MudText>
+                                    <MudText Typo="Typo.h6" Class="ps-2">@Player.DepthChartPosition</MudText>
+                                </MudContainer>
+                            </MudStack>
+                        </MudPaper>
+                    </MudItem>
+                </MudGrid>
+
+                <!-- Content now inside same container -->
+                <MudPaper Class="mt-5 py-5" Style="background-color: var(--grassy-green-medium);">
+                    content
+                </MudPaper>
+            </MudContainer>
+        </MudItem>
+        <MudItem xs="7">
+            <MudText Typo="Typo.h5" Class="mb-2" Align="Align.Center">Notes</MudText>
+            @if (Notes.Any())
+            {
+                <MudContainer Style="max-height: 700px; overflow-y: auto;">
+                    @foreach (var note in Notes)
+                    {
+                        <MudPaper Class="pa-2 mb-2" Style=@GetNoteStyle()>
+                            <MudText Typo="Typo.body1" Class="pb-1">@note.Note</MudText>
+                            <MudGrid>
+                                <MudItem xs="6">
+                                    <MudText Typo="Typo.caption" Class="text-primary">@note.Analyst</MudText>
+                                </MudItem>
+                                <MudItem xs="6" Class="d-flex justify-end">
+                                    <MudText Typo="Typo.caption" Class="text-secondary">@note.Timestamp</MudText>
+                                </MudItem>
+                            </MudGrid>
+                        </MudPaper>
+                    }
+                </MudContainer>
+            }
+            else
+            {
+                <MudText>No notes available.</MudText>
+            }
+        </MudItem>
+    </MudGrid>
+</MudPaper>

@@ -1,0 +1,82 @@
+﻿@using FFLAssistant.Models
+@using FFLAssistant.Models.Enums
+@using FFLAssistant.Models.Constants
+@using MudBlazor
+
+<MudLink OnClick="@OpenPlayerDialog" Style="text-decoration:none;">
+    <MudPaper Class="player-card-small d-flex align-center"
+              Style="@GetCardStyle()"
+              Elevation="2">
+        <!-- Left section: Ranking -->
+        <MudPaper Class="ranking-section d-flex align-center justify-center" Style="@GetRankingSectionStyle()" Square="true">
+            <MudText Typo="Typo.h4" Class="text-outline thick" Style="@GetRankingTextStyle()">@Ranking</MudText>
+        </MudPaper>
+
+        <!-- Middle section: Player Info -->
+        <MudContainer Class="player-info-section d-flex flex-column px-2" Style="@GetPlayerInfoSectionStyle()">
+            <div class="mt-1">
+                <MudText Typo="Typo.h6" Class="text-outline mb-0" Style="@GetPlayerNameStyle()">@Player.FullName</MudText>
+                <MudText Typo="Typo.caption" Class="text-outline mb-0" Style="@GetPlayerDetailsStyle()">Age: @Player.Age</MudText>
+                <MudText Typo="Typo.caption" Class="text-outline mb-0" Style="@GetPlayerDetailsStyle()">Exp: @Player.YearsExperience</MudText>
+                @if (Player.InjuryStatus.HasValue)
+                {
+                    <MudText Typo="Typo.caption" Class="text-outline mb-0" Style="@GetInjuryStatusStyle()">@Player.InjuryStatus</MudText>
+                }
+            </div>
+            <div class="d-flex justify-end">
+                <MudText Typo="Typo.caption" Class="text-outline mb-1" Style="@GetTeamByeStyle()">@GetTeamByeText()</MudText>
+            </div>
+        </MudContainer>
+
+        <!-- Right section: Position and Depth Chart -->
+        <MudPaper Class="position-section d-flex flex-column align-center justify-center pa-2" Style="@GetPositionSectionStyle()" Square="true">
+            <MudText Typo="Typo.h5" Class="text-outline" Style="@GetPositionTextStyle()">@GetPrimaryPosition()</MudText>
+            @if (Player.DepthChartPosition.HasValue)
+            {
+                <MudText Typo="Typo.caption" Class="text-outline mb-0" Style="@GetDepthChartStyle()">@ToOrdinal19(Player.DepthChartPosition)</MudText>
+            }
+        </MudPaper>
+    </MudPaper>
+</MudLink>
+
+<style>
+    .player-card-small {
+        height: 65px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 2px solid black;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .ranking-section {
+        flex: 0 0 65px;
+        height: 100%;
+        border-right: 2px solid black;
+        border-radius: 0;
+    }
+
+    .player-info-section {
+        flex: 1;
+        height: 100%;
+        border-right: 2px solid black;
+    }
+
+    .position-section {
+        flex: 0 0 80px;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    /* Thin outline for regular text */
+    .text-outline {
+        color: white;
+        font-weight: bold;
+        text-shadow: 0.75px 0.75px 0 black, -0.75px 0.75px 0 black, 0.75px -0.75px 0 black, -0.75px -0.75px 0 black;
+    }
+
+        /* Thicker outline for large numbers */
+        .text-outline.thick {
+            text-shadow: 1.5px 1.5px 0 black, -1.5px 1.5px 0 black, 1.5px -1.5px 0 black, -1.5px -1.5px 0 black;
+        }
+</style>

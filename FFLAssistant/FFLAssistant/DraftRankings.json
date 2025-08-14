@@ -14,6 +14,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "1",
@@ -39,6 +40,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "1",
@@ -64,6 +66,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "1",
@@ -89,6 +92,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "1",
@@ -114,6 +118,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "1",
@@ -139,6 +144,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -164,6 +170,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -189,6 +196,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -214,6 +222,7 @@
       "age": 28,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "2",
@@ -239,6 +248,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -264,6 +274,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -289,6 +300,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "2",
@@ -314,6 +326,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "3",
@@ -339,6 +352,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "3",
@@ -364,6 +378,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "3",
@@ -389,6 +404,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "3",
@@ -414,6 +430,7 @@
       "age": 21,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "3",
@@ -439,6 +456,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "3",
@@ -464,6 +482,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "3",
@@ -489,6 +508,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "4",
@@ -514,6 +534,7 @@
       "age": 31,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "4",
@@ -539,6 +560,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "4",
@@ -564,6 +586,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "4",
@@ -589,6 +612,7 @@
       "age": 31,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "4",
@@ -614,6 +638,7 @@
       "age": 29,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "4",
@@ -639,6 +664,7 @@
       "age": 28,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "4",
@@ -664,6 +690,7 @@
       "age": 25,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "5",
@@ -689,6 +716,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "5",
@@ -714,6 +742,7 @@
       "age": 32,
       "yearsExperience": 11,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "5",
@@ -739,6 +768,7 @@
       "age": 27,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "5",
@@ -764,6 +794,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "5",
@@ -789,6 +820,7 @@
       "age": 31,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "5",
@@ -814,6 +846,7 @@
       "age": 31,
       "yearsExperience": 11,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "5",
@@ -839,6 +872,7 @@
       "age": 24,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "5",
@@ -864,6 +898,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "6",
@@ -889,6 +924,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "6",
@@ -914,6 +950,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "6",
@@ -939,6 +976,7 @@
       "age": 29,
       "yearsExperience": 6,
       "injuryStatus": 5,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "6",
@@ -964,6 +1002,7 @@
       "age": 28,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "6",
@@ -989,6 +1028,7 @@
       "age": 30,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "6",
@@ -1014,6 +1054,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "6",
@@ -1039,6 +1080,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "7",
@@ -1064,6 +1106,7 @@
       "age": 27,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "7",
@@ -1089,6 +1132,7 @@
       "age": 28,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "7",
@@ -1114,6 +1158,7 @@
       "age": 29,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "7",
@@ -1139,6 +1184,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "7",
@@ -1164,6 +1210,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "7",
@@ -1189,6 +1236,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "8",
@@ -1214,6 +1262,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "8",
@@ -1239,6 +1288,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "8",
@@ -1264,6 +1314,7 @@
       "age": 25,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "8",
@@ -1289,6 +1340,7 @@
       "age": 30,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "8",
@@ -1314,6 +1366,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "8",
@@ -1339,6 +1392,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "8",
@@ -1364,6 +1418,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "9",
@@ -1389,6 +1444,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "9",
@@ -1414,6 +1470,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "9",
@@ -1439,6 +1496,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "9",
@@ -1464,6 +1522,7 @@
       "age": 30,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "9",
@@ -1489,6 +1548,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "9",
@@ -1514,6 +1574,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "9",
@@ -1539,6 +1600,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "9",
@@ -1564,6 +1626,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "9",
@@ -1589,6 +1652,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "10",
@@ -1614,6 +1678,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "10",
@@ -1639,6 +1704,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "10",
@@ -1664,6 +1730,7 @@
       "age": 30,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "10",
@@ -1689,6 +1756,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "10",
@@ -1714,6 +1782,7 @@
       "age": 30,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "10",
@@ -1739,6 +1808,7 @@
       "age": 35,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "10",
@@ -1764,6 +1834,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "10",
@@ -1789,6 +1860,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "10",
@@ -1814,6 +1886,7 @@
       "age": 31,
       "yearsExperience": 10,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "11",
@@ -1839,6 +1912,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "11",
@@ -1864,6 +1938,7 @@
       "age": 25,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "11",
@@ -1889,6 +1964,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "11",
@@ -1914,6 +1990,7 @@
       "age": 24,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "11",
@@ -1939,6 +2016,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": 5,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "11",
@@ -1964,6 +2042,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "11",
@@ -1989,6 +2068,7 @@
       "age": 30,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "11",
@@ -2014,6 +2094,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": 5,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "11",
@@ -2036,9 +2117,10 @@
       ],
       "depthChartPosition": 1,
       "team": 26,
-      "age": 21,
+      "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "12",
@@ -2064,6 +2146,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "12",
@@ -2089,6 +2172,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "12",
@@ -2114,6 +2198,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "12",
@@ -2139,6 +2224,7 @@
       "age": 32,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "12",
@@ -2164,6 +2250,7 @@
       "age": 25,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "12",
@@ -2189,6 +2276,7 @@
       "age": 29,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "12",
@@ -2214,6 +2302,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "12",
@@ -2239,6 +2328,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": 7,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "12",
@@ -2264,6 +2354,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "12",
@@ -2289,6 +2380,7 @@
       "age": 28,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "12",
@@ -2314,6 +2406,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "13",
@@ -2339,6 +2432,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "13",
@@ -2364,6 +2458,7 @@
       "age": 24,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "13",
@@ -2389,6 +2484,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "13",
@@ -2414,6 +2510,7 @@
       "age": 29,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "13",
@@ -2439,6 +2536,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "13",
@@ -2464,6 +2562,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "14",
@@ -2489,6 +2588,7 @@
       "age": 30,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "14",
@@ -2509,11 +2609,12 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 2,
+      "depthChartPosition": 1,
       "team": 14,
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "13",
@@ -2539,6 +2640,7 @@
       "age": 32,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "14",
@@ -2564,6 +2666,7 @@
       "age": 25,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "14",
@@ -2589,6 +2692,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "14",
@@ -2614,6 +2718,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "14",
@@ -2639,6 +2744,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "14",
@@ -2664,6 +2770,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "14",
@@ -2689,6 +2796,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "14",
@@ -2714,6 +2822,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "15",
@@ -2739,6 +2848,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "15",
@@ -2764,6 +2874,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "15",
@@ -2789,6 +2900,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "15",
@@ -2814,6 +2926,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "15",
@@ -2839,6 +2952,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "15",
@@ -2864,6 +2978,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "15",
@@ -2889,6 +3004,7 @@
       "age": 25,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "15",
@@ -2914,6 +3030,7 @@
       "age": 27,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "15",
@@ -2939,6 +3056,7 @@
       "age": 23,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "16",
@@ -2964,6 +3082,7 @@
       "age": 23,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "16",
@@ -2989,6 +3108,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": 5,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "16",
@@ -3014,6 +3134,7 @@
       "age": 30,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "16",
@@ -3039,6 +3160,7 @@
       "age": 27,
       "yearsExperience": 4,
       "injuryStatus": 5,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "16",
@@ -3064,6 +3186,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "16",
@@ -3089,6 +3212,7 @@
       "age": 26,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "16",
@@ -3114,6 +3238,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "16",
@@ -3139,6 +3264,7 @@
       "age": 28,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "17",
@@ -3164,6 +3290,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "16",
@@ -3189,6 +3316,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "17",
@@ -3214,6 +3342,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "17",
@@ -3234,11 +3363,12 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 1,
+      "depthChartPosition": 2,
       "team": 14,
       "age": 22,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "18",
@@ -3264,6 +3394,7 @@
       "age": 21,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "18",
@@ -3289,6 +3420,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "18",
@@ -3314,6 +3446,7 @@
       "age": 30,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "19",
@@ -3339,6 +3472,7 @@
       "age": 25,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "19",
@@ -3364,6 +3498,7 @@
       "age": 21,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "19",
@@ -3389,6 +3524,7 @@
       "age": 37,
       "yearsExperience": 16,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "19",
@@ -3414,6 +3550,7 @@
       "age": 21,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "19",
@@ -3439,6 +3576,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "19",
@@ -3464,6 +3602,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "19",
@@ -3489,6 +3628,7 @@
       "age": 25,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "19",
@@ -3514,6 +3654,7 @@
       "age": 30,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "19",
@@ -3539,6 +3680,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "19",
@@ -3564,6 +3706,7 @@
       "age": 29,
       "yearsExperience": 8,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "19",
@@ -3589,6 +3732,7 @@
       "age": 28,
       "yearsExperience": 6,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "20",
@@ -3614,6 +3758,7 @@
       "age": 25,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "19",
@@ -3639,6 +3784,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "20",
@@ -3664,6 +3810,7 @@
       "age": 34,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "20",
@@ -3689,6 +3836,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "20",
@@ -3714,6 +3862,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "20",
@@ -3739,6 +3888,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "20",
@@ -3764,6 +3914,7 @@
       "age": 24,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "20",
@@ -3789,6 +3940,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "20",
@@ -3814,6 +3966,7 @@
       "age": 21,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "21",
@@ -3839,6 +3992,7 @@
       "age": 24,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "21",
@@ -3864,6 +4018,7 @@
       "age": 34,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "21",
@@ -3889,6 +4044,7 @@
       "age": 23,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "21",
@@ -3914,6 +4070,7 @@
       "age": 21,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "21",
@@ -3939,6 +4096,7 @@
       "age": 25,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "21",
@@ -3964,6 +4122,7 @@
       "age": 34,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "21",
@@ -3989,6 +4148,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "21",
@@ -4014,6 +4174,7 @@
       "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "20",
@@ -4039,6 +4200,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "20",
@@ -4064,6 +4226,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
@@ -4089,6 +4252,7 @@
       "age": 24,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
@@ -4114,6 +4278,7 @@
       "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "22",
@@ -4139,6 +4304,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
@@ -4164,6 +4330,7 @@
       "age": 23,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "22",
@@ -4189,6 +4356,7 @@
       "age": 20,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "21",
@@ -4214,6 +4382,7 @@
       "age": 28,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "22",
@@ -4239,6 +4408,7 @@
       "age": 23,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
@@ -4264,6 +4434,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "21",
@@ -4289,6 +4460,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "21",
@@ -4314,6 +4486,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "22",
@@ -4339,6 +4512,7 @@
       "age": 29,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "22",
@@ -4364,6 +4538,7 @@
       "age": 23,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "22",
@@ -4389,6 +4564,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "22",
@@ -4414,6 +4590,7 @@
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "23",
@@ -4439,6 +4616,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "22",
@@ -4464,6 +4642,7 @@
       "age": 33,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "23",
@@ -4489,6 +4668,7 @@
       "age": 33,
       "yearsExperience": 12,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
@@ -4514,6 +4694,7 @@
       "age": 25,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "23",
@@ -4539,6 +4720,7 @@
       "age": 26,
       "yearsExperience": 4,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "24",
@@ -4564,6 +4746,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "23",
@@ -4589,6 +4772,7 @@
       "age": 26,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "24",
@@ -4614,6 +4798,7 @@
       "age": 30,
       "yearsExperience": 2,
       "injuryStatus": null,
+      "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "23",
@@ -4639,6 +4824,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "23",
@@ -4664,6 +4850,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "23",
@@ -4689,6 +4876,7 @@
       "age": 24,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "24",
@@ -4714,6 +4902,7 @@
       "age": 23,
       "yearsExperience": 1,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "24",
@@ -4739,6 +4928,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "24",
@@ -4764,6 +4954,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "23",
@@ -4789,6 +4980,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "24",
@@ -4814,6 +5006,7 @@
       "age": 22,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "24",
@@ -4839,6 +5032,7 @@
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
+      "primaryPosition": 5,
       "isDefense": true
     },
     "tier": "25",
@@ -4864,6 +5058,7 @@
       "age": 26,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "25",
@@ -4889,6 +5084,7 @@
       "age": 41,
       "yearsExperience": 20,
       "injuryStatus": null,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "25",
@@ -4914,6 +5110,7 @@
       "age": 29,
       "yearsExperience": 7,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "25",
@@ -4939,6 +5136,7 @@
       "age": 34,
       "yearsExperience": 11,
       "injuryStatus": null,
+      "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "25",
@@ -4964,6 +5162,7 @@
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "25",
@@ -4989,6 +5188,7 @@
       "age": 31,
       "yearsExperience": 9,
       "injuryStatus": null,
+      "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "25",

@@ -1,13 +1,17 @@
 ﻿using FFLAssistant.Models;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace FFLAssistant.Client.Components;
 
-public partial class DraftRankingsList
+public partial class DraftRankingsList : ComponentBase
 {
-    [Parameter] public List<DraftRanking> FilteredRankings { get; set; } = new();
+    [Parameter] public List<DraftRanking> Rankings { get; set; } = [];
     [Parameter] public string Title { get; set; } = string.Empty;
-    [Parameter] public int DefaultDisplay { get; set; } = 5;
+    [Parameter] public int DefaultDisplay { get; set; } = 10;
+    [Parameter] public bool ShowPositions { get; set; }
+
+    [Inject] private IDialogService DialogService { get; set; } = default!;
 
     private bool IsExpanded { get; set; } = false;
 
@@ -40,7 +44,7 @@ public partial class DraftRankingsList
         return $"color: {color}; " +
                $"text-decoration: {decoration}; " +
                $"opacity: {opacity}; " +
-               $"font-size: 14px; " +
+               $"font-size: 12px; " +
                $"line-height: 1.3;";
     }
 
@@ -60,5 +64,36 @@ public partial class DraftRankingsList
                $"height: 32px; " +
                $"min-width: 32px; " +
                $"min-height: 32px;";
+    }
+
+    private string GetDisplayText(DraftRanking draftRanking)
+    {
+        if (ShowPositions)
+        {
+            return $"{draftRanking.OverallRank}. {draftRanking.Player.FullName} - {draftRanking.Player.Positions.FirstOrDefault()} ({draftRanking.Player.Team})";
+        }
+
+        return $"{draftRanking.OverallRank}. {draftRanking.Player.FullName} - ({draftRanking.Player.Team})";
+    }
+
+    private async Task OpenPlayerDialog(Player player)
+    {
+        var parameters = new DialogParameters
+        {
+            ["Player"] = player,
+        };
+
+
+        var options = new DialogOptions
+        {
+            MaxWidth = MaxWidth.Large,
+            FullWidth = true,
+            CloseButton = true,
+            BackdropClick = true,
+            CloseOnEscapeKey = true,
+            NoHeader = true,
+        };
+
+        await DialogService.ShowAsync<PlayerDialog>($"{player.FullName}", parameters, options);
     }
 }
