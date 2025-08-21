@@ -19,6 +19,8 @@ builder.Services.Configure<SleeperConfiguration>(
     builder.Configuration.GetSection(SleeperConfiguration.SectionName));
 builder.Services.Configure<DraftRankingsConfiguration>(
     builder.Configuration.GetSection(DraftRankingsConfiguration.SectionName));
+builder.Services.Configure<FantasyProsConfiguration>(
+    builder.Configuration.GetSection(FantasyProsConfiguration.SectionName));
 
 // Add MudBlazor services
 builder.Services.AddMudServices();
@@ -36,6 +38,7 @@ builder.Services.AddScoped<ISleeperPlayersRepository, SleeperPlayersRepository>(
 // Add services
 builder.Services.AddScoped<IBorisChenService, BorisChenService>();
 builder.Services.AddScoped<IDraftRankingsService, DraftRankingsService>();
+builder.Services.AddScoped<IFantasyProsService, FantasyProsService>();
 builder.Services.AddScoped<ISleeperApiService, SleeperApiService>();
 builder.Services.AddScoped<ISleeperLiveDraftService, SleeperLiveDraftService>();
 builder.Services.AddScoped<ISleeperPlayersService, SleeperPlayersService>();

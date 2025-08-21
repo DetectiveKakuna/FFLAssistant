@@ -6,8 +6,9 @@ namespace FFLAssistant.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class PlayersController(ISleeperPlayersService sleeperPlayersService) : ControllerBase
+public class PlayersController(IFantasyProsService fantasyProsService, ISleeperPlayersService sleeperPlayersService) : ControllerBase
 {
+    private readonly IFantasyProsService _fantasyProsService = fantasyProsService;
     private readonly ISleeperPlayersService _sleeperPlayersService = sleeperPlayersService;
 
     [HttpGet]
@@ -25,6 +26,20 @@ public class PlayersController(ISleeperPlayersService sleeperPlayersService) : C
         catch (Exception ex)
         {
             return StatusCode(500, $"Error retrieving players: {ex.Message}");
+        }
+    }
+
+    [HttpGet("notes")]
+    public async Task<ActionResult<PlayerNotes>> GetPlayerNotesAsync(string firstName, string lastName)
+    {
+        try
+        {
+            var result = await _fantasyProsService.GetPlayerNotesAsync(firstName, lastName);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Error getting player notes: {ex.Message}");
         }
     }
 }

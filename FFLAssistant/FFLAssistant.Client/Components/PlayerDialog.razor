@@ -1,21 +1,18 @@
-﻿<MudPaper Class="pa-4" Style="@GetDialogStyle()">
+﻿<MudPaper Class="pa-4 d-flex" Style="@GetDialogStyle()">
     <MudGrid>
         <MudItem xs="5">
-            <MudContainer Class="d-flex justify-center">
-                <MudText Typo="Typo.h3">@Player.FullName</MudText>
-                @if (Player.InjuryStatus is not null)
-                {
-                    <MudText Typo="Typo.h3">•</MudText>
-                    <MudText Typo="Typo.h3" Style="color: red;">•</MudText>
-                }
-            </MudContainer>
-
-            <MudContainer Class="d-flex justify-center">
-                <MudImage Src="@HeadshotUrl" Class="rounded-lg" Height="160" Width="160" />
-            </MudContainer>
-
-            <!-- Wrap both grid and content in a container with same margins -->
-            <MudContainer Class="ms-1 me-3 mt-10 pb-5">
+            <MudStack Class="ps-10 flex-grow-1">
+                <MudContainer Class="d-flex justify-center">
+                    <MudText Typo="Typo.h3">@Player.FullName</MudText>
+                    @if (Player.InjuryStatus is not null)
+                    {
+                        <MudText Typo="Typo.h3">•</MudText>
+                        <MudText Typo="Typo.h3" Style="color: red;">•</MudText>
+                    }
+                </MudContainer>
+                <MudContainer Class="d-flex justify-center mb-10">
+                    <MudImage Src="@HeadshotUrl" Class="rounded-lg" Height="160" Width="160" />
+                </MudContainer>
                 <MudGrid Style="background-color: var(--grassy-green-medium);">
                     <MudItem Class="ps-0 py-5" xs="5">
                         <MudStack Spacing="1">
@@ -46,19 +43,77 @@
                         </MudPaper>
                     </MudItem>
                 </MudGrid>
+                <MudGrid Class="pt-5">
+                    <MudStack Class="mt-2 px-3 py-3 flex-grow-1" Style="background-color: var(--grassy-green-medium); height: 290px;">
+                        <MudContainer Class="w-100" Gutters="false">
+                            <!-- Header -->
+                            <MudText Typo="Typo.h5" Align="Align.Center" Class="py-2">
+                                Projections
+                            </MudText>
 
-                <!-- Content now inside same container -->
-                <MudPaper Class="mt-5 py-5" Style="background-color: var(--grassy-green-medium);">
-                    content
-                </MudPaper>
-            </MudContainer>
+                            @* Split the dictionary into two halves *@
+                            @{
+                                var half = (int)Math.Ceiling(Projections.Count / 2.0);
+                                var firstRow = Projections.Take(half).ToList();
+                                var secondRow = Projections.Skip(half).ToList();
+                            }
+
+                            <!-- First row -->
+                            <div style="display: grid; grid-template-columns: repeat(@firstRow.Count, 1fr); gap: 0; width: 100%;">
+                                @foreach (var kvp in firstRow)
+                                {
+                                    <MudPaper Square="true" Style="border: 1px solid var(--mud-palette-divider); min-width: 0;">
+                                        <MudStack AlignItems="AlignItems.Center" JustifyContent="Center">
+                                            <MudText Typo="Typo.subtitle2" Align="Align.Center"
+                                                     Style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                                        font-size: clamp(0.6rem, 1.5vw, 1rem); width: 100%;">
+                                                @kvp.Key
+                                            </MudText>
+                                            <MudText Typo="Typo.body1" Align="Align.Center"
+                                                     Style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                                        font-size: clamp(0.6rem, 1.5vw, 1rem); width: 100%;">
+                                                @kvp.Value
+                                            </MudText>
+                                        </MudStack>
+                                    </MudPaper>
+                                }
+                            </div>
+
+                            <!-- Second row -->
+                            <div style="display: grid; grid-template-columns: repeat(@secondRow.Count, 1fr); gap: 0; width: 100%; margin-top: -1px;">
+                                @foreach (var kvp in secondRow)
+                                {
+                                    <MudPaper Square="true" Style="border: 1px solid var(--mud-palette-divider); border-top: 0; min-width: 0;">
+                                        <MudStack AlignItems="AlignItems.Center" JustifyContent="Center">
+                                            <MudText Typo="Typo.subtitle2" Align="Align.Center"
+                                                     Style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                                        font-size: clamp(0.6rem, 1.5vw, 1rem); width: 100%;">
+                                                @kvp.Key
+                                            </MudText>
+                                            <MudText Typo="Typo.body1" Align="Align.Center"
+                                                     Style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                                        font-size: clamp(0.6rem, 1.5vw, 1rem); width: 100%;">
+                                                @kvp.Value
+                                            </MudText>
+                                        </MudStack>
+                                    </MudPaper>
+                                }
+                            </div>
+                        </MudContainer>
+
+                        <MudContainer Class="d-flex flex-grow-1 justify-center align-center">
+                            <MudText Typo="Typo.h5">Bottom Half</MudText>
+                        </MudContainer>
+                    </MudStack>
+                </MudGrid>
+            </MudStack>
         </MudItem>
-        <MudItem xs="7">
+        <MudItem xs="7" Class="ps-0">
             <MudText Typo="Typo.h5" Class="mb-2" Align="Align.Center">Notes</MudText>
-            @if (Notes.Any())
+            @if (PlayerNotes.Notes.Any())
             {
                 <MudContainer Style="max-height: 700px; overflow-y: auto;">
-                    @foreach (var note in Notes)
+                    @foreach (var note in PlayerNotes.Notes)
                     {
                         <MudPaper Class="pa-2 mb-2" Style=@GetNoteStyle()>
                             <MudText Typo="Typo.body1" Class="pb-1">@note.Note</MudText>

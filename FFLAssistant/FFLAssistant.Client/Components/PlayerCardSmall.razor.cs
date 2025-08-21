@@ -129,7 +129,7 @@ public partial class PlayerCardSmall : ComponentBase
             NoHeader = true,
         };
 
-        await DialogService.ShowAsync<PlayerDialog>($"{Player.FullName}", parameters, options);
+        await DialogService.ShowAsync<PlayerDialog>(string.Empty, parameters, options);
     }
 
     private static string ToOrdinal19(int? number)

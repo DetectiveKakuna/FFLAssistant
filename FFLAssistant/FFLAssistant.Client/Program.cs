@@ -21,6 +21,7 @@ builder.Services.AddScoped<IPlayersFiltersCache, PlayersFiltersCache>();
 builder.Services.AddScoped<ISleeperLiveDraftService, ClientSleeperLiveDraftService>();
 builder.Services.AddScoped<ISleeperPlayersService, ClientSleeperPlayersService>();
 builder.Services.AddScoped<IDraftRankingsService, ClientDraftRankingsService>();
+builder.Services.AddScoped<IFantasyProsService, ClientFantasyProsService>();
 
 // Configure HttpClient
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

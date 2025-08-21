@@ -21,8 +21,8 @@
     "overallRank": 1,
     "bestRank": 1,
     "worstRank": 3,
-    "averageRank": 1.15,
-    "standardDeviation": 0.51,
+    "averageRank": 1.03,
+    "standardDeviation": 0.23,
     "isDrafted": false
   },
   {
@@ -45,36 +45,10 @@
     },
     "tier": "1",
     "overallRank": 2,
-    "bestRank": 1,
+    "bestRank": 2,
     "worstRank": 16,
-    "averageRank": 2.95,
-    "standardDeviation": 2.06,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "6794",
-      "firstName": "Justin",
-      "lastName": "Jefferson",
-      "fullName": "Justin Jefferson",
-      "sortableFullName": "Jefferson, Justin",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 20,
-      "age": 26,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "1",
-    "overallRank": 3,
-    "bestRank": 1,
-    "worstRank": 10,
-    "averageRank": 3.73,
-    "standardDeviation": 1.32,
+    "averageRank": 3.12,
+    "standardDeviation": 1.98,
     "isDrafted": false
   },
   {
@@ -96,11 +70,37 @@
       "isDefense": false
     },
     "tier": "1",
+    "overallRank": 3,
+    "bestRank": 3,
+    "worstRank": 6,
+    "averageRank": 3.68,
+    "standardDeviation": 0.84,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6794",
+      "firstName": "Justin",
+      "lastName": "Jefferson",
+      "fullName": "Justin Jefferson",
+      "sortableFullName": "Jefferson, Justin",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 20,
+      "age": 26,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "1",
     "overallRank": 4,
     "bestRank": 2,
     "worstRank": 7,
-    "averageRank": 3.8,
-    "standardDeviation": 1,
+    "averageRank": 3.73,
+    "standardDeviation": 0.94,
     "isDrafted": false
   },
   {
@@ -121,12 +121,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "1",
+    "tier": "2",
     "overallRank": 5,
     "bestRank": 2,
-    "worstRank": 16,
-    "averageRank": 5.91,
-    "standardDeviation": 2.79,
+    "worstRank": 20,
+    "averageRank": 6.45,
+    "standardDeviation": 3.27,
     "isDrafted": false
   },
   {
@@ -151,34 +151,8 @@
     "overallRank": 6,
     "bestRank": 4,
     "worstRank": 14,
-    "averageRank": 7.62,
-    "standardDeviation": 2.23,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9493",
-      "firstName": "Puka",
-      "lastName": "Nacua",
-      "fullName": "Puka Nacua",
-      "sortableFullName": "Nacua, Puka",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 17,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "2",
-    "overallRank": 7,
-    "bestRank": 4,
-    "worstRank": 14,
-    "averageRank": 8.26,
-    "standardDeviation": 2.3,
+    "averageRank": 7.49,
+    "standardDeviation": 2.11,
     "isDrafted": false
   },
   {
@@ -200,11 +174,37 @@
       "isDefense": false
     },
     "tier": "2",
+    "overallRank": 7,
+    "bestRank": 4,
+    "worstRank": 15,
+    "averageRank": 8.32,
+    "standardDeviation": 2.54,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9493",
+      "firstName": "Puka",
+      "lastName": "Nacua",
+      "fullName": "Puka Nacua",
+      "sortableFullName": "Nacua, Puka",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 17,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "2",
     "overallRank": 8,
     "bestRank": 4,
-    "worstRank": 14,
-    "averageRank": 8.42,
-    "standardDeviation": 2.5,
+    "worstRank": 17,
+    "averageRank": 8.94,
+    "standardDeviation": 2.6,
     "isDrafted": false
   },
   {
@@ -229,8 +229,8 @@
     "overallRank": 9,
     "bestRank": 2,
     "worstRank": 22,
-    "averageRank": 9.35,
-    "standardDeviation": 4.2,
+    "averageRank": 9.55,
+    "standardDeviation": 4.47,
     "isDrafted": false
   },
   {
@@ -253,10 +253,10 @@
     },
     "tier": "2",
     "overallRank": 10,
-    "bestRank": 6,
-    "worstRank": 19,
+    "bestRank": 5,
+    "worstRank": 25,
     "averageRank": 10.11,
-    "standardDeviation": 2.62,
+    "standardDeviation": 3.22,
     "isDrafted": false
   },
   {
@@ -280,9 +280,9 @@
     "tier": "2",
     "overallRank": 11,
     "bestRank": 6,
-    "worstRank": 19,
-    "averageRank": 11.11,
-    "standardDeviation": 2.72,
+    "worstRank": 18,
+    "averageRank": 11.12,
+    "standardDeviation": 2.51,
     "isDrafted": false
   },
   {
@@ -305,10 +305,10 @@
     },
     "tier": "2",
     "overallRank": 12,
-    "bestRank": 7,
+    "bestRank": 6,
     "worstRank": 28,
-    "averageRank": 12.82,
-    "standardDeviation": 3.5,
+    "averageRank": 12.23,
+    "standardDeviation": 3.28,
     "isDrafted": false
   },
   {
@@ -329,38 +329,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "3",
+    "tier": "2",
     "overallRank": 13,
     "bestRank": 2,
     "worstRank": 33,
-    "averageRank": 13.91,
-    "standardDeviation": 7,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11604",
-      "firstName": "Brock",
-      "lastName": "Bowers",
-      "fullName": "Brock Bowers",
-      "sortableFullName": "Bowers, Brock",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 18,
-      "age": 22,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "3",
-    "overallRank": 14,
-    "bestRank": 12,
-    "worstRank": 31,
-    "averageRank": 16.39,
-    "standardDeviation": 3.08,
+    "averageRank": 12.48,
+    "standardDeviation": 7.39,
     "isDrafted": false
   },
   {
@@ -382,11 +356,11 @@
       "isDefense": false
     },
     "tier": "3",
-    "overallRank": 15,
+    "overallRank": 14,
     "bestRank": 9,
-    "worstRank": 25,
-    "averageRank": 16.53,
-    "standardDeviation": 3.5,
+    "worstRank": 27,
+    "averageRank": 16.54,
+    "standardDeviation": 3.54,
     "isDrafted": false
   },
   {
@@ -408,37 +382,37 @@
       "isDefense": false
     },
     "tier": "3",
-    "overallRank": 16,
-    "bestRank": 8,
-    "worstRank": 46,
+    "overallRank": 15,
+    "bestRank": 2,
+    "worstRank": 40,
     "averageRank": 16.82,
-    "standardDeviation": 5.75,
+    "standardDeviation": 5.62,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "12527",
-      "firstName": "Ashton",
-      "lastName": "Jeanty",
-      "fullName": "Ashton Jeanty",
-      "sortableFullName": "Jeanty, Ashton",
+      "id": "11604",
+      "firstName": "Brock",
+      "lastName": "Bowers",
+      "fullName": "Brock Bowers",
+      "sortableFullName": "Bowers, Brock",
       "positions": [
-        1
+        3
       ],
       "depthChartPosition": 1,
       "team": 18,
-      "age": 21,
-      "yearsExperience": 0,
+      "age": 22,
+      "yearsExperience": 1,
       "injuryStatus": null,
-      "primaryPosition": 1,
+      "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "3",
-    "overallRank": 17,
-    "bestRank": 8,
-    "worstRank": 52,
-    "averageRank": 18.36,
-    "standardDeviation": 7.42,
+    "overallRank": 16,
+    "bestRank": 10,
+    "worstRank": 31,
+    "averageRank": 16.9,
+    "standardDeviation": 3.99,
     "isDrafted": false
   },
   {
@@ -460,11 +434,63 @@
       "isDefense": false
     },
     "tier": "3",
+    "overallRank": 17,
+    "bestRank": 10,
+    "worstRank": 34,
+    "averageRank": 17.61,
+    "standardDeviation": 4.69,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12527",
+      "firstName": "Ashton",
+      "lastName": "Jeanty",
+      "fullName": "Ashton Jeanty",
+      "sortableFullName": "Jeanty, Ashton",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 18,
+      "age": 21,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "3",
     "overallRank": 18,
-    "bestRank": 11,
-    "worstRank": 41,
-    "averageRank": 18.88,
-    "standardDeviation": 5.95,
+    "bestRank": 8,
+    "worstRank": 55,
+    "averageRank": 18.99,
+    "standardDeviation": 7.48,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8130",
+      "firstName": "Trey",
+      "lastName": "McBride",
+      "fullName": "Trey McBride",
+      "sortableFullName": "McBride, Trey",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 0,
+      "age": 25,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "3",
+    "overallRank": 19,
+    "bestRank": 15,
+    "worstRank": 31,
+    "averageRank": 20.77,
+    "standardDeviation": 3.31,
     "isDrafted": false
   },
   {
@@ -486,37 +512,11 @@
       "isDefense": false
     },
     "tier": "3",
-    "overallRank": 19,
-    "bestRank": 12,
-    "worstRank": 40,
-    "averageRank": 20.07,
-    "standardDeviation": 7.29,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8130",
-      "firstName": "Trey",
-      "lastName": "McBride",
-      "fullName": "Trey McBride",
-      "sortableFullName": "McBride, Trey",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 0,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "4",
     "overallRank": 20,
-    "bestRank": 15,
-    "worstRank": 65,
-    "averageRank": 21.09,
-    "standardDeviation": 5.76,
+    "bestRank": 13,
+    "worstRank": 47,
+    "averageRank": 20.84,
+    "standardDeviation": 8.53,
     "isDrafted": false
   },
   {
@@ -540,9 +540,9 @@
     "tier": "4",
     "overallRank": 21,
     "bestRank": 8,
-    "worstRank": 42,
-    "averageRank": 22.91,
-    "standardDeviation": 6.54,
+    "worstRank": 38,
+    "averageRank": 22.31,
+    "standardDeviation": 5.08,
     "isDrafted": false
   },
   {
@@ -566,9 +566,9 @@
     "tier": "4",
     "overallRank": 22,
     "bestRank": 13,
-    "worstRank": 41,
-    "averageRank": 23.92,
-    "standardDeviation": 7.84,
+    "worstRank": 46,
+    "averageRank": 23.39,
+    "standardDeviation": 7.25,
     "isDrafted": false
   },
   {
@@ -591,36 +591,10 @@
     },
     "tier": "4",
     "overallRank": 23,
-    "bestRank": 13,
-    "worstRank": 43,
-    "averageRank": 24.35,
-    "standardDeviation": 6.49,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "3321",
-      "firstName": "Tyreek",
-      "lastName": "Hill",
-      "fullName": "Tyreek Hill",
-      "sortableFullName": "Hill, Tyreek",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 19,
-      "age": 31,
-      "yearsExperience": 9,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "4",
-    "overallRank": 24,
     "bestRank": 14,
-    "worstRank": 48,
-    "averageRank": 25.23,
-    "standardDeviation": 7.99,
+    "worstRank": 47,
+    "averageRank": 24.75,
+    "standardDeviation": 7.07,
     "isDrafted": false
   },
   {
@@ -642,11 +616,11 @@
       "isDefense": false
     },
     "tier": "4",
-    "overallRank": 25,
-    "bestRank": 24,
+    "overallRank": 24,
+    "bestRank": 18,
     "worstRank": 36,
-    "averageRank": 25.45,
-    "standardDeviation": 2.16,
+    "averageRank": 25.35,
+    "standardDeviation": 2.58,
     "isDrafted": false
   },
   {
@@ -668,11 +642,37 @@
       "isDefense": false
     },
     "tier": "4",
-    "overallRank": 26,
+    "overallRank": 25,
     "bestRank": 24,
     "worstRank": 36,
-    "averageRank": 26.11,
-    "standardDeviation": 2.76,
+    "averageRank": 26.13,
+    "standardDeviation": 2.52,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "3321",
+      "firstName": "Tyreek",
+      "lastName": "Hill",
+      "fullName": "Tyreek Hill",
+      "sortableFullName": "Hill, Tyreek",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 19,
+      "age": 31,
+      "yearsExperience": 9,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "4",
+    "overallRank": 26,
+    "bestRank": 13,
+    "worstRank": 47,
+    "averageRank": 26.14,
+    "standardDeviation": 7.99,
     "isDrafted": false
   },
   {
@@ -693,64 +693,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "5",
+    "tier": "4",
     "overallRank": 27,
-    "bestRank": 16,
+    "bestRank": 12,
     "worstRank": 46,
-    "averageRank": 28.84,
-    "standardDeviation": 6.98,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11584",
-      "firstName": "Bucky",
-      "lastName": "Irving",
-      "fullName": "Bucky Irving",
-      "sortableFullName": "Irving, Bucky",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 29,
-      "age": 22,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "5",
-    "overallRank": 28,
-    "bestRank": 16,
-    "worstRank": 49,
-    "averageRank": 29.5,
-    "standardDeviation": 7.65,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "2133",
-      "firstName": "Davante",
-      "lastName": "Adams",
-      "fullName": "Davante Adams",
-      "sortableFullName": "Adams, Davante",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 17,
-      "age": 32,
-      "yearsExperience": 11,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "5",
-    "overallRank": 29,
-    "bestRank": 7,
-    "worstRank": 43,
-    "averageRank": 29.72,
-    "standardDeviation": 7.11,
+    "averageRank": 27.73,
+    "standardDeviation": 7.08,
     "isDrafted": false
   },
   {
@@ -772,11 +720,63 @@
       "isDefense": false
     },
     "tier": "5",
-    "overallRank": 30,
+    "overallRank": 28,
     "bestRank": 13,
-    "worstRank": 46,
-    "averageRank": 30.68,
-    "standardDeviation": 6.47,
+    "worstRank": 45,
+    "averageRank": 28.81,
+    "standardDeviation": 7.05,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11584",
+      "firstName": "Bucky",
+      "lastName": "Irving",
+      "fullName": "Bucky Irving",
+      "sortableFullName": "Irving, Bucky",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 29,
+      "age": 23,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "5",
+    "overallRank": 29,
+    "bestRank": 16,
+    "worstRank": 49,
+    "averageRank": 29.31,
+    "standardDeviation": 6.75,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "2133",
+      "firstName": "Davante",
+      "lastName": "Adams",
+      "fullName": "Davante Adams",
+      "sortableFullName": "Adams, Davante",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 17,
+      "age": 32,
+      "yearsExperience": 11,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "5",
+    "overallRank": 30,
+    "bestRank": 18,
+    "worstRank": 48,
+    "averageRank": 31.45,
+    "standardDeviation": 6.45,
     "isDrafted": false
   },
   {
@@ -799,10 +799,10 @@
     },
     "tier": "5",
     "overallRank": 31,
-    "bestRank": 20,
-    "worstRank": 46,
-    "averageRank": 31.62,
-    "standardDeviation": 6.94,
+    "bestRank": 19,
+    "worstRank": 57,
+    "averageRank": 31.63,
+    "standardDeviation": 7.5,
     "isDrafted": false
   },
   {
@@ -826,9 +826,9 @@
     "tier": "5",
     "overallRank": 32,
     "bestRank": 15,
-    "worstRank": 84,
-    "averageRank": 33.51,
-    "standardDeviation": 9.77,
+    "worstRank": 86,
+    "averageRank": 32.81,
+    "standardDeviation": 9.76,
     "isDrafted": false
   },
   {
@@ -851,10 +851,10 @@
     },
     "tier": "5",
     "overallRank": 33,
-    "bestRank": 18,
-    "worstRank": 51,
-    "averageRank": 34.11,
-    "standardDeviation": 6.67,
+    "bestRank": 17,
+    "worstRank": 48,
+    "averageRank": 33.01,
+    "standardDeviation": 5.65,
     "isDrafted": false
   },
   {
@@ -879,34 +879,8 @@
     "overallRank": 34,
     "bestRank": 26,
     "worstRank": 58,
-    "averageRank": 34.57,
-    "standardDeviation": 9.1,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "6904",
-      "firstName": "Jalen",
-      "lastName": "Hurts",
-      "fullName": "Jalen Hurts",
-      "sortableFullName": "Hurts, Jalen",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 25,
-      "age": 27,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "6",
-    "overallRank": 35,
-    "bestRank": 26,
-    "worstRank": 53,
-    "averageRank": 37.3,
-    "standardDeviation": 8.53,
+    "averageRank": 34.03,
+    "standardDeviation": 8.32,
     "isDrafted": false
   },
   {
@@ -928,11 +902,37 @@
       "isDefense": false
     },
     "tier": "6",
-    "overallRank": 36,
+    "overallRank": 35,
     "bestRank": 23,
-    "worstRank": 64,
-    "averageRank": 37.55,
-    "standardDeviation": 7.25,
+    "worstRank": 55,
+    "averageRank": 36.81,
+    "standardDeviation": 6.05,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6904",
+      "firstName": "Jalen",
+      "lastName": "Hurts",
+      "fullName": "Jalen Hurts",
+      "sortableFullName": "Hurts, Jalen",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 25,
+      "age": 27,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "6",
+    "overallRank": 36,
+    "bestRank": 26,
+    "worstRank": 58,
+    "averageRank": 37.06,
+    "standardDeviation": 8.57,
     "isDrafted": false
   },
   {
@@ -956,35 +956,9 @@
     "tier": "6",
     "overallRank": 37,
     "bestRank": 18,
-    "worstRank": 53,
-    "averageRank": 38.14,
-    "standardDeviation": 6.81,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5927",
-      "firstName": "Terry",
-      "lastName": "McLaurin",
-      "fullName": "Terry McLaurin",
-      "sortableFullName": "McLaurin, Terry",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 31,
-      "age": 29,
-      "yearsExperience": 6,
-      "injuryStatus": 5,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "6",
-    "overallRank": 38,
-    "bestRank": 18,
-    "worstRank": 68,
-    "averageRank": 38.77,
-    "standardDeviation": 9.15,
+    "worstRank": 70,
+    "averageRank": 38.51,
+    "standardDeviation": 8.94,
     "isDrafted": false
   },
   {
@@ -1006,11 +980,37 @@
       "isDefense": false
     },
     "tier": "6",
+    "overallRank": 38,
+    "bestRank": 22,
+    "worstRank": 63,
+    "averageRank": 39.32,
+    "standardDeviation": 7.79,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "5927",
+      "firstName": "Terry",
+      "lastName": "McLaurin",
+      "fullName": "Terry McLaurin",
+      "sortableFullName": "McLaurin, Terry",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 31,
+      "age": 29,
+      "yearsExperience": 6,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "6",
     "overallRank": 39,
     "bestRank": 19,
-    "worstRank": 54,
-    "averageRank": 38.89,
-    "standardDeviation": 7.23,
+    "worstRank": 75,
+    "averageRank": 39.52,
+    "standardDeviation": 10.37,
     "isDrafted": false
   },
   {
@@ -1031,38 +1031,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "6",
+    "tier": "7",
     "overallRank": 40,
     "bestRank": 23,
     "worstRank": 74,
-    "averageRank": 41.08,
-    "standardDeviation": 8.07,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8155",
-      "firstName": "Breece",
-      "lastName": "Hall",
-      "fullName": "Breece Hall",
-      "sortableFullName": "Hall, Breece",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 24,
-      "age": 24,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "6",
-    "overallRank": 41,
-    "bestRank": 30,
-    "worstRank": 60,
-    "averageRank": 41.12,
-    "standardDeviation": 6.76,
+    "averageRank": 42.22,
+    "standardDeviation": 8.15,
     "isDrafted": false
   },
   {
@@ -1084,11 +1058,37 @@
       "isDefense": false
     },
     "tier": "7",
+    "overallRank": 41,
+    "bestRank": 30,
+    "worstRank": 82,
+    "averageRank": 44.29,
+    "standardDeviation": 7.24,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8155",
+      "firstName": "Breece",
+      "lastName": "Hall",
+      "fullName": "Breece Hall",
+      "sortableFullName": "Hall, Breece",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 24,
+      "age": 24,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "7",
     "overallRank": 42,
     "bestRank": 30,
-    "worstRank": 60,
-    "averageRank": 44.45,
-    "standardDeviation": 5.71,
+    "worstRank": 81,
+    "averageRank": 44.65,
+    "standardDeviation": 8.73,
     "isDrafted": false
   },
   {
@@ -1112,35 +1112,9 @@
     "tier": "7",
     "overallRank": 43,
     "bestRank": 27,
-    "worstRank": 85,
-    "averageRank": 46.09,
-    "standardDeviation": 10.15,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "6770",
-      "firstName": "Joe",
-      "lastName": "Burrow",
-      "fullName": "Joe Burrow",
-      "sortableFullName": "Burrow, Joe",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 6,
-      "age": 28,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "7",
-    "overallRank": 44,
-    "bestRank": 29,
-    "worstRank": 58,
-    "averageRank": 46.72,
-    "standardDeviation": 9.21,
+    "worstRank": 90,
+    "averageRank": 44.95,
+    "standardDeviation": 9.91,
     "isDrafted": false
   },
   {
@@ -1162,11 +1136,11 @@
       "isDefense": false
     },
     "tier": "7",
-    "overallRank": 45,
+    "overallRank": 44,
     "bestRank": 27,
-    "worstRank": 82,
-    "averageRank": 47.73,
-    "standardDeviation": 9.53,
+    "worstRank": 80,
+    "averageRank": 46.37,
+    "standardDeviation": 8.72,
     "isDrafted": false
   },
   {
@@ -1187,12 +1161,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "7",
-    "overallRank": 46,
-    "bestRank": 27,
-    "worstRank": 83,
-    "averageRank": 47.8,
-    "standardDeviation": 8.22,
+    "tier": "8",
+    "overallRank": 45,
+    "bestRank": 33,
+    "worstRank": 60,
+    "averageRank": 46.63,
+    "standardDeviation": 5.49,
     "isDrafted": false
   },
   {
@@ -1213,12 +1187,38 @@
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "7",
+    "tier": "8",
+    "overallRank": 46,
+    "bestRank": 25,
+    "worstRank": 77,
+    "averageRank": 47.56,
+    "standardDeviation": 8.77,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6770",
+      "firstName": "Joe",
+      "lastName": "Burrow",
+      "fullName": "Joe Burrow",
+      "sortableFullName": "Burrow, Joe",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 6,
+      "age": 28,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "8",
     "overallRank": 47,
-    "bestRank": 27,
-    "worstRank": 80,
-    "averageRank": 48.74,
-    "standardDeviation": 8.92,
+    "bestRank": 29,
+    "worstRank": 81,
+    "averageRank": 47.92,
+    "standardDeviation": 9.11,
     "isDrafted": false
   },
   {
@@ -1243,138 +1243,8 @@
     "overallRank": 48,
     "bestRank": 23,
     "worstRank": 155,
-    "averageRank": 51.11,
-    "standardDeviation": 20.68,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7594",
-      "firstName": "Chuba",
-      "lastName": "Hubbard",
-      "fullName": "Chuba Hubbard",
-      "sortableFullName": "Hubbard, Chuba",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 4,
-      "age": 26,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "8",
-    "overallRank": 49,
-    "bestRank": 40,
-    "worstRank": 76,
-    "averageRank": 51.81,
-    "standardDeviation": 6.57,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9997",
-      "firstName": "Zay",
-      "lastName": "Flowers",
-      "fullName": "Zay Flowers",
-      "sortableFullName": "Flowers, Zay",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 2,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "8",
-    "overallRank": 50,
-    "bestRank": 37,
-    "worstRank": 87,
-    "averageRank": 53.32,
-    "standardDeviation": 11.13,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10229",
-      "firstName": "Rashee",
-      "lastName": "Rice",
-      "fullName": "Rashee Rice",
-      "sortableFullName": "Rice, Rashee",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 15,
-      "age": 25,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "8",
-    "overallRank": 51,
-    "bestRank": 24,
-    "worstRank": 125,
-    "averageRank": 54.09,
-    "standardDeviation": 21.69,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4137",
-      "firstName": "James",
-      "lastName": "Conner",
-      "fullName": "James Conner",
-      "sortableFullName": "Conner, James",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 0,
-      "age": 30,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "8",
-    "overallRank": 52,
-    "bestRank": 40,
-    "worstRank": 76,
-    "averageRank": 54.2,
-    "standardDeviation": 6.34,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7526",
-      "firstName": "Jaylen",
-      "lastName": "Waddle",
-      "fullName": "Jaylen Waddle",
-      "sortableFullName": "Waddle, Jaylen",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 19,
-      "age": 26,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "8",
-    "overallRank": 53,
-    "bestRank": 27,
-    "worstRank": 95,
-    "averageRank": 54.32,
-    "standardDeviation": 12.88,
+    "averageRank": 49.26,
+    "standardDeviation": 19.43,
     "isDrafted": false
   },
   {
@@ -1396,11 +1266,115 @@
       "isDefense": false
     },
     "tier": "8",
-    "overallRank": 54,
+    "overallRank": 49,
     "bestRank": 25,
-    "worstRank": 141,
-    "averageRank": 57,
-    "standardDeviation": 24.05,
+    "worstRank": 127,
+    "averageRank": 50.81,
+    "standardDeviation": 19.19,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4137",
+      "firstName": "James",
+      "lastName": "Conner",
+      "fullName": "James Conner",
+      "sortableFullName": "Conner, James",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 0,
+      "age": 30,
+      "yearsExperience": 8,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "9",
+    "overallRank": 50,
+    "bestRank": 33,
+    "worstRank": 77,
+    "averageRank": 53.66,
+    "standardDeviation": 7.64,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7594",
+      "firstName": "Chuba",
+      "lastName": "Hubbard",
+      "fullName": "Chuba Hubbard",
+      "sortableFullName": "Hubbard, Chuba",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 4,
+      "age": 26,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "9",
+    "overallRank": 51,
+    "bestRank": 40,
+    "worstRank": 77,
+    "averageRank": 54.04,
+    "standardDeviation": 7.16,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9997",
+      "firstName": "Zay",
+      "lastName": "Flowers",
+      "fullName": "Zay Flowers",
+      "sortableFullName": "Flowers, Zay",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 2,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "9",
+    "overallRank": 52,
+    "bestRank": 37,
+    "worstRank": 90,
+    "averageRank": 54.2,
+    "standardDeviation": 12.2,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7526",
+      "firstName": "Jaylen",
+      "lastName": "Waddle",
+      "fullName": "Jaylen Waddle",
+      "sortableFullName": "Waddle, Jaylen",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 19,
+      "age": 26,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "9",
+    "overallRank": 53,
+    "bestRank": 32,
+    "worstRank": 93,
+    "averageRank": 55.2,
+    "standardDeviation": 13.17,
     "isDrafted": false
   },
   {
@@ -1422,11 +1396,11 @@
       "isDefense": false
     },
     "tier": "9",
-    "overallRank": 55,
-    "bestRank": 28,
+    "overallRank": 54,
+    "bestRank": 29,
     "worstRank": 106,
-    "averageRank": 58.74,
-    "standardDeviation": 17.43,
+    "averageRank": 56.14,
+    "standardDeviation": 13.86,
     "isDrafted": false
   },
   {
@@ -1448,11 +1422,11 @@
       "isDefense": false
     },
     "tier": "9",
-    "overallRank": 56,
+    "overallRank": 55,
     "bestRank": 28,
-    "worstRank": 90,
-    "averageRank": 59.22,
-    "standardDeviation": 14.01,
+    "worstRank": 87,
+    "averageRank": 57.89,
+    "standardDeviation": 12.36,
     "isDrafted": false
   },
   {
@@ -1474,37 +1448,11 @@
       "isDefense": false
     },
     "tier": "9",
-    "overallRank": 57,
-    "bestRank": 30,
-    "worstRank": 114,
-    "averageRank": 59.82,
-    "standardDeviation": 14.28,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8144",
-      "firstName": "Chris",
-      "lastName": "Olave",
-      "fullName": "Chris Olave",
-      "sortableFullName": "Olave, Chris",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 22,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "9",
-    "overallRank": 58,
-    "bestRank": 37,
-    "worstRank": 93,
-    "averageRank": 61.85,
-    "standardDeviation": 12.87,
+    "overallRank": 56,
+    "bestRank": 28,
+    "worstRank": 115,
+    "averageRank": 58.29,
+    "standardDeviation": 15.34,
     "isDrafted": false
   },
   {
@@ -1526,141 +1474,37 @@
       "isDefense": false
     },
     "tier": "9",
-    "overallRank": 59,
+    "overallRank": 57,
     "bestRank": 34,
-    "worstRank": 90,
-    "averageRank": 62.7,
-    "standardDeviation": 13.37,
+    "worstRank": 89,
+    "averageRank": 58.32,
+    "standardDeviation": 11.95,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "4046",
-      "firstName": "Patrick",
-      "lastName": "Mahomes",
-      "fullName": "Patrick Mahomes",
-      "sortableFullName": "Mahomes, Patrick",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 15,
-      "age": 29,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "9",
-    "overallRank": 60,
-    "bestRank": 53,
-    "worstRank": 100,
-    "averageRank": 64.41,
-    "standardDeviation": 10.39,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5892",
-      "firstName": "David",
-      "lastName": "Montgomery",
-      "fullName": "David Montgomery",
-      "sortableFullName": "Montgomery, David",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 10,
-      "age": 28,
-      "yearsExperience": 6,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "9",
-    "overallRank": 61,
-    "bestRank": 52,
-    "worstRank": 83,
-    "averageRank": 64.64,
-    "standardDeviation": 6.94,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "6790",
-      "firstName": "D\u0027Andre",
-      "lastName": "Swift",
-      "fullName": "D\u0027Andre Swift",
-      "sortableFullName": "Swift, D\u0027Andre",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 5,
-      "age": 26,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "9",
-    "overallRank": 62,
-    "bestRank": 45,
-    "worstRank": 92,
-    "averageRank": 65.88,
-    "standardDeviation": 9.41,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5844",
-      "firstName": "T.J.",
-      "lastName": "Hockenson",
-      "fullName": "T.J. Hockenson",
-      "sortableFullName": "Hockenson, T.J.",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 20,
-      "age": 28,
-      "yearsExperience": 6,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "9",
-    "overallRank": 63,
-    "bestRank": 31,
-    "worstRank": 110,
-    "averageRank": 65.97,
-    "standardDeviation": 13.63,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12530",
-      "firstName": "Travis",
-      "lastName": "Hunter",
-      "fullName": "Travis Hunter",
-      "sortableFullName": "Hunter, Travis",
+      "id": "10229",
+      "firstName": "Rashee",
+      "lastName": "Rice",
+      "fullName": "Rashee Rice",
+      "sortableFullName": "Rice, Rashee",
       "positions": [
         2
       ],
       "depthChartPosition": 2,
-      "team": 14,
-      "age": 22,
-      "yearsExperience": 0,
+      "team": 15,
+      "age": 25,
+      "yearsExperience": 2,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "10",
-    "overallRank": 64,
-    "bestRank": 39,
-    "worstRank": 109,
-    "averageRank": 67.56,
-    "standardDeviation": 15.11,
+    "overallRank": 58,
+    "bestRank": 25,
+    "worstRank": 132,
+    "averageRank": 60.58,
+    "standardDeviation": 22.16,
     "isDrafted": false
   },
   {
@@ -1682,141 +1526,167 @@
       "isDefense": false
     },
     "tier": "10",
-    "overallRank": 65,
-    "bestRank": 46,
+    "overallRank": 59,
+    "bestRank": 38,
     "worstRank": 151,
-    "averageRank": 67.59,
-    "standardDeviation": 19.79,
+    "averageRank": 62.95,
+    "standardDeviation": 20.19,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "6783",
-      "firstName": "Jerry",
-      "lastName": "Jeudy",
-      "fullName": "Jerry Jeudy",
-      "sortableFullName": "Jeudy, Jerry",
+      "id": "8144",
+      "firstName": "Chris",
+      "lastName": "Olave",
+      "fullName": "Chris Olave",
+      "sortableFullName": "Olave, Chris",
       "positions": [
         2
       ],
       "depthChartPosition": 1,
-      "team": 7,
-      "age": 26,
-      "yearsExperience": 5,
+      "team": 22,
+      "age": 25,
+      "yearsExperience": 3,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "10",
-    "overallRank": 66,
-    "bestRank": 35,
-    "worstRank": 95,
-    "averageRank": 68.73,
-    "standardDeviation": 12.98,
+    "overallRank": 60,
+    "bestRank": 37,
+    "worstRank": 99,
+    "averageRank": 63.66,
+    "standardDeviation": 13.1,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "4199",
-      "firstName": "Aaron",
-      "lastName": "Jones",
-      "fullName": "Aaron Jones",
-      "sortableFullName": "Jones, Aaron",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 20,
-      "age": 30,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "10",
-    "overallRank": 67,
-    "bestRank": 52,
-    "worstRank": 116,
-    "averageRank": 70.53,
-    "standardDeviation": 9.87,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10859",
-      "firstName": "Sam",
-      "lastName": "LaPorta",
-      "fullName": "Sam LaPorta",
-      "sortableFullName": "LaPorta, Sam",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 10,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "10",
-    "overallRank": 68,
-    "bestRank": 31,
-    "worstRank": 94,
-    "averageRank": 71.58,
-    "standardDeviation": 10.06,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4892",
-      "firstName": "Baker",
-      "lastName": "Mayfield",
-      "fullName": "Baker Mayfield",
-      "sortableFullName": "Mayfield, Baker",
+      "id": "4046",
+      "firstName": "Patrick",
+      "lastName": "Mahomes",
+      "fullName": "Patrick Mahomes",
+      "sortableFullName": "Mahomes, Patrick",
       "positions": [
         0
       ],
       "depthChartPosition": 1,
-      "team": 29,
-      "age": 30,
-      "yearsExperience": 7,
+      "team": 15,
+      "age": 29,
+      "yearsExperience": 8,
       "injuryStatus": null,
       "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "10",
-    "overallRank": 69,
-    "bestRank": 57,
-    "worstRank": 113,
-    "averageRank": 72.69,
-    "standardDeviation": 15.28,
+    "overallRank": 61,
+    "bestRank": 36,
+    "worstRank": 100,
+    "averageRank": 65.04,
+    "standardDeviation": 11.34,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "1466",
-      "firstName": "Travis",
-      "lastName": "Kelce",
-      "fullName": "Travis Kelce",
-      "sortableFullName": "Kelce, Travis",
+      "id": "5844",
+      "firstName": "T.J.",
+      "lastName": "Hockenson",
+      "fullName": "T.J. Hockenson",
+      "sortableFullName": "Hockenson, T.J.",
       "positions": [
         3
       ],
       "depthChartPosition": 1,
-      "team": 15,
-      "age": 35,
-      "yearsExperience": 12,
+      "team": 20,
+      "age": 28,
+      "yearsExperience": 6,
       "injuryStatus": null,
       "primaryPosition": 3,
       "isDefense": false
     },
     "tier": "10",
-    "overallRank": 70,
-    "bestRank": 56,
-    "worstRank": 106,
-    "averageRank": 72.8,
-    "standardDeviation": 14.55,
+    "overallRank": 62,
+    "bestRank": 31,
+    "worstRank": 105,
+    "averageRank": 65.51,
+    "standardDeviation": 12.18,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12530",
+      "firstName": "Travis",
+      "lastName": "Hunter",
+      "fullName": "Travis Hunter",
+      "sortableFullName": "Hunter, Travis",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 14,
+      "age": 22,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 63,
+    "bestRank": 37,
+    "worstRank": 99,
+    "averageRank": 67.51,
+    "standardDeviation": 14.52,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "5892",
+      "firstName": "David",
+      "lastName": "Montgomery",
+      "fullName": "David Montgomery",
+      "sortableFullName": "Montgomery, David",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 10,
+      "age": 28,
+      "yearsExperience": 6,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 64,
+    "bestRank": 46,
+    "worstRank": 88,
+    "averageRank": 67.75,
+    "standardDeviation": 8.09,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6790",
+      "firstName": "D\u0027Andre",
+      "lastName": "Swift",
+      "fullName": "D\u0027Andre Swift",
+      "sortableFullName": "Swift, D\u0027Andre",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 5,
+      "age": 26,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 65,
+    "bestRank": 42,
+    "worstRank": 114,
+    "averageRank": 67.89,
+    "standardDeviation": 11.2,
     "isDrafted": false
   },
   {
@@ -1837,12 +1707,90 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "10",
-    "overallRank": 71,
-    "bestRank": 50,
-    "worstRank": 117,
-    "averageRank": 73.04,
-    "standardDeviation": 11.68,
+    "tier": "11",
+    "overallRank": 66,
+    "bestRank": 39,
+    "worstRank": 101,
+    "averageRank": 69.01,
+    "standardDeviation": 11.19,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6783",
+      "firstName": "Jerry",
+      "lastName": "Jeudy",
+      "fullName": "Jerry Jeudy",
+      "sortableFullName": "Jeudy, Jerry",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 7,
+      "age": 26,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 67,
+    "bestRank": 37,
+    "worstRank": 114,
+    "averageRank": 69.75,
+    "standardDeviation": 12.56,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4199",
+      "firstName": "Aaron",
+      "lastName": "Jones",
+      "fullName": "Aaron Jones",
+      "sortableFullName": "Jones, Aaron",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 20,
+      "age": 30,
+      "yearsExperience": 8,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 68,
+    "bestRank": 49,
+    "worstRank": 102,
+    "averageRank": 70.78,
+    "standardDeviation": 8.5,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4892",
+      "firstName": "Baker",
+      "lastName": "Mayfield",
+      "fullName": "Baker Mayfield",
+      "sortableFullName": "Mayfield, Baker",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 29,
+      "age": 30,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 69,
+    "bestRank": 54,
+    "worstRank": 113,
+    "averageRank": 71.6,
+    "standardDeviation": 14.65,
     "isDrafted": false
   },
   {
@@ -1863,116 +1811,12 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "10",
-    "overallRank": 72,
-    "bestRank": 52,
-    "worstRank": 98,
-    "averageRank": 73.27,
-    "standardDeviation": 9.39,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "2449",
-      "firstName": "Stefon",
-      "lastName": "Diggs",
-      "fullName": "Stefon Diggs",
-      "sortableFullName": "Diggs, Stefon",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 21,
-      "age": 31,
-      "yearsExperience": 10,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
     "tier": "11",
-    "overallRank": 73,
-    "bestRank": 37,
-    "worstRank": 99,
-    "averageRank": 75.46,
-    "standardDeviation": 14.99,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11620",
-      "firstName": "Rome",
-      "lastName": "Odunze",
-      "fullName": "Rome Odunze",
-      "sortableFullName": "Odunze, Rome",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 5,
-      "age": 23,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "11",
-    "overallRank": 74,
-    "bestRank": 41,
-    "worstRank": 109,
-    "averageRank": 76.69,
-    "standardDeviation": 13.03,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11563",
-      "firstName": "Bo",
-      "lastName": "Nix",
-      "fullName": "Bo Nix",
-      "sortableFullName": "Nix, Bo",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 9,
-      "age": 25,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "11",
-    "overallRank": 75,
-    "bestRank": 58,
-    "worstRank": 107,
-    "averageRank": 77.61,
-    "standardDeviation": 15.03,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5947",
-      "firstName": "Jakobi",
-      "lastName": "Meyers",
-      "fullName": "Jakobi Meyers",
-      "sortableFullName": "Meyers, Jakobi",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 18,
-      "age": 28,
-      "yearsExperience": 6,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "11",
-    "overallRank": 76,
-    "bestRank": 47,
-    "worstRank": 108,
-    "averageRank": 78.65,
-    "standardDeviation": 12.64,
+    "overallRank": 70,
+    "bestRank": 49,
+    "worstRank": 101,
+    "averageRank": 71.95,
+    "standardDeviation": 9.24,
     "isDrafted": false
   },
   {
@@ -1994,37 +1838,167 @@
       "isDefense": false
     },
     "tier": "11",
-    "overallRank": 77,
-    "bestRank": 46,
-    "worstRank": 299,
-    "averageRank": 75.68,
-    "standardDeviation": 38.76,
+    "overallRank": 71,
+    "bestRank": 42,
+    "worstRank": 300,
+    "averageRank": 72.75,
+    "standardDeviation": 37.08,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "4037",
-      "firstName": "Chris",
-      "lastName": "Godwin",
-      "fullName": "Chris Godwin",
-      "sortableFullName": "Godwin, Chris",
+      "id": "10859",
+      "firstName": "Sam",
+      "lastName": "LaPorta",
+      "fullName": "Sam LaPorta",
+      "sortableFullName": "LaPorta, Sam",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 10,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 72,
+    "bestRank": 31,
+    "worstRank": 136,
+    "averageRank": 72.96,
+    "standardDeviation": 10.92,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "1466",
+      "firstName": "Travis",
+      "lastName": "Kelce",
+      "fullName": "Travis Kelce",
+      "sortableFullName": "Kelce, Travis",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 15,
+      "age": 35,
+      "yearsExperience": 12,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "11",
+    "overallRank": 73,
+    "bestRank": 56,
+    "worstRank": 150,
+    "averageRank": 74.11,
+    "standardDeviation": 17.03,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11563",
+      "firstName": "Bo",
+      "lastName": "Nix",
+      "fullName": "Bo Nix",
+      "sortableFullName": "Nix, Bo",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 9,
+      "age": 25,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "12",
+    "overallRank": 74,
+    "bestRank": 58,
+    "worstRank": 107,
+    "averageRank": 76.17,
+    "standardDeviation": 14.48,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "2449",
+      "firstName": "Stefon",
+      "lastName": "Diggs",
+      "fullName": "Stefon Diggs",
+      "sortableFullName": "Diggs, Stefon",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 21,
+      "age": 31,
+      "yearsExperience": 10,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "12",
+    "overallRank": 75,
+    "bestRank": 43,
+    "worstRank": 120,
+    "averageRank": 76.91,
+    "standardDeviation": 13.94,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "5947",
+      "firstName": "Jakobi",
+      "lastName": "Meyers",
+      "fullName": "Jakobi Meyers",
+      "sortableFullName": "Meyers, Jakobi",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 18,
+      "age": 28,
+      "yearsExperience": 6,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "12",
+    "overallRank": 76,
+    "bestRank": 51,
+    "worstRank": 109,
+    "averageRank": 78.1,
+    "standardDeviation": 10.97,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11620",
+      "firstName": "Rome",
+      "lastName": "Odunze",
+      "fullName": "Rome Odunze",
+      "sortableFullName": "Odunze, Rome",
       "positions": [
         2
       ],
       "depthChartPosition": 2,
-      "team": 29,
-      "age": 29,
-      "yearsExperience": 8,
-      "injuryStatus": 5,
+      "team": 5,
+      "age": 23,
+      "yearsExperience": 1,
+      "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "11",
-    "overallRank": 78,
-    "bestRank": 38,
-    "worstRank": 127,
-    "averageRank": 80.16,
-    "standardDeviation": 19.52,
+    "tier": "12",
+    "overallRank": 77,
+    "bestRank": 41,
+    "worstRank": 144,
+    "averageRank": 79.35,
+    "standardDeviation": 16.03,
     "isDrafted": false
   },
   {
@@ -2045,90 +2019,12 @@
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "11",
-    "overallRank": 79,
-    "bestRank": 58,
-    "worstRank": 112,
-    "averageRank": 80.51,
-    "standardDeviation": 15.03,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4066",
-      "firstName": "Evan",
-      "lastName": "Engram",
-      "fullName": "Evan Engram",
-      "sortableFullName": "Engram, Evan",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 9,
-      "age": 30,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "11",
-    "overallRank": 80,
-    "bestRank": 56,
-    "worstRank": 130,
-    "averageRank": 80.85,
-    "standardDeviation": 16.28,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4018",
-      "firstName": "Joe",
-      "lastName": "Mixon",
-      "fullName": "Joe Mixon",
-      "sortableFullName": "Mixon, Joe",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 12,
-      "age": 29,
-      "yearsExperience": 8,
-      "injuryStatus": 5,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "11",
-    "overallRank": 81,
-    "bestRank": 42,
-    "worstRank": 309,
-    "averageRank": 82.35,
-    "standardDeviation": 33.94,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12504",
-      "firstName": "Kaleb",
-      "lastName": "Johnson",
-      "fullName": "Kaleb Johnson",
-      "sortableFullName": "Johnson, Kaleb",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 26,
-      "age": 22,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
     "tier": "12",
-    "overallRank": 82,
-    "bestRank": 60,
-    "worstRank": 282,
-    "averageRank": 86.32,
-    "standardDeviation": 33.59,
+    "overallRank": 78,
+    "bestRank": 54,
+    "worstRank": 115,
+    "averageRank": 81.29,
+    "standardDeviation": 15.47,
     "isDrafted": false
   },
   {
@@ -2150,89 +2046,11 @@
       "isDefense": false
     },
     "tier": "12",
-    "overallRank": 83,
+    "overallRank": 79,
     "bestRank": 56,
-    "worstRank": 110,
-    "averageRank": 87.08,
-    "standardDeviation": 14.21,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8154",
-      "firstName": "Brian",
-      "lastName": "Robinson",
-      "fullName": "Brian Robinson",
-      "sortableFullName": "Robinson, Brian",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 31,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 84,
-    "bestRank": 66,
-    "worstRank": 127,
-    "averageRank": 87.42,
-    "standardDeviation": 11.19,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8228",
-      "firstName": "Jaylen",
-      "lastName": "Warren",
-      "fullName": "Jaylen Warren",
-      "sortableFullName": "Warren, Jaylen",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 26,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 85,
-    "bestRank": 57,
-    "worstRank": 174,
-    "averageRank": 88.59,
-    "standardDeviation": 17.02,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "3294",
-      "firstName": "Dak",
-      "lastName": "Prescott",
-      "fullName": "Dak Prescott",
-      "sortableFullName": "Prescott, Dak",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 8,
-      "age": 32,
-      "yearsExperience": 9,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 86,
-    "bestRank": 58,
-    "worstRank": 128,
-    "averageRank": 90.11,
-    "standardDeviation": 16.7,
+    "worstRank": 111,
+    "averageRank": 83.67,
+    "standardDeviation": 14.58,
     "isDrafted": false
   },
   {
@@ -2253,194 +2071,64 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "12",
-    "overallRank": 87,
-    "bestRank": 57,
-    "worstRank": 147,
-    "averageRank": 90.22,
-    "standardDeviation": 16.78,
+    "tier": "13",
+    "overallRank": 80,
+    "bestRank": 62,
+    "worstRank": 161,
+    "averageRank": 86.68,
+    "standardDeviation": 16.71,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "5012",
-      "firstName": "Mark",
-      "lastName": "Andrews",
-      "fullName": "Mark Andrews",
-      "sortableFullName": "Andrews, Mark",
+      "id": "3294",
+      "firstName": "Dak",
+      "lastName": "Prescott",
+      "fullName": "Dak Prescott",
+      "sortableFullName": "Prescott, Dak",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 8,
+      "age": 32,
+      "yearsExperience": 9,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "13",
+    "overallRank": 81,
+    "bestRank": 55,
+    "worstRank": 124,
+    "averageRank": 87.45,
+    "standardDeviation": 18.17,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4066",
+      "firstName": "Evan",
+      "lastName": "Engram",
+      "fullName": "Evan Engram",
+      "sortableFullName": "Engram, Evan",
       "positions": [
         3
       ],
       "depthChartPosition": 1,
-      "team": 2,
-      "age": 29,
-      "yearsExperience": 7,
+      "team": 9,
+      "age": 30,
+      "yearsExperience": 8,
       "injuryStatus": null,
       "primaryPosition": 3,
       "isDefense": false
     },
-    "tier": "12",
-    "overallRank": 88,
-    "bestRank": 72,
-    "worstRank": 131,
-    "averageRank": 90.31,
-    "standardDeviation": 12.22,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8134",
-      "firstName": "Khalil",
-      "lastName": "Shakir",
-      "fullName": "Khalil Shakir",
-      "sortableFullName": "Shakir, Khalil",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 3,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 89,
-    "bestRank": 59,
-    "worstRank": 132,
-    "averageRank": 90.65,
-    "standardDeviation": 16.53,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9756",
-      "firstName": "Jordan",
-      "lastName": "Addison",
-      "fullName": "Jordan Addison",
-      "sortableFullName": "Addison, Jordan",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 20,
-      "age": 23,
-      "yearsExperience": 2,
-      "injuryStatus": 7,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 90,
-    "bestRank": 54,
-    "worstRank": 122,
-    "averageRank": 90.77,
-    "standardDeviation": 15.76,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7591",
-      "firstName": "Justin",
-      "lastName": "Fields",
-      "fullName": "Justin Fields",
-      "sortableFullName": "Fields, Justin",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 24,
-      "age": 26,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 91,
-    "bestRank": 58,
-    "worstRank": 275,
-    "averageRank": 90.95,
-    "standardDeviation": 30.05,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7049",
-      "firstName": "Jauan",
-      "lastName": "Jennings",
-      "fullName": "Jauan Jennings",
-      "sortableFullName": "Jennings, Jauan",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 27,
-      "age": 28,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "12",
-    "overallRank": 92,
-    "bestRank": 42,
-    "worstRank": 135,
-    "averageRank": 91.73,
-    "standardDeviation": 17.29,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9500",
-      "firstName": "Josh",
-      "lastName": "Downs",
-      "fullName": "Josh Downs",
-      "sortableFullName": "Downs, Josh",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 13,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
     "tier": "13",
-    "overallRank": 93,
-    "bestRank": 59,
-    "worstRank": 132,
-    "averageRank": 95.31,
-    "standardDeviation": 14.43,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8183",
-      "firstName": "Brock",
-      "lastName": "Purdy",
-      "fullName": "Brock Purdy",
-      "sortableFullName": "Purdy, Brock",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 27,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "13",
-    "overallRank": 94,
-    "bestRank": 62,
-    "worstRank": 307,
-    "averageRank": 95.31,
-    "standardDeviation": 28.75,
+    "overallRank": 82,
+    "bestRank": 56,
+    "worstRank": 140,
+    "averageRank": 87.69,
+    "standardDeviation": 16.71,
     "isDrafted": false
   },
   {
@@ -2462,141 +2150,297 @@
       "isDefense": false
     },
     "tier": "13",
-    "overallRank": 95,
-    "bestRank": 54,
-    "worstRank": 136,
-    "averageRank": 96.92,
-    "standardDeviation": 17.86,
+    "overallRank": 83,
+    "bestRank": 46,
+    "worstRank": 135,
+    "averageRank": 88.75,
+    "standardDeviation": 20.65,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "6797",
-      "firstName": "Justin",
-      "lastName": "Herbert",
-      "fullName": "Justin Herbert",
-      "sortableFullName": "Herbert, Justin",
+      "id": "12504",
+      "firstName": "Kaleb",
+      "lastName": "Johnson",
+      "fullName": "Kaleb Johnson",
+      "sortableFullName": "Johnson, Kaleb",
       "positions": [
-        0
+        1
       ],
       "depthChartPosition": 1,
-      "team": 16,
-      "age": 27,
-      "yearsExperience": 5,
+      "team": 26,
+      "age": 22,
+      "yearsExperience": 0,
       "injuryStatus": null,
-      "primaryPosition": 0,
+      "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "13",
-    "overallRank": 96,
-    "bestRank": 62,
-    "worstRank": 128,
-    "averageRank": 97.99,
-    "standardDeviation": 15.11,
+    "overallRank": 84,
+    "bestRank": 64,
+    "worstRank": 282,
+    "averageRank": 89.24,
+    "standardDeviation": 33.21,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "5872",
-      "firstName": "Deebo",
-      "lastName": "Samuel",
-      "fullName": "Deebo Samuel",
-      "sortableFullName": "Samuel, Deebo",
+      "id": "8228",
+      "firstName": "Jaylen",
+      "lastName": "Warren",
+      "fullName": "Jaylen Warren",
+      "sortableFullName": "Warren, Jaylen",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 26,
+      "age": 26,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "13",
+    "overallRank": 85,
+    "bestRank": 57,
+    "worstRank": 162,
+    "averageRank": 89.27,
+    "standardDeviation": 17.95,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8154",
+      "firstName": "Brian",
+      "lastName": "Robinson",
+      "fullName": "Brian Robinson",
+      "sortableFullName": "Robinson, Brian",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 31,
+      "age": 26,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "14",
+    "overallRank": 86,
+    "bestRank": 66,
+    "worstRank": 147,
+    "averageRank": 90.28,
+    "standardDeviation": 12.21,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8134",
+      "firstName": "Khalil",
+      "lastName": "Shakir",
+      "fullName": "Khalil Shakir",
+      "sortableFullName": "Shakir, Khalil",
       "positions": [
         2
       ],
       "depthChartPosition": 2,
-      "team": 31,
-      "age": 29,
-      "yearsExperience": 6,
+      "team": 3,
+      "age": 25,
+      "yearsExperience": 3,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "13",
-    "overallRank": 97,
-    "bestRank": 54,
-    "worstRank": 136,
-    "averageRank": 98.43,
-    "standardDeviation": 15.33,
+    "tier": "14",
+    "overallRank": 87,
+    "bestRank": 56,
+    "worstRank": 127,
+    "averageRank": 90.4,
+    "standardDeviation": 14.31,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "11560",
-      "firstName": "Caleb",
-      "lastName": "Williams",
-      "fullName": "Caleb Williams",
-      "sortableFullName": "Williams, Caleb",
+      "id": "4037",
+      "firstName": "Chris",
+      "lastName": "Godwin",
+      "fullName": "Chris Godwin",
+      "sortableFullName": "Godwin, Chris",
       "positions": [
-        0
+        2
       ],
-      "depthChartPosition": 1,
-      "team": 5,
-      "age": 23,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 0,
+      "depthChartPosition": 2,
+      "team": 29,
+      "age": 29,
+      "yearsExperience": 8,
+      "injuryStatus": 5,
+      "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "13",
-    "overallRank": 98,
-    "bestRank": 62,
-    "worstRank": 128,
-    "averageRank": 101.22,
-    "standardDeviation": 15.05,
+    "tier": "14",
+    "overallRank": 88,
+    "bestRank": 49,
+    "worstRank": 149,
+    "averageRank": 90.41,
+    "standardDeviation": 22.13,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "6819",
-      "firstName": "Michael",
-      "lastName": "Pittman",
-      "fullName": "Michael Pittman",
-      "sortableFullName": "Pittman, Michael",
+      "id": "5012",
+      "firstName": "Mark",
+      "lastName": "Andrews",
+      "fullName": "Mark Andrews",
+      "sortableFullName": "Andrews, Mark",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 2,
+      "age": 29,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "14",
+    "overallRank": 89,
+    "bestRank": 72,
+    "worstRank": 143,
+    "averageRank": 91.22,
+    "standardDeviation": 13.38,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9756",
+      "firstName": "Jordan",
+      "lastName": "Addison",
+      "fullName": "Jordan Addison",
+      "sortableFullName": "Addison, Jordan",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 20,
+      "age": 23,
+      "yearsExperience": 2,
+      "injuryStatus": 7,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "14",
+    "overallRank": 90,
+    "bestRank": 43,
+    "worstRank": 139,
+    "averageRank": 91.26,
+    "standardDeviation": 17.32,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7049",
+      "firstName": "Jauan",
+      "lastName": "Jennings",
+      "fullName": "Jauan Jennings",
+      "sortableFullName": "Jennings, Jauan",
       "positions": [
         2
       ],
       "depthChartPosition": 1,
-      "team": 13,
-      "age": 27,
+      "team": 27,
+      "age": 28,
       "yearsExperience": 5,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "14",
-    "overallRank": 99,
-    "bestRank": 61,
-    "worstRank": 132,
-    "averageRank": 101.41,
-    "standardDeviation": 17.02,
+    "overallRank": 91,
+    "bestRank": 47,
+    "worstRank": 141,
+    "averageRank": 91.58,
+    "standardDeviation": 15.65,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "3163",
-      "firstName": "Jared",
-      "lastName": "Goff",
-      "fullName": "Jared Goff",
-      "sortableFullName": "Goff, Jared",
+      "id": "8183",
+      "firstName": "Brock",
+      "lastName": "Purdy",
+      "fullName": "Brock Purdy",
+      "sortableFullName": "Purdy, Brock",
       "positions": [
         0
       ],
       "depthChartPosition": 1,
-      "team": 10,
-      "age": 30,
-      "yearsExperience": 9,
+      "team": 27,
+      "age": 25,
+      "yearsExperience": 3,
       "injuryStatus": null,
       "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "14",
-    "overallRank": 100,
+    "overallRank": 92,
     "bestRank": 62,
-    "worstRank": 138,
-    "averageRank": 101.82,
-    "standardDeviation": 16.17,
+    "worstRank": 307,
+    "averageRank": 93.06,
+    "standardDeviation": 26.84,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4018",
+      "firstName": "Joe",
+      "lastName": "Mixon",
+      "fullName": "Joe Mixon",
+      "sortableFullName": "Mixon, Joe",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 12,
+      "age": 29,
+      "yearsExperience": 8,
+      "injuryStatus": 5,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "14",
+    "overallRank": 93,
+    "bestRank": 45,
+    "worstRank": 303,
+    "averageRank": 95.2,
+    "standardDeviation": 42.07,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7591",
+      "firstName": "Justin",
+      "lastName": "Fields",
+      "fullName": "Justin Fields",
+      "sortableFullName": "Fields, Justin",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 24,
+      "age": 26,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 94,
+    "bestRank": 54,
+    "worstRank": 284,
+    "averageRank": 96.32,
+    "standardDeviation": 36.51,
     "isDrafted": false
   },
   {
@@ -2617,220 +2461,90 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "13",
-    "overallRank": 101,
+    "tier": "14",
+    "overallRank": 95,
     "bestRank": 66,
-    "worstRank": 147,
-    "averageRank": 97.95,
-    "standardDeviation": 19.44,
+    "worstRank": 149,
+    "averageRank": 94.51,
+    "standardDeviation": 16.49,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "4039",
-      "firstName": "Cooper",
-      "lastName": "Kupp",
-      "fullName": "Cooper Kupp",
-      "sortableFullName": "Kupp, Cooper",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 28,
-      "age": 32,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 102,
-    "bestRank": 50,
-    "worstRank": 136,
-    "averageRank": 103.27,
-    "standardDeviation": 18.07,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10222",
-      "firstName": "Jayden",
-      "lastName": "Reed",
-      "fullName": "Jayden Reed",
-      "sortableFullName": "Reed, Jayden",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 1,
-      "team": 11,
-      "age": 25,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 103,
-    "bestRank": 70,
-    "worstRank": 136,
-    "averageRank": 103.55,
-    "standardDeviation": 14.29,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11564",
-      "firstName": "Drake",
-      "lastName": "Maye",
-      "fullName": "Drake Maye",
-      "sortableFullName": "Maye, Drake",
+      "id": "6797",
+      "firstName": "Justin",
+      "lastName": "Herbert",
+      "fullName": "Justin Herbert",
+      "sortableFullName": "Herbert, Justin",
       "positions": [
         0
       ],
       "depthChartPosition": 1,
-      "team": 21,
-      "age": 22,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 104,
-    "bestRank": 78,
-    "worstRank": 178,
-    "averageRank": 104.54,
-    "standardDeviation": 13.3,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8110",
-      "firstName": "Jake",
-      "lastName": "Ferguson",
-      "fullName": "Jake Ferguson",
-      "sortableFullName": "Ferguson, Jake",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 8,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 105,
-    "bestRank": 84,
-    "worstRank": 172,
-    "averageRank": 106.65,
-    "standardDeviation": 16.35,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "6804",
-      "firstName": "Jordan",
-      "lastName": "Love",
-      "fullName": "Jordan Love",
-      "sortableFullName": "Love, Jordan",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 11,
-      "age": 26,
+      "team": 16,
+      "age": 27,
       "yearsExperience": 5,
       "injuryStatus": null,
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "14",
-    "overallRank": 106,
-    "bestRank": 73,
-    "worstRank": 134,
-    "averageRank": 107.35,
-    "standardDeviation": 13.36,
+    "tier": "15",
+    "overallRank": 96,
+    "bestRank": 62,
+    "worstRank": 139,
+    "averageRank": 98.43,
+    "standardDeviation": 15.34,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "9484",
-      "firstName": "Tucker",
-      "lastName": "Kraft",
-      "fullName": "Tucker Kraft",
-      "sortableFullName": "Kraft, Tucker",
+      "id": "9500",
+      "firstName": "Josh",
+      "lastName": "Downs",
+      "fullName": "Josh Downs",
+      "sortableFullName": "Downs, Josh",
       "positions": [
-        3
+        2
       ],
-      "depthChartPosition": 1,
-      "team": 11,
+      "depthChartPosition": 2,
+      "team": 13,
       "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 107,
-    "bestRank": 84,
-    "worstRank": 208,
-    "averageRank": 108.89,
-    "standardDeviation": 17.05,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7588",
-      "firstName": "Javonte",
-      "lastName": "Williams",
-      "fullName": "Javonte Williams",
-      "sortableFullName": "Williams, Javonte",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 8,
-      "age": 25,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "14",
-    "overallRank": 108,
-    "bestRank": 74,
-    "worstRank": 155,
-    "averageRank": 106.29,
-    "standardDeviation": 20.82,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8408",
-      "firstName": "Jordan",
-      "lastName": "Mason",
-      "fullName": "Jordan Mason",
-      "sortableFullName": "Mason, Jordan",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 20,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 1,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "15",
-    "overallRank": 109,
-    "bestRank": 81,
-    "worstRank": 161,
-    "averageRank": 112.62,
-    "standardDeviation": 22.31,
+    "overallRank": 97,
+    "bestRank": 63,
+    "worstRank": 132,
+    "averageRank": 99.61,
+    "standardDeviation": 14.81,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "5872",
+      "firstName": "Deebo",
+      "lastName": "Samuel",
+      "fullName": "Deebo Samuel",
+      "sortableFullName": "Samuel, Deebo",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 31,
+      "age": 29,
+      "yearsExperience": 6,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 98,
+    "bestRank": 61,
+    "worstRank": 136,
+    "averageRank": 99.78,
+    "standardDeviation": 14.97,
     "isDrafted": false
   },
   {
@@ -2852,11 +2566,271 @@
       "isDefense": false
     },
     "tier": "15",
-    "overallRank": 110,
-    "bestRank": 61,
-    "worstRank": 204,
-    "averageRank": 113.3,
-    "standardDeviation": 28.97,
+    "overallRank": 99,
+    "bestRank": 59,
+    "worstRank": 167,
+    "averageRank": 101.03,
+    "standardDeviation": 24.53,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "3163",
+      "firstName": "Jared",
+      "lastName": "Goff",
+      "fullName": "Jared Goff",
+      "sortableFullName": "Goff, Jared",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 10,
+      "age": 30,
+      "yearsExperience": 9,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 100,
+    "bestRank": 62,
+    "worstRank": 155,
+    "averageRank": 101.49,
+    "standardDeviation": 15.78,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11564",
+      "firstName": "Drake",
+      "lastName": "Maye",
+      "fullName": "Drake Maye",
+      "sortableFullName": "Maye, Drake",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 21,
+      "age": 22,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 101,
+    "bestRank": 69,
+    "worstRank": 146,
+    "averageRank": 103.25,
+    "standardDeviation": 14.55,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6819",
+      "firstName": "Michael",
+      "lastName": "Pittman",
+      "fullName": "Michael Pittman",
+      "sortableFullName": "Pittman, Michael",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 1,
+      "team": 13,
+      "age": 27,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 102,
+    "bestRank": 53,
+    "worstRank": 141,
+    "averageRank": 104.22,
+    "standardDeviation": 16.98,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11560",
+      "firstName": "Caleb",
+      "lastName": "Williams",
+      "fullName": "Caleb Williams",
+      "sortableFullName": "Williams, Caleb",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 5,
+      "age": 23,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 103,
+    "bestRank": 62,
+    "worstRank": 133,
+    "averageRank": 101.13,
+    "standardDeviation": 15.03,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4039",
+      "firstName": "Cooper",
+      "lastName": "Kupp",
+      "fullName": "Cooper Kupp",
+      "sortableFullName": "Kupp, Cooper",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 28,
+      "age": 32,
+      "yearsExperience": 8,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "15",
+    "overallRank": 104,
+    "bestRank": 51,
+    "worstRank": 154,
+    "averageRank": 104.45,
+    "standardDeviation": 18.17,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "10222",
+      "firstName": "Jayden",
+      "lastName": "Reed",
+      "fullName": "Jayden Reed",
+      "sortableFullName": "Reed, Jayden",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 11,
+      "age": 25,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "16",
+    "overallRank": 105,
+    "bestRank": 78,
+    "worstRank": 148,
+    "averageRank": 106.49,
+    "standardDeviation": 13.43,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9484",
+      "firstName": "Tucker",
+      "lastName": "Kraft",
+      "fullName": "Tucker Kraft",
+      "sortableFullName": "Kraft, Tucker",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 11,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "16",
+    "overallRank": 106,
+    "bestRank": 79,
+    "worstRank": 241,
+    "averageRank": 107.24,
+    "standardDeviation": 21.19,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7588",
+      "firstName": "Javonte",
+      "lastName": "Williams",
+      "fullName": "Javonte Williams",
+      "sortableFullName": "Williams, Javonte",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 1,
+      "team": 8,
+      "age": 25,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "16",
+    "overallRank": 107,
+    "bestRank": 71,
+    "worstRank": 176,
+    "averageRank": 108.52,
+    "standardDeviation": 22.85,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6804",
+      "firstName": "Jordan",
+      "lastName": "Love",
+      "fullName": "Jordan Love",
+      "sortableFullName": "Love, Jordan",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 11,
+      "age": 26,
+      "yearsExperience": 5,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "16",
+    "overallRank": 108,
+    "bestRank": 73,
+    "worstRank": 154,
+    "averageRank": 108.9,
+    "standardDeviation": 13.45,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8110",
+      "firstName": "Jake",
+      "lastName": "Ferguson",
+      "fullName": "Jake Ferguson",
+      "sortableFullName": "Ferguson, Jake",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 8,
+      "age": 26,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "16",
+    "overallRank": 109,
+    "bestRank": 72,
+    "worstRank": 195,
+    "averageRank": 109.16,
+    "standardDeviation": 17.99,
     "isDrafted": false
   },
   {
@@ -2877,12 +2851,38 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "15",
+    "tier": "16",
+    "overallRank": 110,
+    "bestRank": 83,
+    "worstRank": 144,
+    "averageRank": 110.74,
+    "standardDeviation": 12.71,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8408",
+      "firstName": "Jordan",
+      "lastName": "Mason",
+      "fullName": "Jordan Mason",
+      "sortableFullName": "Mason, Jordan",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 20,
+      "age": 26,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "16",
     "overallRank": 111,
-    "bestRank": 92,
-    "worstRank": 147,
-    "averageRank": 114.07,
-    "standardDeviation": 13.83,
+    "bestRank": 76,
+    "worstRank": 194,
+    "averageRank": 111.54,
+    "standardDeviation": 23.18,
     "isDrafted": false
   },
   {
@@ -2903,116 +2903,12 @@
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "15",
+    "tier": "17",
     "overallRank": 112,
-    "bestRank": 91,
-    "worstRank": 145,
-    "averageRank": 115.57,
-    "standardDeviation": 9.96,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9758",
-      "firstName": "C.J.",
-      "lastName": "Stroud",
-      "fullName": "C.J. Stroud",
-      "sortableFullName": "Stroud, C.J.",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 12,
-      "age": 23,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "15",
-    "overallRank": 113,
-    "bestRank": 92,
-    "worstRank": 146,
-    "averageRank": 117.23,
-    "standardDeviation": 10.63,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7090",
-      "firstName": "Darnell",
-      "lastName": "Mooney",
-      "fullName": "Darnell Mooney",
-      "sortableFullName": "Mooney, Darnell",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 1,
-      "age": 27,
-      "yearsExperience": 5,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "15",
-    "overallRank": 114,
-    "bestRank": 68,
-    "worstRank": 153,
-    "averageRank": 118.65,
-    "standardDeviation": 13.11,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9508",
-      "firstName": "Tyjae",
-      "lastName": "Spears",
-      "fullName": "Tyjae Spears",
-      "sortableFullName": "Spears, Tyjae",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 30,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "15",
-    "overallRank": 115,
-    "bestRank": 76,
-    "worstRank": 155,
-    "averageRank": 119.65,
-    "standardDeviation": 15.22,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10236",
-      "firstName": "Dalton",
-      "lastName": "Kincaid",
-      "fullName": "Dalton Kincaid",
-      "sortableFullName": "Kincaid, Dalton",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 3,
-      "age": 25,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "15",
-    "overallRank": 116,
-    "bestRank": 94,
-    "worstRank": 195,
-    "averageRank": 119.81,
-    "standardDeviation": 21.34,
+    "bestRank": 78,
+    "worstRank": 161,
+    "averageRank": 113.88,
+    "standardDeviation": 11.19,
     "isDrafted": false
   },
   {
@@ -3033,38 +2929,38 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "15",
-    "overallRank": 117,
+    "tier": "17",
+    "overallRank": 113,
     "bestRank": 79,
-    "worstRank": 156,
-    "averageRank": 116.58,
-    "standardDeviation": 17.83,
+    "worstRank": 159,
+    "averageRank": 114.66,
+    "standardDeviation": 17.1,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "12481",
-      "firstName": "Cam",
-      "lastName": "Skattebo",
-      "fullName": "Cam Skattebo",
-      "sortableFullName": "Skattebo, Cam",
+      "id": "9758",
+      "firstName": "C.J.",
+      "lastName": "Stroud",
+      "fullName": "C.J. Stroud",
+      "sortableFullName": "Stroud, C.J.",
       "positions": [
-        1
+        0
       ],
-      "depthChartPosition": 2,
-      "team": 23,
+      "depthChartPosition": 1,
+      "team": 12,
       "age": 23,
-      "yearsExperience": 0,
+      "yearsExperience": 2,
       "injuryStatus": null,
-      "primaryPosition": 1,
+      "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "16",
-    "overallRank": 118,
-    "bestRank": 77,
-    "worstRank": 232,
-    "averageRank": 123.92,
-    "standardDeviation": 26.51,
+    "tier": "17",
+    "overallRank": 114,
+    "bestRank": 66,
+    "worstRank": 156,
+    "averageRank": 116.49,
+    "standardDeviation": 12.05,
     "isDrafted": false
   },
   {
@@ -3085,116 +2981,38 @@
       "primaryPosition": 3,
       "isDefense": false
     },
-    "tier": "16",
-    "overallRank": 119,
+    "tier": "17",
+    "overallRank": 115,
     "bestRank": 72,
     "worstRank": 202,
-    "averageRank": 123.99,
-    "standardDeviation": 31.74,
+    "averageRank": 116.81,
+    "standardDeviation": 28.41,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "6803",
-      "firstName": "Brandon",
-      "lastName": "Aiyuk",
-      "fullName": "Brandon Aiyuk",
-      "sortableFullName": "Aiyuk, Brandon",
+      "id": "12501",
+      "firstName": "Matthew",
+      "lastName": "Golden",
+      "fullName": "Matthew Golden",
+      "sortableFullName": "Golden, Matthew",
       "positions": [
         2
       ],
-      "depthChartPosition": 3,
-      "team": 27,
-      "age": 27,
-      "yearsExperience": 5,
-      "injuryStatus": 5,
+      "depthChartPosition": 1,
+      "team": 11,
+      "age": 22,
+      "yearsExperience": 0,
+      "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "16",
-    "overallRank": 120,
-    "bestRank": 60,
-    "worstRank": 209,
-    "averageRank": 125.54,
-    "standardDeviation": 28.8,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5022",
-      "firstName": "Dallas",
-      "lastName": "Goedert",
-      "fullName": "Dallas Goedert",
-      "sortableFullName": "Goedert, Dallas",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 25,
-      "age": 30,
-      "yearsExperience": 7,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "16",
-    "overallRank": 121,
-    "bestRank": 96,
-    "worstRank": 180,
-    "averageRank": 126.99,
-    "standardDeviation": 19.89,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7528",
-      "firstName": "Najee",
-      "lastName": "Harris",
-      "fullName": "Najee Harris",
-      "sortableFullName": "Harris, Najee",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 16,
-      "age": 27,
-      "yearsExperience": 4,
-      "injuryStatus": 5,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "16",
-    "overallRank": 122,
-    "bestRank": 76,
-    "worstRank": 163,
-    "averageRank": 123.32,
-    "standardDeviation": 21.63,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11565",
-      "firstName": "J.J.",
-      "lastName": "McCarthy",
-      "fullName": "J.J. McCarthy",
-      "sortableFullName": "McCarthy, J.J.",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 20,
-      "age": 22,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "16",
-    "overallRank": 123,
-    "bestRank": 73,
-    "worstRank": 320,
-    "averageRank": 127.14,
-    "standardDeviation": 37.11,
+    "overallRank": 116,
+    "bestRank": 61,
+    "worstRank": 243,
+    "averageRank": 108.51,
+    "standardDeviation": 26.68,
     "isDrafted": false
   },
   {
@@ -3215,90 +3033,142 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "16",
-    "overallRank": 124,
-    "bestRank": 74,
+    "tier": "17",
+    "overallRank": 117,
+    "bestRank": 76,
     "worstRank": 246,
-    "averageRank": 121.56,
-    "standardDeviation": 33.82,
+    "averageRank": 116.83,
+    "standardDeviation": 26.23,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "8136",
-      "firstName": "Rachaad",
-      "lastName": "White",
-      "fullName": "Rachaad White",
-      "sortableFullName": "White, Rachaad",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 29,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "16",
-    "overallRank": 125,
-    "bestRank": 92,
-    "worstRank": 236,
-    "averageRank": 126.15,
-    "standardDeviation": 22.19,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4950",
-      "firstName": "Christian",
-      "lastName": "Kirk",
-      "fullName": "Christian Kirk",
-      "sortableFullName": "Kirk, Christian",
+      "id": "7090",
+      "firstName": "Darnell",
+      "lastName": "Mooney",
+      "fullName": "Darnell Mooney",
+      "sortableFullName": "Mooney, Darnell",
       "positions": [
         2
       ],
-      "depthChartPosition": 3,
-      "team": 12,
-      "age": 28,
-      "yearsExperience": 7,
+      "depthChartPosition": 2,
+      "team": 1,
+      "age": 27,
+      "yearsExperience": 5,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "17",
-    "overallRank": 126,
-    "bestRank": 82,
+    "overallRank": 118,
+    "bestRank": 90,
     "worstRank": 167,
-    "averageRank": 130.74,
-    "standardDeviation": 15.88,
+    "averageRank": 120.47,
+    "standardDeviation": 14.79,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "12501",
-      "firstName": "Matthew",
-      "lastName": "Golden",
-      "fullName": "Matthew Golden",
-      "sortableFullName": "Golden, Matthew",
+      "id": "10236",
+      "firstName": "Dalton",
+      "lastName": "Kincaid",
+      "fullName": "Dalton Kincaid",
+      "sortableFullName": "Kincaid, Dalton",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 3,
+      "age": 25,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "17",
+    "overallRank": 119,
+    "bestRank": 89,
+    "worstRank": 180,
+    "averageRank": 121.77,
+    "standardDeviation": 18.83,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11565",
+      "firstName": "J.J.",
+      "lastName": "McCarthy",
+      "fullName": "J.J. McCarthy",
+      "sortableFullName": "McCarthy, J.J.",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 20,
+      "age": 22,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "18",
+    "overallRank": 120,
+    "bestRank": 89,
+    "worstRank": 320,
+    "averageRank": 123.98,
+    "standardDeviation": 30.47,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "5022",
+      "firstName": "Dallas",
+      "lastName": "Goedert",
+      "fullName": "Dallas Goedert",
+      "sortableFullName": "Goedert, Dallas",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 25,
+      "age": 30,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "18",
+    "overallRank": 121,
+    "bestRank": 96,
+    "worstRank": 195,
+    "averageRank": 129.34,
+    "standardDeviation": 20.21,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "6803",
+      "firstName": "Brandon",
+      "lastName": "Aiyuk",
+      "fullName": "Brandon Aiyuk",
+      "sortableFullName": "Aiyuk, Brandon",
       "positions": [
         2
       ],
-      "depthChartPosition": 2,
-      "team": 11,
-      "age": 22,
-      "yearsExperience": 0,
-      "injuryStatus": null,
+      "depthChartPosition": 3,
+      "team": 27,
+      "age": 27,
+      "yearsExperience": 5,
+      "injuryStatus": 5,
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "16",
-    "overallRank": 127,
-    "bestRank": 70,
-    "worstRank": 297,
-    "averageRank": 124,
-    "standardDeviation": 38.2,
+    "tier": "18",
+    "overallRank": 122,
+    "bestRank": 68,
+    "worstRank": 198,
+    "averageRank": 130.45,
+    "standardDeviation": 22.15,
     "isDrafted": false
   },
   {
@@ -3319,12 +3189,38 @@
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "17",
-    "overallRank": 128,
+    "tier": "18",
+    "overallRank": 123,
     "bestRank": 93,
-    "worstRank": 167,
-    "averageRank": 131.57,
-    "standardDeviation": 14.59,
+    "worstRank": 192,
+    "averageRank": 131.35,
+    "standardDeviation": 16.65,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12481",
+      "firstName": "Cam",
+      "lastName": "Skattebo",
+      "fullName": "Cam Skattebo",
+      "sortableFullName": "Skattebo, Cam",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 23,
+      "age": 23,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "18",
+    "overallRank": 124,
+    "bestRank": 79,
+    "worstRank": 232,
+    "averageRank": 129.2,
+    "standardDeviation": 25.96,
     "isDrafted": false
   },
   {
@@ -3345,12 +3241,38 @@
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "17",
-    "overallRank": 129,
-    "bestRank": 84,
+    "tier": "18",
+    "overallRank": 125,
+    "bestRank": 89,
     "worstRank": 177,
-    "averageRank": 132.39,
-    "standardDeviation": 17.99,
+    "averageRank": 132.29,
+    "standardDeviation": 18.65,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8136",
+      "firstName": "Rachaad",
+      "lastName": "White",
+      "fullName": "Rachaad White",
+      "sortableFullName": "White, Rachaad",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 29,
+      "age": 26,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "18",
+    "overallRank": 126,
+    "bestRank": 92,
+    "worstRank": 255,
+    "averageRank": 129.42,
+    "standardDeviation": 24.47,
     "isDrafted": false
   },
   {
@@ -3372,37 +3294,89 @@
       "isDefense": false
     },
     "tier": "18",
-    "overallRank": 130,
-    "bestRank": 83,
-    "worstRank": 218,
-    "averageRank": 130.85,
-    "standardDeviation": 24.12,
+    "overallRank": 127,
+    "bestRank": 85,
+    "worstRank": 181,
+    "averageRank": 131.25,
+    "standardDeviation": 19.57,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "12517",
-      "firstName": "Colston",
-      "lastName": "Loveland",
-      "fullName": "Colston Loveland",
-      "sortableFullName": "Loveland, Colston",
+      "id": "9508",
+      "firstName": "Tyjae",
+      "lastName": "Spears",
+      "fullName": "Tyjae Spears",
+      "sortableFullName": "Spears, Tyjae",
       "positions": [
-        3
+        1
       ],
-      "depthChartPosition": 1,
-      "team": 5,
-      "age": 21,
-      "yearsExperience": 0,
+      "depthChartPosition": 2,
+      "team": 30,
+      "age": 24,
+      "yearsExperience": 2,
       "injuryStatus": null,
-      "primaryPosition": 3,
+      "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "18",
-    "overallRank": 131,
-    "bestRank": 96,
-    "worstRank": 253,
-    "averageRank": 137.24,
-    "standardDeviation": 32.13,
+    "tier": "19",
+    "overallRank": 128,
+    "bestRank": 92,
+    "worstRank": 190,
+    "averageRank": 128.8,
+    "standardDeviation": 18.89,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7528",
+      "firstName": "Najee",
+      "lastName": "Harris",
+      "fullName": "Najee Harris",
+      "sortableFullName": "Harris, Najee",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 16,
+      "age": 27,
+      "yearsExperience": 4,
+      "injuryStatus": 5,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "19",
+    "overallRank": 129,
+    "bestRank": 77,
+    "worstRank": 230,
+    "averageRank": 131.98,
+    "standardDeviation": 24.75,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4950",
+      "firstName": "Christian",
+      "lastName": "Kirk",
+      "fullName": "Christian Kirk",
+      "sortableFullName": "Kirk, Christian",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 12,
+      "age": 28,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "19",
+    "overallRank": 130,
+    "bestRank": 82,
+    "worstRank": 201,
+    "averageRank": 135.01,
+    "standardDeviation": 19.04,
     "isDrafted": false
   },
   {
@@ -3423,142 +3397,12 @@
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "18",
-    "overallRank": 132,
-    "bestRank": 112,
+    "tier": "19",
+    "overallRank": 131,
+    "bestRank": 107,
     "worstRank": 241,
-    "averageRank": 134.11,
-    "standardDeviation": 17.85,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4663",
-      "firstName": "Austin",
-      "lastName": "Ekeler",
-      "fullName": "Austin Ekeler",
-      "sortableFullName": "Ekeler, Austin",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 31,
-      "age": 30,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 133,
-    "bestRank": 92,
-    "worstRank": 259,
-    "averageRank": 139.79,
-    "standardDeviation": 25.79,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10444",
-      "firstName": "Cedric",
-      "lastName": "Tillman",
-      "fullName": "Cedric Tillman",
-      "sortableFullName": "Tillman, Cedric",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 7,
-      "age": 25,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 134,
-    "bestRank": 108,
-    "worstRank": 177,
-    "averageRank": 145.38,
-    "standardDeviation": 16.88,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12519",
-      "firstName": "Luther",
-      "lastName": "Burden",
-      "fullName": "Luther Burden",
-      "sortableFullName": "Burden, Luther",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 3,
-      "team": 5,
-      "age": 21,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 135,
-    "bestRank": 80,
-    "worstRank": 240,
-    "averageRank": 145.5,
-    "standardDeviation": 26.91,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "421",
-      "firstName": "Matthew",
-      "lastName": "Stafford",
-      "fullName": "Matthew Stafford",
-      "sortableFullName": "Stafford, Matthew",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 17,
-      "age": 37,
-      "yearsExperience": 16,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 136,
-    "bestRank": 112,
-    "worstRank": 284,
-    "averageRank": 142.27,
-    "standardDeviation": 29.24,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12512",
-      "firstName": "Quinshon",
-      "lastName": "Judkins",
-      "fullName": "Quinshon Judkins",
-      "sortableFullName": "Judkins, Quinshon",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 1,
-      "team": 7,
-      "age": 21,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 137,
-    "bestRank": 64,
-    "worstRank": 314,
-    "averageRank": 142.45,
-    "standardDeviation": 46.9,
+    "averageRank": 134.79,
+    "standardDeviation": 18.98,
     "isDrafted": false
   },
   {
@@ -3580,37 +3424,141 @@
       "isDefense": false
     },
     "tier": "19",
-    "overallRank": 138,
+    "overallRank": 132,
     "bestRank": 104,
     "worstRank": 241,
-    "averageRank": 143.07,
-    "standardDeviation": 23.56,
+    "averageRank": 138.9,
+    "standardDeviation": 20.62,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "8143",
-      "firstName": "Jerome",
-      "lastName": "Ford",
-      "fullName": "Jerome Ford",
-      "sortableFullName": "Ford, Jerome",
+      "id": "12517",
+      "firstName": "Colston",
+      "lastName": "Loveland",
+      "fullName": "Colston Loveland",
+      "sortableFullName": "Loveland, Colston",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 5,
+      "age": 21,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "19",
+    "overallRank": 133,
+    "bestRank": 96,
+    "worstRank": 253,
+    "averageRank": 139.15,
+    "standardDeviation": 36.17,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12512",
+      "firstName": "Quinshon",
+      "lastName": "Judkins",
+      "fullName": "Quinshon Judkins",
+      "sortableFullName": "Judkins, Quinshon",
       "positions": [
         1
       ],
-      "depthChartPosition": 2,
+      "depthChartPosition": 1,
       "team": 7,
-      "age": 25,
-      "yearsExperience": 3,
+      "age": 21,
+      "yearsExperience": 0,
       "injuryStatus": null,
       "primaryPosition": 1,
       "isDefense": false
     },
     "tier": "19",
-    "overallRank": 139,
-    "bestRank": 77,
-    "worstRank": 293,
-    "averageRank": 144.84,
-    "standardDeviation": 33.96,
+    "overallRank": 134,
+    "bestRank": 65,
+    "worstRank": 320,
+    "averageRank": 135.37,
+    "standardDeviation": 53.28,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4663",
+      "firstName": "Austin",
+      "lastName": "Ekeler",
+      "fullName": "Austin Ekeler",
+      "sortableFullName": "Ekeler, Austin",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 31,
+      "age": 30,
+      "yearsExperience": 8,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "19",
+    "overallRank": 135,
+    "bestRank": 92,
+    "worstRank": 262,
+    "averageRank": 139.5,
+    "standardDeviation": 26.31,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12519",
+      "firstName": "Luther",
+      "lastName": "Burden",
+      "fullName": "Luther Burden",
+      "sortableFullName": "Burden, Luther",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 5,
+      "age": 21,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 136,
+    "bestRank": 95,
+    "worstRank": 198,
+    "averageRank": 143.23,
+    "standardDeviation": 21.72,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "10444",
+      "firstName": "Cedric",
+      "lastName": "Tillman",
+      "fullName": "Cedric Tillman",
+      "sortableFullName": "Tillman, Cedric",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 7,
+      "age": 25,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 137,
+    "bestRank": 90,
+    "worstRank": 198,
+    "averageRank": 143.58,
+    "standardDeviation": 19.23,
     "isDrafted": false
   },
   {
@@ -3631,116 +3579,12 @@
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "19",
-    "overallRank": 140,
-    "bestRank": 113,
-    "worstRank": 323,
-    "averageRank": 149.05,
-    "standardDeviation": 26.18,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "3214",
-      "firstName": "Hunter",
-      "lastName": "Henry",
-      "fullName": "Hunter Henry",
-      "sortableFullName": "Henry, Hunter",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 21,
-      "age": 30,
-      "yearsExperience": 9,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 141,
-    "bestRank": 96,
-    "worstRank": 228,
-    "averageRank": 146.48,
-    "standardDeviation": 24.49,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7571",
-      "firstName": "Rashod",
-      "lastName": "Bateman",
-      "fullName": "Rashod Bateman",
-      "sortableFullName": "Bateman, Rashod",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 2,
-      "age": 25,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 142,
-    "bestRank": 106,
-    "worstRank": 196,
-    "averageRank": 150.07,
-    "standardDeviation": 18.2,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4144",
-      "firstName": "Jonnu",
-      "lastName": "Smith",
-      "fullName": "Jonnu Smith",
-      "sortableFullName": "Smith, Jonnu",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 26,
-      "age": 29,
-      "yearsExperience": 8,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "19",
-    "overallRank": 143,
-    "bestRank": 72,
-    "worstRank": 280,
-    "averageRank": 149.97,
-    "standardDeviation": 42.63,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "5848",
-      "firstName": "Hollywood",
-      "lastName": "Brown",
-      "fullName": "Hollywood Brown",
-      "sortableFullName": "Brown, Hollywood",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 3,
-      "team": 15,
-      "age": 28,
-      "yearsExperience": 6,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
     "tier": "20",
-    "overallRank": 144,
-    "bestRank": 89,
-    "worstRank": 226,
-    "averageRank": 153.35,
-    "standardDeviation": 18.6,
+    "overallRank": 138,
+    "bestRank": 105,
+    "worstRank": 323,
+    "averageRank": 144.72,
+    "standardDeviation": 25.24,
     "isDrafted": false
   },
   {
@@ -3761,26 +3605,104 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "19",
-    "overallRank": 145,
-    "bestRank": 116,
-    "worstRank": 230,
-    "averageRank": 147.17,
-    "standardDeviation": 19.34,
+    "tier": "20",
+    "overallRank": 139,
+    "bestRank": 119,
+    "worstRank": 181,
+    "averageRank": 144.21,
+    "standardDeviation": 13.77,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "8132",
-      "firstName": "Tyler",
-      "lastName": "Allgeier",
-      "fullName": "Tyler Allgeier",
-      "sortableFullName": "Allgeier, Tyler",
+      "id": "3214",
+      "firstName": "Hunter",
+      "lastName": "Henry",
+      "fullName": "Hunter Henry",
+      "sortableFullName": "Henry, Hunter",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 21,
+      "age": 30,
+      "yearsExperience": 9,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 140,
+    "bestRank": 94,
+    "worstRank": 225,
+    "averageRank": 144.39,
+    "standardDeviation": 24.28,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7571",
+      "firstName": "Rashod",
+      "lastName": "Bateman",
+      "fullName": "Rashod Bateman",
+      "sortableFullName": "Bateman, Rashod",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 2,
+      "team": 2,
+      "age": 25,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 141,
+    "bestRank": 108,
+    "worstRank": 198,
+    "averageRank": 148.46,
+    "standardDeviation": 18.82,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11576",
+      "firstName": "Braelon",
+      "lastName": "Allen",
+      "fullName": "Braelon Allen",
+      "sortableFullName": "Allen, Braelon",
       "positions": [
         1
       ],
       "depthChartPosition": 2,
-      "team": 1,
+      "team": 24,
+      "age": 21,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 142,
+    "bestRank": 101,
+    "worstRank": 232,
+    "averageRank": 148.26,
+    "standardDeviation": 21.99,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8143",
+      "firstName": "Jerome",
+      "lastName": "Ford",
+      "fullName": "Jerome Ford",
+      "sortableFullName": "Ford, Jerome",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 7,
       "age": 25,
       "yearsExperience": 3,
       "injuryStatus": null,
@@ -3788,37 +3710,37 @@
       "isDefense": false
     },
     "tier": "20",
-    "overallRank": 146,
-    "bestRank": 126,
-    "worstRank": 227,
-    "averageRank": 154.22,
-    "standardDeviation": 15.18,
+    "overallRank": 143,
+    "bestRank": 76,
+    "worstRank": 291,
+    "averageRank": 150.5,
+    "standardDeviation": 38.17,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "1689",
-      "firstName": "Adam",
-      "lastName": "Thielen",
-      "fullName": "Adam Thielen",
-      "sortableFullName": "Thielen, Adam",
+      "id": "421",
+      "firstName": "Matthew",
+      "lastName": "Stafford",
+      "fullName": "Matthew Stafford",
+      "sortableFullName": "Stafford, Matthew",
       "positions": [
-        2
+        0
       ],
-      "depthChartPosition": 2,
-      "team": 4,
-      "age": 34,
-      "yearsExperience": 12,
+      "depthChartPosition": 1,
+      "team": 17,
+      "age": 37,
+      "yearsExperience": 16,
       "injuryStatus": null,
-      "primaryPosition": 2,
+      "primaryPosition": 0,
       "isDefense": false
     },
     "tier": "20",
-    "overallRank": 147,
-    "bestRank": 87,
-    "worstRank": 223,
-    "averageRank": 156.19,
-    "standardDeviation": 25.79,
+    "overallRank": 144,
+    "bestRank": 113,
+    "worstRank": 284,
+    "averageRank": 151.71,
+    "standardDeviation": 32.37,
     "isDrafted": false
   },
   {
@@ -3840,37 +3762,11 @@
       "isDefense": false
     },
     "tier": "20",
-    "overallRank": 148,
-    "bestRank": 120,
-    "worstRank": 261,
-    "averageRank": 157.86,
-    "standardDeviation": 24.62,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8121",
-      "firstName": "Romeo",
-      "lastName": "Doubs",
-      "fullName": "Romeo Doubs",
-      "sortableFullName": "Doubs, Romeo",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 3,
-      "team": 11,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "20",
-    "overallRank": 149,
-    "bestRank": 120,
-    "worstRank": 201,
-    "averageRank": 157.99,
-    "standardDeviation": 17.48,
+    "overallRank": 145,
+    "bestRank": 99,
+    "worstRank": 262,
+    "averageRank": 152.01,
+    "standardDeviation": 25.17,
     "isDrafted": false
   },
   {
@@ -3892,63 +3788,11 @@
       "isDefense": false
     },
     "tier": "20",
-    "overallRank": 150,
-    "bestRank": 119,
+    "overallRank": 146,
+    "bestRank": 105,
     "worstRank": 250,
-    "averageRank": 152.36,
-    "standardDeviation": 20.06,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "7553",
-      "firstName": "Kyle",
-      "lastName": "Pitts",
-      "fullName": "Kyle Pitts",
-      "sortableFullName": "Pitts, Kyle",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 1,
-      "age": 24,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "20",
-    "overallRank": 151,
-    "bestRank": 96,
-    "worstRank": 255,
-    "averageRank": 157.08,
-    "standardDeviation": 30.03,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "DEN",
-      "firstName": "Denver",
-      "lastName": "Broncos",
-      "fullName": "Denver Broncos",
-      "sortableFullName": "Broncos, Denver",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 9,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "20",
-    "overallRank": 152,
-    "bestRank": 150,
-    "worstRank": 182,
-    "averageRank": 152.1,
-    "standardDeviation": 6.36,
+    "averageRank": 149.32,
+    "standardDeviation": 22.85,
     "isDrafted": false
   },
   {
@@ -3970,11 +3814,89 @@
       "isDefense": false
     },
     "tier": "21",
-    "overallRank": 153,
+    "overallRank": 147,
     "bestRank": 98,
-    "worstRank": 324,
-    "averageRank": 163.09,
-    "standardDeviation": 41.24,
+    "worstRank": 313,
+    "averageRank": 154.75,
+    "standardDeviation": 29.5,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8132",
+      "firstName": "Tyler",
+      "lastName": "Allgeier",
+      "fullName": "Tyler Allgeier",
+      "sortableFullName": "Allgeier, Tyler",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 1,
+      "age": 25,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "21",
+    "overallRank": 148,
+    "bestRank": 126,
+    "worstRank": 232,
+    "averageRank": 154.68,
+    "standardDeviation": 17.19,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12484",
+      "firstName": "Jayden",
+      "lastName": "Higgins",
+      "fullName": "Jayden Higgins",
+      "sortableFullName": "Higgins, Jayden",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 12,
+      "age": 22,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "20",
+    "overallRank": 149,
+    "bestRank": 80,
+    "worstRank": 271,
+    "averageRank": 146.7,
+    "standardDeviation": 32.44,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8121",
+      "firstName": "Romeo",
+      "lastName": "Doubs",
+      "fullName": "Romeo Doubs",
+      "sortableFullName": "Doubs, Romeo",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 11,
+      "age": 25,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 150,
+    "bestRank": 109,
+    "worstRank": 223,
+    "averageRank": 160.14,
+    "standardDeviation": 18.61,
     "isDrafted": false
   },
   {
@@ -3995,12 +3917,38 @@
       "primaryPosition": 2,
       "isDefense": false
     },
-    "tier": "21",
-    "overallRank": 154,
-    "bestRank": 67,
-    "worstRank": 244,
-    "averageRank": 160.45,
-    "standardDeviation": 32.08,
+    "tier": "22",
+    "overallRank": 151,
+    "bestRank": 68,
+    "worstRank": 240,
+    "averageRank": 157.66,
+    "standardDeviation": 31.96,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4144",
+      "firstName": "Jonnu",
+      "lastName": "Smith",
+      "fullName": "Jonnu Smith",
+      "sortableFullName": "Smith, Jonnu",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 26,
+      "age": 29,
+      "yearsExperience": 8,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 152,
+    "bestRank": 72,
+    "worstRank": 273,
+    "averageRank": 158.34,
+    "standardDeviation": 41.45,
     "isDrafted": false
   },
   {
@@ -4021,142 +3969,12 @@
       "primaryPosition": 0,
       "isDefense": false
     },
-    "tier": "21",
-    "overallRank": 155,
+    "tier": "22",
+    "overallRank": 153,
     "bestRank": 128,
     "worstRank": 284,
-    "averageRank": 161.19,
-    "standardDeviation": 28.04,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12509",
-      "firstName": "Tre\u0027",
-      "lastName": "Harris",
-      "fullName": "Tre\u0027 Harris",
-      "sortableFullName": "Harris, Tre\u0027",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 3,
-      "team": 16,
-      "age": 23,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 156,
-    "bestRank": 108,
-    "worstRank": 229,
-    "averageRank": 161.3,
-    "standardDeviation": 29.01,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11576",
-      "firstName": "Braelon",
-      "lastName": "Allen",
-      "fullName": "Braelon Allen",
-      "sortableFullName": "Allen, Braelon",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 24,
-      "age": 21,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 157,
-    "bestRank": 119,
-    "worstRank": 232,
-    "averageRank": 159.21,
-    "standardDeviation": 22.56,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11651",
-      "firstName": "Isaac",
-      "lastName": "Guerendo",
-      "fullName": "Isaac Guerendo",
-      "sortableFullName": "Guerendo, Isaac",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 27,
-      "age": 25,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 158,
-    "bestRank": 129,
-    "worstRank": 259,
-    "averageRank": 163.64,
-    "standardDeviation": 26.66,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "1339",
-      "firstName": "Zach",
-      "lastName": "Ertz",
-      "fullName": "Zach Ertz",
-      "sortableFullName": "Ertz, Zach",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 31,
-      "age": 34,
-      "yearsExperience": 12,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 159,
-    "bestRank": 111,
-    "worstRank": 255,
-    "averageRank": 163.73,
-    "standardDeviation": 29.89,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "9501",
-      "firstName": "DeMario",
-      "lastName": "Douglas",
-      "fullName": "DeMario Douglas",
-      "sortableFullName": "Douglas, DeMario",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 21,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 160,
-    "bestRank": 80,
-    "worstRank": 222,
-    "averageRank": 167.07,
-    "standardDeviation": 26.18,
+    "averageRank": 158.53,
+    "standardDeviation": 27.66,
     "isDrafted": false
   },
   {
@@ -4177,350 +3995,168 @@
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "20",
-    "overallRank": 161,
-    "bestRank": 92,
-    "worstRank": 236,
-    "averageRank": 158.38,
-    "standardDeviation": 27.66,
+    "tier": "22",
+    "overallRank": 154,
+    "bestRank": 83,
+    "worstRank": 261,
+    "averageRank": 159.01,
+    "standardDeviation": 28.88,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "12484",
-      "firstName": "Jayden",
-      "lastName": "Higgins",
-      "fullName": "Jayden Higgins",
-      "sortableFullName": "Higgins, Jayden",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 12,
-      "age": 22,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "20",
-    "overallRank": 162,
-    "bestRank": 93,
-    "worstRank": 298,
-    "averageRank": 156.43,
-    "standardDeviation": 41.16,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12547",
-      "firstName": "Kyle",
-      "lastName": "Williams",
-      "fullName": "Kyle Williams",
-      "sortableFullName": "Williams, Kyle",
+      "id": "5848",
+      "firstName": "Hollywood",
+      "lastName": "Brown",
+      "fullName": "Hollywood Brown",
+      "sortableFullName": "Brown, Hollywood",
       "positions": [
         2
       ],
       "depthChartPosition": 3,
-      "team": 21,
-      "age": 22,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 163,
-    "bestRank": 109,
-    "worstRank": 301,
-    "averageRank": 171.13,
-    "standardDeviation": 35.1,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11626",
-      "firstName": "Xavier",
-      "lastName": "Legette",
-      "fullName": "Xavier Legette",
-      "sortableFullName": "Legette, Xavier",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 3,
-      "team": 4,
-      "age": 24,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 164,
-    "bestRank": 109,
-    "worstRank": 240,
-    "averageRank": 175.61,
-    "standardDeviation": 23.55,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11643",
-      "firstName": "Jaylen",
-      "lastName": "Wright",
-      "fullName": "Jaylen Wright",
-      "sortableFullName": "Wright, Jaylen",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 19,
-      "age": 22,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 165,
-    "bestRank": 129,
-    "worstRank": 256,
-    "averageRank": 169.58,
-    "standardDeviation": 27.17,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11618",
-      "firstName": "Jalen",
-      "lastName": "McMillan",
-      "fullName": "Jalen McMillan",
-      "sortableFullName": "McMillan, Jalen",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 4,
-      "team": 29,
-      "age": 23,
-      "yearsExperience": 1,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 166,
-    "bestRank": 106,
-    "worstRank": 290,
-    "averageRank": 170.03,
-    "standardDeviation": 34.14,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12522",
-      "firstName": "Cameron",
-      "lastName": "Ward",
-      "fullName": "Cameron Ward",
-      "sortableFullName": "Ward, Cameron",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 30,
-      "age": 23,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 167,
-    "bestRank": 124,
-    "worstRank": 334,
-    "averageRank": 176.69,
-    "standardDeviation": 35.84,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12469",
-      "firstName": "Dylan",
-      "lastName": "Sampson",
-      "fullName": "Dylan Sampson",
-      "sortableFullName": "Sampson, Dylan",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 3,
-      "team": 7,
-      "age": 20,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "21",
-    "overallRank": 168,
-    "bestRank": 88,
-    "worstRank": 306,
-    "averageRank": 164.23,
-    "standardDeviation": 40.32,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4943",
-      "firstName": "Sam",
-      "lastName": "Darnold",
-      "fullName": "Sam Darnold",
-      "sortableFullName": "Darnold, Sam",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 28,
+      "team": 15,
       "age": 28,
-      "yearsExperience": 7,
+      "yearsExperience": 6,
       "injuryStatus": null,
-      "primaryPosition": 0,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
-    "overallRank": 169,
-    "bestRank": 118,
-    "worstRank": 254,
-    "averageRank": 175.85,
-    "standardDeviation": 34.12,
+    "overallRank": 155,
+    "bestRank": 113,
+    "worstRank": 268,
+    "averageRank": 162.81,
+    "standardDeviation": 22.51,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "9754",
-      "firstName": "Quentin",
-      "lastName": "Johnston",
-      "fullName": "Quentin Johnston",
-      "sortableFullName": "Johnston, Quentin",
+      "id": "7553",
+      "firstName": "Kyle",
+      "lastName": "Pitts",
+      "fullName": "Kyle Pitts",
+      "sortableFullName": "Pitts, Kyle",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 1,
+      "age": 24,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 156,
+    "bestRank": 96,
+    "worstRank": 258,
+    "averageRank": 157.87,
+    "standardDeviation": 29.07,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "1339",
+      "firstName": "Zach",
+      "lastName": "Ertz",
+      "fullName": "Zach Ertz",
+      "sortableFullName": "Ertz, Zach",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 31,
+      "age": 34,
+      "yearsExperience": 12,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 157,
+    "bestRank": 105,
+    "worstRank": 255,
+    "averageRank": 161.97,
+    "standardDeviation": 28.7,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11651",
+      "firstName": "Isaac",
+      "lastName": "Guerendo",
+      "fullName": "Isaac Guerendo",
+      "sortableFullName": "Guerendo, Isaac",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 27,
+      "age": 25,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 158,
+    "bestRank": 121,
+    "worstRank": 259,
+    "averageRank": 163,
+    "standardDeviation": 26.77,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9501",
+      "firstName": "DeMario",
+      "lastName": "Douglas",
+      "fullName": "DeMario Douglas",
+      "sortableFullName": "Douglas, DeMario",
       "positions": [
         2
       ],
-      "depthChartPosition": 4,
-      "team": 16,
-      "age": 23,
+      "depthChartPosition": 2,
+      "team": 21,
+      "age": 24,
       "yearsExperience": 2,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
-    "overallRank": 170,
-    "bestRank": 114,
-    "worstRank": 261,
-    "averageRank": 173.03,
-    "standardDeviation": 24.9,
+    "overallRank": 159,
+    "bestRank": 87,
+    "worstRank": 226,
+    "averageRank": 164.38,
+    "standardDeviation": 28.37,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "PHI",
-      "firstName": "Philadelphia",
-      "lastName": "Eagles",
-      "fullName": "Philadelphia Eagles",
-      "sortableFullName": "Eagles, Philadelphia",
+      "id": "1689",
+      "firstName": "Adam",
+      "lastName": "Thielen",
+      "fullName": "Adam Thielen",
+      "sortableFullName": "Thielen, Adam",
       "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 25,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "21",
-    "overallRank": 171,
-    "bestRank": 150,
-    "worstRank": 205,
-    "averageRank": 163.87,
-    "standardDeviation": 8.71,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "PIT",
-      "firstName": "Pittsburgh",
-      "lastName": "Steelers",
-      "fullName": "Pittsburgh Steelers",
-      "sortableFullName": "Steelers, Pittsburgh",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 26,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "21",
-    "overallRank": 172,
-    "bestRank": 155,
-    "worstRank": 205,
-    "averageRank": 167.09,
-    "standardDeviation": 7.15,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "BAL",
-      "firstName": "Baltimore",
-      "lastName": "Ravens",
-      "fullName": "Baltimore Ravens",
-      "sortableFullName": "Ravens, Baltimore",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 2,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "22",
-    "overallRank": 173,
-    "bestRank": 160,
-    "worstRank": 195,
-    "averageRank": 170.59,
-    "standardDeviation": 6.94,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "4988",
-      "firstName": "Nick",
-      "lastName": "Chubb",
-      "fullName": "Nick Chubb",
-      "sortableFullName": "Chubb, Nick",
-      "positions": [
-        1
+        2
       ],
       "depthChartPosition": 2,
-      "team": 12,
-      "age": 29,
-      "yearsExperience": 7,
+      "team": 4,
+      "age": 34,
+      "yearsExperience": 12,
       "injuryStatus": null,
-      "primaryPosition": 1,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "22",
-    "overallRank": 174,
-    "bestRank": 110,
-    "worstRank": 309,
-    "averageRank": 179.28,
-    "standardDeviation": 44.14,
+    "overallRank": 160,
+    "bestRank": 89,
+    "worstRank": 224,
+    "averageRank": 164.91,
+    "standardDeviation": 22.7,
     "isDrafted": false
   },
   {
@@ -4542,115 +4178,167 @@
       "isDefense": false
     },
     "tier": "22",
-    "overallRank": 175,
-    "bestRank": 126,
+    "overallRank": 161,
+    "bestRank": 117,
     "worstRank": 338,
-    "averageRank": 173.41,
-    "standardDeviation": 47.71,
+    "averageRank": 163.53,
+    "standardDeviation": 38.5,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "9480",
-      "firstName": "Brenton",
-      "lastName": "Strange",
-      "fullName": "Brenton Strange",
-      "sortableFullName": "Strange, Brenton",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 14,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "22",
-    "overallRank": 176,
-    "bestRank": 96,
-    "worstRank": 299,
-    "averageRank": 170.93,
-    "standardDeviation": 46.14,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "10235",
-      "firstName": "Roschon",
-      "lastName": "Johnson",
-      "fullName": "Roschon Johnson",
-      "sortableFullName": "Johnson, Roschon",
-      "positions": [
-        1
-      ],
-      "depthChartPosition": 2,
-      "team": 5,
-      "age": 24,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 1,
-      "isDefense": false
-    },
-    "tier": "23",
-    "overallRank": 177,
-    "bestRank": 140,
-    "worstRank": 291,
-    "averageRank": 181.26,
-    "standardDeviation": 30.17,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "MIN",
-      "firstName": "Minnesota",
-      "lastName": "Vikings",
-      "fullName": "Minnesota Vikings",
-      "sortableFullName": "Vikings, Minnesota",
+      "id": "DEN",
+      "firstName": "Denver",
+      "lastName": "Broncos",
+      "fullName": "Denver Broncos",
+      "sortableFullName": "Broncos, Denver",
       "positions": [
         5
       ],
       "depthChartPosition": null,
-      "team": 20,
+      "team": 9,
       "age": 0,
       "yearsExperience": 0,
       "injuryStatus": null,
       "primaryPosition": 5,
       "isDefense": true
     },
-    "tier": "22",
-    "overallRank": 178,
-    "bestRank": 166,
-    "worstRank": 191,
-    "averageRank": 174.78,
-    "standardDeviation": 6.42,
+    "tier": "21",
+    "overallRank": 162,
+    "bestRank": 150,
+    "worstRank": 232,
+    "averageRank": 153.31,
+    "standardDeviation": 11,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "1426",
-      "firstName": "DeAndre",
-      "lastName": "Hopkins",
-      "fullName": "DeAndre Hopkins",
-      "sortableFullName": "Hopkins, DeAndre",
+      "id": "12547",
+      "firstName": "Kyle",
+      "lastName": "Williams",
+      "fullName": "Kyle Williams",
+      "sortableFullName": "Williams, Kyle",
       "positions": [
         2
       ],
       "depthChartPosition": 3,
-      "team": 2,
-      "age": 33,
-      "yearsExperience": 12,
+      "team": 21,
+      "age": 22,
+      "yearsExperience": 0,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "23",
-    "overallRank": 179,
-    "bestRank": 127,
-    "worstRank": 246,
-    "averageRank": 188.03,
-    "standardDeviation": 28.46,
+    "overallRank": 163,
+    "bestRank": 108,
+    "worstRank": 318,
+    "averageRank": 172.45,
+    "standardDeviation": 35.09,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12509",
+      "firstName": "Tre\u0027",
+      "lastName": "Harris",
+      "fullName": "Tre\u0027 Harris",
+      "sortableFullName": "Harris, Tre\u0027",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 16,
+      "age": 23,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 164,
+    "bestRank": 108,
+    "worstRank": 266,
+    "averageRank": 168.78,
+    "standardDeviation": 28.8,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12522",
+      "firstName": "Cam",
+      "lastName": "Ward",
+      "fullName": "Cam Ward",
+      "sortableFullName": "Ward, Cam",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 30,
+      "age": 23,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 165,
+    "bestRank": 93,
+    "worstRank": 334,
+    "averageRank": 174.73,
+    "standardDeviation": 38.21,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4943",
+      "firstName": "Sam",
+      "lastName": "Darnold",
+      "fullName": "Sam Darnold",
+      "sortableFullName": "Darnold, Sam",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 28,
+      "age": 28,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 166,
+    "bestRank": 112,
+    "worstRank": 254,
+    "averageRank": 173.48,
+    "standardDeviation": 31.27,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "12469",
+      "firstName": "Dylan",
+      "lastName": "Sampson",
+      "fullName": "Dylan Sampson",
+      "sortableFullName": "Sampson, Dylan",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 3,
+      "team": 7,
+      "age": 20,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "22",
+    "overallRank": 167,
+    "bestRank": 117,
+    "worstRank": 259,
+    "averageRank": 165.56,
+    "standardDeviation": 32.34,
     "isDrafted": false
   },
   {
@@ -4672,11 +4360,63 @@
       "isDefense": false
     },
     "tier": "22",
-    "overallRank": 180,
+    "overallRank": 168,
     "bestRank": 75,
     "worstRank": 296,
-    "averageRank": 170.16,
-    "standardDeviation": 55.38,
+    "averageRank": 160.16,
+    "standardDeviation": 49.07,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "4988",
+      "firstName": "Nick",
+      "lastName": "Chubb",
+      "fullName": "Nick Chubb",
+      "sortableFullName": "Chubb, Nick",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 12,
+      "age": 29,
+      "yearsExperience": 7,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 169,
+    "bestRank": 105,
+    "worstRank": 314,
+    "averageRank": 173.62,
+    "standardDeviation": 39.81,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9754",
+      "firstName": "Quentin",
+      "lastName": "Johnston",
+      "fullName": "Quentin Johnston",
+      "sortableFullName": "Johnston, Quentin",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 4,
+      "team": 16,
+      "age": 23,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 170,
+    "bestRank": 122,
+    "worstRank": 292,
+    "averageRank": 178.51,
+    "standardDeviation": 29.74,
     "isDrafted": false
   },
   {
@@ -4698,219 +4438,271 @@
       "isDefense": false
     },
     "tier": "23",
-    "overallRank": 181,
-    "bestRank": 127,
-    "worstRank": 263,
-    "averageRank": 184.33,
-    "standardDeviation": 28.21,
+    "overallRank": 171,
+    "bestRank": 102,
+    "worstRank": 264,
+    "averageRank": 173.86,
+    "standardDeviation": 29.24,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "7600",
-      "firstName": "Pat",
-      "lastName": "Freiermuth",
-      "fullName": "Pat Freiermuth",
-      "sortableFullName": "Freiermuth, Pat",
+      "id": "11618",
+      "firstName": "Jalen",
+      "lastName": "McMillan",
+      "fullName": "Jalen McMillan",
+      "sortableFullName": "McMillan, Jalen",
       "positions": [
-        3
+        2
       ],
-      "depthChartPosition": 2,
-      "team": 26,
-      "age": 26,
-      "yearsExperience": 4,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "24",
-    "overallRank": 182,
-    "bestRank": 123,
-    "worstRank": 294,
-    "averageRank": 195.32,
-    "standardDeviation": 37.43,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "HOU",
-      "firstName": "Houston",
-      "lastName": "Texans",
-      "fullName": "Houston Texans",
-      "sortableFullName": "Texans, Houston",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 12,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "23",
-    "overallRank": 183,
-    "bestRank": 166,
-    "worstRank": 219,
-    "averageRank": 185.81,
-    "standardDeviation": 8.69,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11539",
-      "firstName": "Jake",
-      "lastName": "Bates",
-      "fullName": "Jake Bates",
-      "sortableFullName": "Bates, Jake",
-      "positions": [
-        4
-      ],
-      "depthChartPosition": 1,
-      "team": 10,
-      "age": 26,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 4,
-      "isDefense": false
-    },
-    "tier": "24",
-    "overallRank": 184,
-    "bestRank": 178,
-    "worstRank": 217,
-    "averageRank": 192.48,
-    "standardDeviation": 4.63,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11533",
-      "firstName": "Brandon",
-      "lastName": "Aubrey",
-      "fullName": "Brandon Aubrey",
-      "sortableFullName": "Aubrey, Brandon",
-      "positions": [
-        4
-      ],
-      "depthChartPosition": 1,
-      "team": 8,
-      "age": 30,
-      "yearsExperience": 2,
-      "injuryStatus": null,
-      "primaryPosition": 4,
+      "depthChartPosition": 4,
+      "team": 29,
+      "age": 23,
+      "yearsExperience": 1,
+      "injuryStatus": 2,
+      "primaryPosition": 2,
       "isDefense": false
     },
     "tier": "23",
-    "overallRank": 185,
-    "bestRank": 173,
-    "worstRank": 203,
-    "averageRank": 186.59,
-    "standardDeviation": 3.19,
+    "overallRank": 172,
+    "bestRank": 108,
+    "worstRank": 290,
+    "averageRank": 174.57,
+    "standardDeviation": 31.87,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "BUF",
-      "firstName": "Buffalo",
-      "lastName": "Bills",
-      "fullName": "Buffalo Bills",
-      "sortableFullName": "Bills, Buffalo",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 3,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "23",
-    "overallRank": 186,
-    "bestRank": 170,
-    "worstRank": 211,
-    "averageRank": 187.32,
-    "standardDeviation": 6.6,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "KC",
-      "firstName": "Kansas City",
-      "lastName": "Chiefs",
-      "fullName": "Kansas City Chiefs",
-      "sortableFullName": "Chiefs, Kansas City",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 15,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "23",
-    "overallRank": 187,
-    "bestRank": 166,
-    "worstRank": 353,
-    "averageRank": 187.54,
-    "standardDeviation": 26.45,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "11586",
-      "firstName": "Blake",
-      "lastName": "Corum",
-      "fullName": "Blake Corum",
-      "sortableFullName": "Corum, Blake",
+      "id": "11643",
+      "firstName": "Jaylen",
+      "lastName": "Wright",
+      "fullName": "Jaylen Wright",
+      "sortableFullName": "Wright, Jaylen",
       "positions": [
         1
       ],
       "depthChartPosition": 2,
-      "team": 17,
-      "age": 24,
+      "team": 19,
+      "age": 22,
       "yearsExperience": 1,
       "injuryStatus": null,
       "primaryPosition": 1,
       "isDefense": false
     },
-    "tier": "24",
-    "overallRank": 188,
-    "bestRank": 142,
-    "worstRank": 317,
-    "averageRank": 195.15,
-    "standardDeviation": 38.32,
+    "tier": "23",
+    "overallRank": 173,
+    "bestRank": 131,
+    "worstRank": 256,
+    "averageRank": 174.66,
+    "standardDeviation": 28.15,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "11646",
-      "firstName": "Jalen",
-      "lastName": "Coker",
-      "fullName": "Jalen Coker",
-      "sortableFullName": "Coker, Jalen",
+      "id": "11626",
+      "firstName": "Xavier",
+      "lastName": "Legette",
+      "fullName": "Xavier Legette",
+      "sortableFullName": "Legette, Xavier",
       "positions": [
         2
       ],
-      "depthChartPosition": 4,
+      "depthChartPosition": 3,
       "team": 4,
-      "age": 23,
+      "age": 24,
       "yearsExperience": 1,
       "injuryStatus": null,
       "primaryPosition": 2,
       "isDefense": false
     },
+    "tier": "23",
+    "overallRank": 174,
+    "bestRank": 95,
+    "worstRank": 243,
+    "averageRank": 175.76,
+    "standardDeviation": 23.78,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "9480",
+      "firstName": "Brenton",
+      "lastName": "Strange",
+      "fullName": "Brenton Strange",
+      "sortableFullName": "Strange, Brenton",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 1,
+      "team": 14,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "23",
+    "overallRank": 175,
+    "bestRank": 96,
+    "worstRank": 299,
+    "averageRank": 170.76,
+    "standardDeviation": 43.16,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "PHI",
+      "firstName": "Philadelphia",
+      "lastName": "Eagles",
+      "fullName": "Philadelphia Eagles",
+      "sortableFullName": "Eagles, Philadelphia",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 25,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "22",
+    "overallRank": 176,
+    "bestRank": 150,
+    "worstRank": 233,
+    "averageRank": 164.2,
+    "standardDeviation": 10.5,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "BAL",
+      "firstName": "Baltimore",
+      "lastName": "Ravens",
+      "fullName": "Baltimore Ravens",
+      "sortableFullName": "Ravens, Baltimore",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 2,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "23",
+    "overallRank": 177,
+    "bestRank": 150,
+    "worstRank": 236,
+    "averageRank": 171.19,
+    "standardDeviation": 10.22,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "PIT",
+      "firstName": "Pittsburgh",
+      "lastName": "Steelers",
+      "fullName": "Pittsburgh Steelers",
+      "sortableFullName": "Steelers, Pittsburgh",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 26,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "23",
+    "overallRank": 178,
+    "bestRank": 160,
+    "worstRank": 234,
+    "averageRank": 168.96,
+    "standardDeviation": 9.87,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "10235",
+      "firstName": "Roschon",
+      "lastName": "Johnson",
+      "fullName": "Roschon Johnson",
+      "sortableFullName": "Johnson, Roschon",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 5,
+      "age": 24,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
     "tier": "24",
-    "overallRank": 189,
-    "bestRank": 108,
-    "worstRank": 301,
-    "averageRank": 198.33,
-    "standardDeviation": 30.89,
+    "overallRank": 179,
+    "bestRank": 140,
+    "worstRank": 287,
+    "averageRank": 186.66,
+    "standardDeviation": 32.81,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "MIN",
+      "firstName": "Minnesota",
+      "lastName": "Vikings",
+      "fullName": "Minnesota Vikings",
+      "sortableFullName": "Vikings, Minnesota",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 20,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "23",
+    "overallRank": 180,
+    "bestRank": 150,
+    "worstRank": 235,
+    "averageRank": 175.18,
+    "standardDeviation": 10.22,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "1426",
+      "firstName": "DeAndre",
+      "lastName": "Hopkins",
+      "fullName": "DeAndre Hopkins",
+      "sortableFullName": "Hopkins, DeAndre",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 2,
+      "age": 33,
+      "yearsExperience": 12,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "24",
+    "overallRank": 181,
+    "bestRank": 127,
+    "worstRank": 295,
+    "averageRank": 193.5,
+    "standardDeviation": 27.85,
     "isDrafted": false
   },
   {
@@ -4932,167 +4724,11 @@
       "isDefense": false
     },
     "tier": "24",
-    "overallRank": 190,
-    "bestRank": 137,
-    "worstRank": 321,
-    "averageRank": 198.67,
-    "standardDeviation": 40.55,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "DET",
-      "firstName": "Detroit",
-      "lastName": "Lions",
-      "fullName": "Detroit Lions",
-      "sortableFullName": "Lions, Detroit",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 10,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "23",
-    "overallRank": 191,
-    "bestRank": 171,
-    "worstRank": 219,
-    "averageRank": 187.75,
-    "standardDeviation": 6.62,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8259",
-      "firstName": "Cameron",
-      "lastName": "Dicker",
-      "fullName": "Cameron Dicker",
-      "sortableFullName": "Dicker, Cameron",
-      "positions": [
-        4
-      ],
-      "depthChartPosition": 1,
-      "team": 16,
-      "age": 25,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 4,
-      "isDefense": false
-    },
-    "tier": "24",
-    "overallRank": 192,
-    "bestRank": 182,
-    "worstRank": 203,
-    "averageRank": 193.39,
-    "standardDeviation": 3.74,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "12483",
-      "firstName": "Jack",
-      "lastName": "Bech",
-      "fullName": "Jack Bech",
-      "sortableFullName": "Bech, Jack",
-      "positions": [
-        2
-      ],
-      "depthChartPosition": 2,
-      "team": 18,
-      "age": 22,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 2,
-      "isDefense": false
-    },
-    "tier": "24",
-    "overallRank": 193,
-    "bestRank": 127,
-    "worstRank": 314,
-    "averageRank": 196.61,
-    "standardDeviation": 38.54,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "LAR",
-      "firstName": "Los Angeles",
-      "lastName": "Rams",
-      "fullName": "Los Angeles Rams",
-      "sortableFullName": "Rams, Los Angeles",
-      "positions": [
-        5
-      ],
-      "depthChartPosition": null,
-      "team": 17,
-      "age": 0,
-      "yearsExperience": 0,
-      "injuryStatus": null,
-      "primaryPosition": 5,
-      "isDefense": true
-    },
-    "tier": "25",
-    "overallRank": 194,
-    "bestRank": 182,
-    "worstRank": 279,
-    "averageRank": 202.31,
-    "standardDeviation": 19.19,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "8111",
-      "firstName": "Cade",
-      "lastName": "Otton",
-      "fullName": "Cade Otton",
-      "sortableFullName": "Otton, Cade",
-      "positions": [
-        3
-      ],
-      "depthChartPosition": 1,
-      "team": 29,
-      "age": 26,
-      "yearsExperience": 3,
-      "injuryStatus": null,
-      "primaryPosition": 3,
-      "isDefense": false
-    },
-    "tier": "25",
-    "overallRank": 195,
-    "bestRank": 143,
-    "worstRank": 294,
-    "averageRank": 208.32,
-    "standardDeviation": 29.75,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "96",
-      "firstName": "Aaron",
-      "lastName": "Rodgers",
-      "fullName": "Aaron Rodgers",
-      "sortableFullName": "Rodgers, Aaron",
-      "positions": [
-        0
-      ],
-      "depthChartPosition": 1,
-      "team": 26,
-      "age": 41,
-      "yearsExperience": 20,
-      "injuryStatus": null,
-      "primaryPosition": 0,
-      "isDefense": false
-    },
-    "tier": "25",
-    "overallRank": 196,
-    "bestRank": 118,
-    "worstRank": 307,
-    "averageRank": 205.9,
-    "standardDeviation": 44.8,
+    "overallRank": 182,
+    "bestRank": 123,
+    "worstRank": 331,
+    "averageRank": 193.56,
+    "standardDeviation": 43.81,
     "isDrafted": false
   },
   {
@@ -5114,37 +4750,427 @@
       "isDefense": false
     },
     "tier": "25",
-    "overallRank": 197,
+    "overallRank": 183,
     "bestRank": 123,
-    "worstRank": 308,
-    "averageRank": 206.47,
-    "standardDeviation": 39.47,
+    "worstRank": 315,
+    "averageRank": 200.26,
+    "standardDeviation": 38.45,
     "isDrafted": false
   },
   {
     "player": {
-      "id": "1945",
-      "firstName": "Chris",
-      "lastName": "Boswell",
-      "fullName": "Chris Boswell",
-      "sortableFullName": "Boswell, Chris",
+      "id": "HOU",
+      "firstName": "Houston",
+      "lastName": "Texans",
+      "fullName": "Houston Texans",
+      "sortableFullName": "Texans, Houston",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 12,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "24",
+    "overallRank": 184,
+    "bestRank": 160,
+    "worstRank": 239,
+    "averageRank": 184.4,
+    "standardDeviation": 11.85,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "7600",
+      "firstName": "Pat",
+      "lastName": "Freiermuth",
+      "fullName": "Pat Freiermuth",
+      "sortableFullName": "Freiermuth, Pat",
+      "positions": [
+        3
+      ],
+      "depthChartPosition": 2,
+      "team": 26,
+      "age": 26,
+      "yearsExperience": 4,
+      "injuryStatus": null,
+      "primaryPosition": 3,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 185,
+    "bestRank": 137,
+    "worstRank": 305,
+    "averageRank": 199.32,
+    "standardDeviation": 37.51,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "96",
+      "firstName": "Aaron",
+      "lastName": "Rodgers",
+      "fullName": "Aaron Rodgers",
+      "sortableFullName": "Rodgers, Aaron",
+      "positions": [
+        0
+      ],
+      "depthChartPosition": 1,
+      "team": 26,
+      "age": 41,
+      "yearsExperience": 20,
+      "injuryStatus": null,
+      "primaryPosition": 0,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 186,
+    "bestRank": 118,
+    "worstRank": 307,
+    "averageRank": 201.87,
+    "standardDeviation": 41.12,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11586",
+      "firstName": "Blake",
+      "lastName": "Corum",
+      "fullName": "Blake Corum",
+      "sortableFullName": "Corum, Blake",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 17,
+      "age": 24,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 187,
+    "bestRank": 121,
+    "worstRank": 325,
+    "averageRank": 199.95,
+    "standardDeviation": 38.84,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11533",
+      "firstName": "Brandon",
+      "lastName": "Aubrey",
+      "fullName": "Brandon Aubrey",
+      "sortableFullName": "Aubrey, Brandon",
       "positions": [
         4
       ],
       "depthChartPosition": 1,
-      "team": 26,
-      "age": 34,
-      "yearsExperience": 11,
+      "team": 8,
+      "age": 30,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 4,
+      "isDefense": false
+    },
+    "tier": "24",
+    "overallRank": 188,
+    "bestRank": 183,
+    "worstRank": 237,
+    "averageRank": 186.94,
+    "standardDeviation": 5.65,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "BUF",
+      "firstName": "Buffalo",
+      "lastName": "Bills",
+      "fullName": "Buffalo Bills",
+      "sortableFullName": "Bills, Buffalo",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 3,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "24",
+    "overallRank": 189,
+    "bestRank": 150,
+    "worstRank": 240,
+    "averageRank": 186.2,
+    "standardDeviation": 9.15,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "KC",
+      "firstName": "Kansas City",
+      "lastName": "Chiefs",
+      "fullName": "Kansas City Chiefs",
+      "sortableFullName": "Chiefs, Kansas City",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 15,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "24",
+    "overallRank": 190,
+    "bestRank": 166,
+    "worstRank": 352,
+    "averageRank": 187.75,
+    "standardDeviation": 23.23,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11539",
+      "firstName": "Jake",
+      "lastName": "Bates",
+      "fullName": "Jake Bates",
+      "sortableFullName": "Bates, Jake",
+      "positions": [
+        4
+      ],
+      "depthChartPosition": 1,
+      "team": 10,
+      "age": 26,
+      "yearsExperience": 2,
+      "injuryStatus": null,
+      "primaryPosition": 4,
+      "isDefense": false
+    },
+    "tier": "24",
+    "overallRank": 191,
+    "bestRank": 185,
+    "worstRank": 244,
+    "averageRank": 193.49,
+    "standardDeviation": 7.38,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "DET",
+      "firstName": "Detroit",
+      "lastName": "Lions",
+      "fullName": "Detroit Lions",
+      "sortableFullName": "Lions, Detroit",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 10,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "24",
+    "overallRank": 192,
+    "bestRank": 170,
+    "worstRank": 243,
+    "averageRank": 188.75,
+    "standardDeviation": 10.22,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11646",
+      "firstName": "Jalen",
+      "lastName": "Coker",
+      "fullName": "Jalen Coker",
+      "sortableFullName": "Coker, Jalen",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 4,
+      "team": 4,
+      "age": 23,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 193,
+    "bestRank": 141,
+    "worstRank": 295,
+    "averageRank": 199.73,
+    "standardDeviation": 28.48,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8259",
+      "firstName": "Cameron",
+      "lastName": "Dicker",
+      "fullName": "Cameron Dicker",
+      "sortableFullName": "Dicker, Cameron",
+      "positions": [
+        4
+      ],
+      "depthChartPosition": 1,
+      "team": 16,
+      "age": 25,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 4,
+      "isDefense": false
+    },
+    "tier": "24",
+    "overallRank": 194,
+    "bestRank": 191,
+    "worstRank": 238,
+    "averageRank": 193.88,
+    "standardDeviation": 5.9,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "11581",
+      "firstName": "MarShawn",
+      "lastName": "Lloyd",
+      "fullName": "MarShawn Lloyd",
+      "sortableFullName": "Lloyd, MarShawn",
+      "positions": [
+        1
+      ],
+      "depthChartPosition": 2,
+      "team": 11,
+      "age": 24,
+      "yearsExperience": 1,
+      "injuryStatus": null,
+      "primaryPosition": 1,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 195,
+    "bestRank": 151,
+    "worstRank": 328,
+    "averageRank": 207.23,
+    "standardDeviation": 37.9,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "8142",
+      "firstName": "Alec",
+      "lastName": "Pierce",
+      "fullName": "Alec Pierce",
+      "sortableFullName": "Pierce, Alec",
+      "positions": [
+        2
+      ],
+      "depthChartPosition": 3,
+      "team": 13,
+      "age": 25,
+      "yearsExperience": 3,
+      "injuryStatus": null,
+      "primaryPosition": 2,
+      "isDefense": false
+    },
+    "tier": "25",
+    "overallRank": 196,
+    "bestRank": 173,
+    "worstRank": 297,
+    "averageRank": 207.49,
+    "standardDeviation": 21.09,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "SEA",
+      "firstName": "Seattle",
+      "lastName": "Seahawks",
+      "fullName": "Seattle Seahawks",
+      "sortableFullName": "Seahawks, Seattle",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 28,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "25",
+    "overallRank": 197,
+    "bestRank": 170,
+    "worstRank": 278,
+    "averageRank": 199.16,
+    "standardDeviation": 18.07,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "3678",
+      "firstName": "Wil",
+      "lastName": "Lutz",
+      "fullName": "Wil Lutz",
+      "sortableFullName": "Lutz, Wil",
+      "positions": [
+        4
+      ],
+      "depthChartPosition": 1,
+      "team": 9,
+      "age": 31,
+      "yearsExperience": 9,
       "injuryStatus": null,
       "primaryPosition": 4,
       "isDefense": false
     },
     "tier": "25",
     "overallRank": 198,
-    "bestRank": 181,
-    "worstRank": 278,
-    "averageRank": 204.32,
-    "standardDeviation": 14.19,
+    "bestRank": 186,
+    "worstRank": 258,
+    "averageRank": 200.99,
+    "standardDeviation": 9.74,
+    "isDrafted": false
+  },
+  {
+    "player": {
+      "id": "LAR",
+      "firstName": "Los Angeles",
+      "lastName": "Rams",
+      "fullName": "Los Angeles Rams",
+      "sortableFullName": "Rams, Los Angeles",
+      "positions": [
+        5
+      ],
+      "depthChartPosition": null,
+      "team": 17,
+      "age": 0,
+      "yearsExperience": 0,
+      "injuryStatus": null,
+      "primaryPosition": 5,
+      "isDefense": true
+    },
+    "tier": "25",
+    "overallRank": 199,
+    "bestRank": 150,
+    "worstRank": 279,
+    "averageRank": 201.91,
+    "standardDeviation": 19.06,
     "isDrafted": false
   },
   {
@@ -5166,37 +5192,11 @@
       "isDefense": false
     },
     "tier": "25",
-    "overallRank": 199,
-    "bestRank": 131,
-    "worstRank": 273,
-    "averageRank": 210.15,
-    "standardDeviation": 29,
-    "isDrafted": false
-  },
-  {
-    "player": {
-      "id": "3451",
-      "firstName": "Ka\u0027imi",
-      "lastName": "Fairbairn",
-      "fullName": "Ka\u0027imi Fairbairn",
-      "sortableFullName": "Fairbairn, Ka\u0027imi",
-      "positions": [
-        4
-      ],
-      "depthChartPosition": 1,
-      "team": 12,
-      "age": 31,
-      "yearsExperience": 9,
-      "injuryStatus": null,
-      "primaryPosition": 4,
-      "isDefense": false
-    },
-    "tier": "25",
     "overallRank": 200,
-    "bestRank": 186,
-    "worstRank": 251,
-    "averageRank": 205.17,
-    "standardDeviation": 10.01,
+    "bestRank": 143,
+    "worstRank": 289,
+    "averageRank": 215.12,
+    "standardDeviation": 26.51,
     "isDrafted": false
   }
 ]
