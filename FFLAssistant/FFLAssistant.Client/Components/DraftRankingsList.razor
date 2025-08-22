@@ -24,11 +24,28 @@
                 {
                     <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
                         <MudText Typo="Typo.body2"
-                                 Class="mb-1 px-5"
-                                 Style="@GetPlayerTextStyle()">
+                                 Inline=true
+                                 Class="mb-1 ps-5"
+                                 Style="@GetPlayerTextStyle(ranking.IsDrafted)">
                             @GetDisplayText(ranking)
                         </MudText>
+                        @if (ranking.Player.InjuryStatus is not null)
+                        {
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, ColorPalette.ChalkWhite)">
+                                &nbsp•&nbsp
+                            </MudText>
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, "red")">
+                                @ranking.Player.InjuryStatus
+                            </MudText>
+                        }
                     </MudLink>
+                    <br />
                 }
 
                 @if (availablePlayers.Count == 0)
@@ -58,11 +75,29 @@
                 {
                     <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
                         <MudText Typo="Typo.body2"
-                                 Class="mb-1 px-5"
-                                 Style="@GetPlayerTextStyle()">
+                                 Inline=true
+                                 Class="mb-1 ps-5"
+                                 Style="@GetPlayerTextStyle(ranking.IsDrafted)">
                             @GetDisplayText(ranking)
                         </MudText>
+                        @if (ranking.Player.InjuryStatus is not null)
+                        {
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, ColorPalette.ChalkWhite)">
+                                &nbsp•&nbsp
+                            </MudText>
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, "red")">
+                                @ranking.Player.InjuryStatus
+                            </MudText>
+                        }
+
                     </MudLink>
+                    <br />
                 }
 
                 @if (!Rankings.Any())

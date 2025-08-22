@@ -18,6 +18,7 @@ public partial class DraftRankingsList : ComponentBase
     private void ToggleExpanded()
     {
         IsExpanded = !IsExpanded;
+        StateHasChanged();
     }
 
     private string GetCardStyle()
@@ -35,7 +36,19 @@ public partial class DraftRankingsList : ComponentBase
                $"text-shadow: 1px 1px 2px rgba(0,0,0,0.5);";
     }
 
-    private string GetPlayerTextStyle(bool isDrafted = false)
+    private string GetInjuryTextStyle(bool isDrafted, string color)
+    {
+        var decoration = isDrafted ? "line-through" : "none";
+        var opacity = isDrafted ? "0.6" : "1";
+
+        return $"color: {color}; " +
+               $"text-decoration: {decoration}; " +
+               $"opacity: {opacity}; " +
+               $"font-size: 12px; " +
+               $"line-height: 1.3;";
+    }
+
+    private string GetPlayerTextStyle(bool isDrafted)
     {
         var color = ColorPalette.ChalkWhite;
         var decoration = isDrafted ? "line-through" : "none";

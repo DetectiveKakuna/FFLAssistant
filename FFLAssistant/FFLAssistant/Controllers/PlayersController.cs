@@ -42,4 +42,18 @@ public class PlayersController(IFantasyProsService fantasyProsService, ISleeperP
             return StatusCode(500, $"Error getting player notes: {ex.Message}");
         }
     }
+
+    [HttpGet("rankings")]
+    public async Task<ActionResult<Dictionary<string, string>>> GetPlayerRankingsAsync(string firstName, string lastName)
+    {
+        try
+        {
+            var result = await _fantasyProsService.GetPlayerRankingsAsync(firstName, lastName);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Error getting player rankings: {ex.Message}");
+        }
+    }
 }

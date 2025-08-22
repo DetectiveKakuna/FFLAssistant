@@ -91,7 +91,7 @@
       "team": 20,
       "age": 26,
       "yearsExperience": 5,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -143,7 +143,7 @@
       "team": 23,
       "age": 22,
       "yearsExperience": 1,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -351,7 +351,7 @@
       "team": 25,
       "age": 28,
       "yearsExperience": 6,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -377,7 +377,7 @@
       "team": 19,
       "age": 23,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -637,7 +637,7 @@
       "team": 2,
       "age": 28,
       "yearsExperience": 7,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 0,
       "isDefense": false
     },
@@ -663,7 +663,7 @@
       "team": 19,
       "age": 31,
       "yearsExperience": 9,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -843,7 +843,7 @@
       ],
       "depthChartPosition": 1,
       "team": 29,
-      "age": 31,
+      "age": 32,
       "yearsExperience": 11,
       "injuryStatus": null,
       "primaryPosition": 2,
@@ -1183,7 +1183,7 @@
       "team": 25,
       "age": 26,
       "yearsExperience": 4,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -1261,7 +1261,7 @@
       "team": 4,
       "age": 22,
       "yearsExperience": 0,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -1469,7 +1469,7 @@
       "team": 30,
       "age": 30,
       "yearsExperience": 7,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -1625,7 +1625,7 @@
       "team": 14,
       "age": 22,
       "yearsExperience": 0,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -1937,7 +1937,7 @@
       "team": 21,
       "age": 31,
       "yearsExperience": 10,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -2219,7 +2219,7 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 1,
+      "depthChartPosition": 2,
       "team": 31,
       "age": 26,
       "yearsExperience": 3,
@@ -2249,7 +2249,7 @@
       "team": 3,
       "age": 25,
       "yearsExperience": 3,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -2271,7 +2271,7 @@
       "positions": [
         2
       ],
-      "depthChartPosition": 2,
+      "depthChartPosition": 3,
       "team": 29,
       "age": 29,
       "yearsExperience": 8,
@@ -2353,7 +2353,7 @@
       "team": 27,
       "age": 28,
       "yearsExperience": 5,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -2453,7 +2453,7 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 1,
+      "depthChartPosition": 2,
       "team": 14,
       "age": 26,
       "yearsExperience": 4,
@@ -2509,7 +2509,7 @@
       "team": 13,
       "age": 24,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -2557,7 +2557,7 @@
       "positions": [
         2
       ],
-      "depthChartPosition": 3,
+      "depthChartPosition": 2,
       "team": 29,
       "age": 22,
       "yearsExperience": 0,
@@ -2717,7 +2717,7 @@
       "team": 11,
       "age": 25,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -2795,7 +2795,7 @@
       "team": 11,
       "age": 26,
       "yearsExperience": 5,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 0,
       "isDefense": false
     },
@@ -2925,7 +2925,7 @@
       "team": 21,
       "age": 27,
       "yearsExperience": 4,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -3055,7 +3055,7 @@
       "team": 1,
       "age": 27,
       "yearsExperience": 5,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -3133,7 +3133,7 @@
       "team": 25,
       "age": 30,
       "yearsExperience": 7,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 3,
       "isDefense": false
     },
@@ -3263,7 +3263,7 @@
       "team": 29,
       "age": 26,
       "yearsExperience": 3,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -3285,7 +3285,7 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 2,
+      "depthChartPosition": 1,
       "team": 14,
       "age": 22,
       "yearsExperience": 2,
@@ -3315,7 +3315,7 @@
       "team": 30,
       "age": 24,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -3493,7 +3493,7 @@
       "positions": [
         1
       ],
-      "depthChartPosition": 2,
+      "depthChartPosition": 1,
       "team": 31,
       "age": 30,
       "yearsExperience": 8,
@@ -3549,7 +3549,7 @@
       "team": 7,
       "age": 25,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -3731,7 +3731,7 @@
       "team": 17,
       "age": 37,
       "yearsExperience": 16,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 0,
       "isDefense": false
     },
@@ -3937,9 +3937,9 @@
       ],
       "depthChartPosition": 1,
       "team": 26,
-      "age": 29,
+      "age": 30,
       "yearsExperience": 8,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 3,
       "isDefense": false
     },
@@ -4017,7 +4017,7 @@
       "team": 15,
       "age": 28,
       "yearsExperience": 6,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -4145,7 +4145,7 @@
       ],
       "depthChartPosition": 2,
       "team": 4,
-      "age": 34,
+      "age": 35,
       "yearsExperience": 12,
       "injuryStatus": null,
       "primaryPosition": 2,
@@ -4225,7 +4225,7 @@
       "team": 21,
       "age": 22,
       "yearsExperience": 0,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -4251,7 +4251,7 @@
       "team": 16,
       "age": 23,
       "yearsExperience": 0,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -4407,7 +4407,7 @@
       "team": 16,
       "age": 23,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -4485,7 +4485,7 @@
       "team": 19,
       "age": 22,
       "yearsExperience": 1,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -4641,7 +4641,7 @@
       "team": 5,
       "age": 24,
       "yearsExperience": 2,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -4693,7 +4693,7 @@
       "team": 2,
       "age": 33,
       "yearsExperience": 12,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 2,
       "isDefense": false
     },
@@ -4745,7 +4745,7 @@
       "team": 6,
       "age": 29,
       "yearsExperience": 7,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 3,
       "isDefense": false
     },
@@ -5057,7 +5057,7 @@
       "team": 11,
       "age": 24,
       "yearsExperience": 1,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 1,
       "isDefense": false
     },
@@ -5187,7 +5187,7 @@
       "team": 2,
       "age": 25,
       "yearsExperience": 3,
-      "injuryStatus": null,
+      "injuryStatus": 6,
       "primaryPosition": 3,
       "isDefense": false
     },

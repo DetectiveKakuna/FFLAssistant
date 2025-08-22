@@ -1,6 +1,9 @@
 ﻿:root {
     /* Theme colors */
     --blackboard: #1c1c1c; /* Deep blackboard black */
+    --blackboard-light-1: #292929;
+    --blackboard-light-2: #363636;
+    --blackboard-light-3: #424242;
     --chalk-dust: #e8e8e8; /* Slightly dusty chalk color */
     --chalk-white: #f5f5dc; /* Off-white like field chalk lines */
     --grassy-green-dark: #2d4a2b; /* Dark grassy green */

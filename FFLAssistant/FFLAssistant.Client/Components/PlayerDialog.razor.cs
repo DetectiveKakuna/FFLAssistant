@@ -15,6 +15,7 @@ public partial class PlayerDialog
 
     private PlayerNotes PlayerNotes { get; set; } = new();
     private Dictionary<string, string> Projections { get; set; } = [];
+    private Dictionary<string, string> Rankings { get; set; } = [];
 
     private bool IsLoading { get; set; } = true;
 
@@ -27,21 +28,23 @@ public partial class PlayerDialog
     {
         var notesTask = FantasyProsService.GetPlayerNotesAsync(Player.FirstName, Player.LastName);
         var projectionsTask = FantasyProsService.GetDraftProjectionsAsync(Player.FirstName, Player.LastName);
+        var rankingsTask = FantasyProsService.GetPlayerRankingsAsync(Player.FirstName, Player.LastName);
 
-        await Task.WhenAll(notesTask, projectionsTask);
+        await Task.WhenAll(notesTask, projectionsTask, rankingsTask);
 
         PlayerNotes = await notesTask;
         Projections = await projectionsTask;
+        Rankings = await rankingsTask;
 
         IsLoading = false;
     }
 
-    private string GetDialogStyle()
+    private static string GetDialogStyle()
     {
         return $"border-radius: 8px; background-color: {ColorPalette.GrassyGreenDark};";
     }
 
-    private string GetNoteStyle()
+    private static string GetNoteStyle()
     {
         return $"border-radius: 8px; background-color: {ColorPalette.GrassyGreenMedium}";
     }

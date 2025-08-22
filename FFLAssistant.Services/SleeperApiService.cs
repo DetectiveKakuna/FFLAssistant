@@ -110,11 +110,21 @@ public class SleeperApiService(
             player.Team = team;
         }
 
-        // Map injury status using team_abbr
-        if (!string.IsNullOrEmpty(sleeperPlayer.InjuryStatus) &&
-            Enum.TryParse<InjuryStatus>(sleeperPlayer.InjuryStatus, true, out var iStatus))
+        // Map injury status
+        if (!string.IsNullOrEmpty(sleeperPlayer.InjuryStatus))
         {
-            player.InjuryStatus = iStatus;
+            var status = sleeperPlayer.InjuryStatus;
+
+            // normalize the strings
+            status = status switch
+            {
+                "Questionable" => "Q",
+                "Doubtful" => "D",
+                _ => status
+            };
+
+            if (Enum.TryParse<InjuryStatus>(status, true, out var iStatus))
+                player.InjuryStatus = iStatus;
         }
 
         return player;

@@ -3,7 +3,6 @@ using FFLAssistant.Models.Components;
 using FFLAssistant.Models.Enums;
 using FFLAssistant.Services.Interfaces;
 using Microsoft.AspNetCore.Components;
-using System.Linq;
 
 namespace FFLAssistant.Client.Pages;
 
@@ -12,19 +11,37 @@ public partial class Draft : ComponentBase
     [Inject] private IDraftRankingsService DraftRankingsService { get; set; } = default!;
     [Inject] private ISleeperLiveDraftService SleeperService { get; set; } = default!;
     [Inject] private ISleeperPlayersService SleeperPlayerService { get; set; } = default!;
+    [Inject] private IFantasyProsService FantasyProsService { get; set; } = default!;
 
     private List<DraftPickCardModel>? draftPickCards;
     private IList<DraftRanking>? draftRankings;
     private DraftState? currentDraftState;
     private IList<Player>? allPlayers;
     private const string draftId = "1260412747493933056"; // Your draft ID
-    private int? myTeamIndex => currentDraftState?.Teams.FindIndex(t => t.IsMyTeam);
+    private int? MyTeamIndex => currentDraftState?.Teams.FindIndex(t => t.IsMyTeam);
 
     protected override async Task OnInitializedAsync()
     {
         await LoadDataFiles();
         await GetDraftState();
-        StateHasChanged();
+    }
+
+    private async Task USE_THIS_TO_CHECK_FOR_FANTASYPROS_NAME_MISMATCHES()
+    {
+        var players = draftRankings?.Select(dr => dr.Player);
+
+        if (players is null)
+            return;
+
+        List<Player> unfound = [];
+
+        foreach (var player in players)
+        {
+            var notes = await FantasyProsService.GetPlayerNotesAsync(player.FirstName, player.LastName);
+
+            if (notes == null || notes.Notes.Count == 0)
+                unfound.Add(player);
+        }
     }
 
     private async Task LoadDataFiles()

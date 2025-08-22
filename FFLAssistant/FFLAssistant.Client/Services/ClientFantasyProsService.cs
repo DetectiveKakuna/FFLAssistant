@@ -15,6 +15,13 @@ public class ClientFantasyProsService(HttpClient httpClient) : IFantasyProsServi
             ?? new();
     }
 
+    public async Task<Dictionary<string, string>> GetPlayerRankingsAsync(string firstName, string lastName)
+    {
+        return await _httpClient.GetFromJsonAsync<Dictionary<string, string>>(
+            $"api/Players/rankings?firstName={Uri.EscapeDataString(firstName)}&lastName={Uri.EscapeDataString(lastName)}")
+            ?? [];
+    }
+
     public async Task<Dictionary<string, string>> GetDraftProjectionsAsync(string firstName, string lastName)
     {
         return await _httpClient.GetFromJsonAsync<Dictionary<string, string>>(

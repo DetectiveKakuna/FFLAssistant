@@ -51,7 +51,7 @@ public partial class PlayerCardSmall : ComponentBase
 
     private string GetTeamByeStyle()
     {
-        return "color: white; font-size: 10px; line-height: 1.1;";
+        return "color: white; font-size: 10px; line-height: 1.1; width:100%; text-align:right;";
     }
 
     private string GetPositionSectionStyle()
