@@ -2,7 +2,7 @@ using Blazored.LocalStorage;
 using FFLAssistant.Client.Cache.Services;
 using FFLAssistant.Client.Cache.Services.Interfaces;
 using FFLAssistant.Client.Services;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
 

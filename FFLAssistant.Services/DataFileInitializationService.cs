@@ -1,4 +1,4 @@
-﻿using FFLAssistant.Services.Interfaces;
+﻿using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 

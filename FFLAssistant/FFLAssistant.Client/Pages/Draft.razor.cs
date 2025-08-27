@@ -1,7 +1,6 @@
 ﻿using FFLAssistant.Models;
 using FFLAssistant.Models.Components;
-using FFLAssistant.Models.Enums;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.AspNetCore.Components;
 
 namespace FFLAssistant.Client.Pages;

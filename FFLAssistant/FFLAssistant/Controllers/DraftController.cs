@@ -1,5 +1,5 @@
 ﻿using FFLAssistant.Models;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FFLAssistant.Controllers;

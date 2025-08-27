@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\FFLAssistant.Services\FFLAssistant.Services.csproj" />
+    <ProjectReference Include="..\..\FFLAssistant.Models\FFLAssistant.Models.csproj" />
   </ItemGroup>
 
 </Project>

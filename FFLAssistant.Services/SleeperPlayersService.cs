@@ -1,6 +1,6 @@
 using FFLAssistant.Models;
 using FFLAssistant.Repositories.Interfaces;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace FFLAssistant.Services;

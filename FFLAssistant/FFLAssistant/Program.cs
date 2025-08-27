@@ -4,7 +4,7 @@ using FFLAssistant.Models.Configurations;
 using FFLAssistant.Repositories;
 using FFLAssistant.Repositories.Interfaces;
 using FFLAssistant.Services;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using MudBlazor.Services;
 using Blazored.LocalStorage;
 using FFLAssistant.Client.Cache.Services;

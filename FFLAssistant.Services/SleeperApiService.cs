@@ -2,7 +2,7 @@ using FFLAssistant.Models;
 using FFLAssistant.Models.Configurations;
 using FFLAssistant.Models.Dtos;
 using FFLAssistant.Models.Enums;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Text.Json;

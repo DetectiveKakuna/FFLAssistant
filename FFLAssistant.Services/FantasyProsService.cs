@@ -1,6 +1,6 @@
 ﻿using FFLAssistant.Models;
 using FFLAssistant.Models.Configurations;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using HtmlAgilityPack;
 using HtmlAgilityPack.CssSelectors.NetCore;
 using Microsoft.Extensions.Options;

@@ -1,6 +1,6 @@
 ﻿using FFLAssistant.Models;
 using FFLAssistant.Models.Configurations;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Playwright;
