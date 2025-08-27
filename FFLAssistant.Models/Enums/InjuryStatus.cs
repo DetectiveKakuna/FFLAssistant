@@ -10,4 +10,5 @@ public enum InjuryStatus
     PUP,
     Q,
     Sus,
+    DNR,
 }

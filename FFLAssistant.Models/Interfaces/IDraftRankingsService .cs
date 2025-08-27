@@ -1,6 +1,4 @@
-﻿using FFLAssistant.Models.Players;
-
-namespace FFLAssistant.Services.Interfaces;
+﻿namespace FFLAssistant.Models.Interfaces;
 
 public interface IDraftRankingsService
 {

@@ -1,4 +1,4 @@
-﻿using FFLAssistant.Services.Interfaces;
+﻿using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
@@ -19,8 +19,10 @@ public class DataFileInitializationService(
 
             using var scope = _serviceScopeFactory.CreateScope();
             var sleeperPlayersService = scope.ServiceProvider.GetRequiredService<ISleeperPlayersService>();
+            var draftRankingsService = scope.ServiceProvider.GetRequiredService<IDraftRankingsService>();
 
             await sleeperPlayersService.GetPlayersAsync();
+            await draftRankingsService.GetDraftRankingsAsync();
 
             _logger.LogInformation("Sleeper players initialization completed successfully");
         }

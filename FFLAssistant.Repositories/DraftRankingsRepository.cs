@@ -1,16 +1,18 @@
-﻿using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
+using FFLAssistant.Models.Configurations;
 using FFLAssistant.Repositories.Interfaces;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using System.Text.Json;
 
 namespace FFLAssistant.Repositories;
 
-public class DraftRankingsRepository(ILogger<DraftRankingsRepository> logger) : IDraftRankingsRepository
+public class DraftRankingsRepository(
+    IOptions<DraftRankingsConfiguration> draftRankingsOptions,
+    ILogger<DraftRankingsRepository> logger) : IDraftRankingsRepository
 {
     private readonly ILogger<DraftRankingsRepository> _logger = logger;
-
-    //TODO: get filepath from config
-    private readonly string _filePath = string.Empty;
+    private readonly string _filePath = draftRankingsOptions.Value.RankingsJsonPath;
 
     public async Task<IList<DraftRanking>?> GetDraftRankingsAsync()
     {

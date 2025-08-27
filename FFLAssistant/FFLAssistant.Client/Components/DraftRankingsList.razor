@@ -1,0 +1,123 @@
+﻿@using FFLAssistant.Models
+@using FFLAssistant.Models.Enums
+@using MudBlazor
+
+<MudCard Class="position-rankings-card" Style="@GetCardStyle()">
+    <MudCardContent Class="pa-2">
+        <!-- Title -->
+        <MudText Typo="Typo.h6"
+                 Class="text-center mb-2"
+                 Align="Align.Center"
+                 Style="@GetTitleStyle()">
+            @Title
+        </MudText>
+
+        @if (!IsExpanded)
+        {
+            <!-- Compact View -->
+            <div style="min-height: 120px;">
+                @{
+                    var availablePlayers = Rankings.Where(r => !r.IsDrafted).Take(DefaultDisplay).ToList();
+                }
+
+                @foreach (var ranking in availablePlayers)
+                {
+                    <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
+                        <MudText Typo="Typo.body2"
+                                 Inline=true
+                                 Class="mb-1 ps-5"
+                                 Style="@GetPlayerTextStyle(ranking.IsDrafted)">
+                            @GetDisplayText(ranking)
+                        </MudText>
+                        @if (ranking.Player.InjuryStatus is not null)
+                        {
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, ColorPalette.ChalkWhite)">
+                                &nbsp•&nbsp
+                            </MudText>
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, "red")">
+                                @ranking.Player.InjuryStatus
+                            </MudText>
+                        }
+                    </MudLink>
+                    <br />
+                }
+
+                @if (availablePlayers.Count == 0)
+                {
+                    <MudText Typo="Typo.body2"
+                             Class="text-center mt-4"
+                             Style="@GetEmptyTextStyle()">
+                        No available players
+                    </MudText>
+                }
+            </div>
+
+            <!-- Expand Button -->
+            <div class="text-center mt-2">
+                <MudIconButton Icon="Icons.Material.Filled.KeyboardArrowDown"
+                               Size="Size.Small"
+                               Color="Color.Surface"
+                               OnClick="ToggleExpanded"
+                               Style="@GetArrowButtonStyle()" />
+            </div>
+        }
+        else
+        {
+            <!-- Expanded View -->
+            <div style="height: 50vh; overflow-y: auto;">
+                @foreach (var ranking in Rankings)
+                {
+                    <MudLink OnClick="@(() => OpenPlayerDialog(ranking.Player))" Style="text-decoration:none;">
+                        <MudText Typo="Typo.body2"
+                                 Inline=true
+                                 Class="mb-1 ps-5"
+                                 Style="@GetPlayerTextStyle(ranking.IsDrafted)">
+                            @GetDisplayText(ranking)
+                        </MudText>
+                        @if (ranking.Player.InjuryStatus is not null)
+                        {
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, ColorPalette.ChalkWhite)">
+                                &nbsp•&nbsp
+                            </MudText>
+                            <MudText Typo="Typo.body2"
+                                     Inline=true
+                                     Class="mb-1"
+                                     Style="@GetInjuryTextStyle(ranking.IsDrafted, "red")">
+                                @ranking.Player.InjuryStatus
+                            </MudText>
+                        }
+
+                    </MudLink>
+                    <br />
+                }
+
+                @if (!Rankings.Any())
+                {
+                    <MudText Typo="Typo.body2"
+                             Class="text-center mt-4"
+                             Style="@GetEmptyTextStyle()">
+                        No players available
+                    </MudText>
+                }
+            </div>
+
+            <!-- Collapse Button -->
+            <div class="text-center mt-2">
+                <MudIconButton Icon="Icons.Material.Filled.KeyboardArrowUp"
+                               Size="Size.Small"
+                               Color="Color.Surface"
+                               OnClick="ToggleExpanded"
+                               Style="@GetArrowButtonStyle()" />
+            </div>
+        }
+    </MudCardContent>
+</MudCard>

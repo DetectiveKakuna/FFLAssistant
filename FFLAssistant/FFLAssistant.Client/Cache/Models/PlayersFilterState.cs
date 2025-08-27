@@ -1,5 +1,5 @@
-﻿using FFLAssistant.Models.Enums;
-using FFLAssistant.Models.Players;
+﻿using FFLAssistant.Models;
+using FFLAssistant.Models.Enums;
 using MudBlazor;
 
 namespace FFLAssistant.Client.Cache.Models;

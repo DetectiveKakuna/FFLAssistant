@@ -1,0 +1,122 @@
+﻿@page "/draft"
+@using FFLAssistant.Models
+@using FFLAssistant.Models.Components
+@using FFLAssistant.Client.Components
+@using FFLAssistant.Models.Enums
+@using Position = FFLAssistant.Models.Enums.Position
+
+<PageTitle>Draft Board</PageTitle>
+
+<MudGrid>
+    <MudItem xs="12" Class="px-1">
+        <MudContainer Fixed=true Class="pa-2">
+            @if (draftPickCards != null && currentDraftState != null)
+            {
+                <!-- Team Headers -->
+                <MudGrid Class="mb-2" Spacing="1">
+                    @foreach (var team in currentDraftState.Teams)
+                    {
+                        <MudItem xs="1">
+                            <MudPaper Class="pa-2 text-center"
+                                      Style="background-color: #8b4513; color: #f5f5dc; border-radius: 4px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1px solid #4a6348;"
+                                      Elevation="0">
+                                <MudText Typo="Typo.caption" Style="font-weight: bold; font-size: 11px;">
+                                    @team.TeamName
+                                </MudText>
+                            </MudPaper>
+                        </MudItem>
+                    }
+                </MudGrid>
+                <!-- Draft Board -->
+                @for (int round = currentDraftState.FirstRelevantRound; round <= currentDraftState.FirstRelevantRound + 2; round++)
+                {
+                    var roundPicks = GetPicksForRound(round);
+                    <MudGrid Class="mb-1" Spacing="1">
+                        @foreach (var pick in roundPicks)
+                        {
+                            <MudItem xs="1">
+                                <DraftPickCard PickCard="pick" MyTeamIndex="MyTeamIndex ?? 0" TotalTeams="currentDraftState.TotalTeams"/>
+                            </MudItem>
+                        }
+                    </MudGrid>
+                }
+            }
+            else
+            {
+                <!-- Loading State -->
+                <div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+                    <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
+                    <MudText Typo="Typo.h6" Class="ml-3" Style="color: #f5f5dc;">Loading draft...</MudText>
+                </div>
+            }
+        </MudContainer>
+    </MudItem>
+    <MudItem xs="12" Class="pr-6">
+
+        @if (draftRankings != null)
+        {
+            <MudGrid>
+                <MudItem xs="3">
+                    <MudStack>
+                        <MudText Typo="Typo.h6" Class="mb-2" Align="Align.Center">Top Recommendations</MudText>
+                        @if (draftRankings.Any())
+                        {
+                            var top5Reccomendations = draftRankings
+                                .Where(r => !r.IsDrafted)
+                                .OrderBy(r => r.OverallRank)
+                                .Take(5);
+
+                            foreach (var ranking in top5Reccomendations)
+                            {
+                                <PlayerCardSmall Player="@ranking.Player"
+                                                Ranking="@ranking.OverallRank" />
+                            }
+                        }
+                        else
+                        {
+                            <MudText Typo="Typo.body2">No recommendations available</MudText>
+                        }
+                    </MudStack>
+                </MudItem>
+                <MudItem xs="2">
+                    <DraftRankingsList Rankings="@draftRankings.ToList()"
+                                       Title="All Positions"
+                                       ShowPositions=true
+                                       DefaultDisplay="20" />
+                </MudItem>
+                <MudItem xs="7" Class="pl-2">
+                    <MudGrid Spacing="2">
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.QB)"
+                                               Title="Quarterbacks"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.RB)"
+                                               Title="Running Backs"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.WR)"
+                                               Title="Wide Receivers"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                        <MudItem xs="3">
+                            <DraftRankingsList Rankings="@GetRankingsByPosition(Position.TE)"
+                                               Title="Tight Ends"
+                                               DefaultDisplay="20" />
+                        </MudItem>
+                    </MudGrid>
+                </MudItem>
+                
+            </MudGrid>
+        }
+        else
+        {
+            <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
+                <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+                <MudText Typo="Typo.body1" Class="ml-3" Style="color: #f5f5dc;">Loading rankings...</MudText>
+            </div>
+        }
+    </MudItem>
+</MudGrid>

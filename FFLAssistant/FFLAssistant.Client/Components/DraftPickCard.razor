@@ -1,0 +1,68 @@
+﻿@using FFLAssistant.Models
+@using FFLAssistant.Models.Components
+@using System.Linq
+
+<MudPaper Class="draft-pick-card" 
+          Style="@GetCardStyle()" 
+          Elevation="1"
+          Height="50px">
+    
+    <div style="position: relative; height: 100%; padding: 6px; box-sizing: border-box;">
+        <!-- Pick Number (Top Right) -->
+        <div style="position: absolute; top: 4px; right: 6px; font-size: 10px; font-weight: bold; color: @GetPickNumberColor();">
+            @($"{PickCard.Round}.{PickCard.PickInRound}")
+        </div>
+        
+        @if (PickCard.IsDrafted && PickCard.Player != null)
+        {
+            <!-- Drafted Player Content -->
+            <div style="display: flex; flex-direction: column; height: 100%; overflow: hidden;">
+                <!-- Player Name (Top Left) -->
+                <div style="margin-top: 2px; margin-right: 30px; flex-shrink: 0;">
+                    <MudText Typo="Typo.body2" 
+                             Style="@PlayerNameStyle">
+                        @($"{PickCard.Player.FirstName?.Substring(0, 1)}.{PickCard.Player.LastName}")
+                    </MudText>
+                </div>
+                
+                <!-- Position and Team (Bottom) -->
+                <div style="margin-top: auto; margin-bottom: 2px;">
+                    @{
+                        var position = PickCard.Player.Positions?.FirstOrDefault().ToString() ?? "";
+                        var team = PickCard.Player.Team?.ToString() ?? "";
+                        var positionTeam = !string.IsNullOrEmpty(position) && !string.IsNullOrEmpty(team) 
+                            ? $"{position} - {team}" 
+                            : !string.IsNullOrEmpty(position) ? position 
+                            : !string.IsNullOrEmpty(team) ? team 
+                            : "";
+                    }
+                    
+                    @if (!string.IsNullOrEmpty(positionTeam))
+                    {
+                        <MudText Typo="Typo.caption" 
+                                 Style="@PositionTeamStyle">
+                            @positionTeam
+                        </MudText>
+                    }
+                </div>
+            </div>
+        }
+        else if (PickCard.IsActivePick)
+        {
+            <!-- Active Pick Content -->
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%; margin-right: 30px;">
+                <MudText Typo="Typo.caption" 
+                         Style="@ActivePickTextStyle">
+                    TIME TO PANIC
+                </MudText>
+            </div>
+        }
+        else
+        {
+            <!-- Empty Pick Content -->
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                <!-- Empty - just show the pick number which is already in top right -->
+            </div>
+        }
+    </div>
+</MudPaper>

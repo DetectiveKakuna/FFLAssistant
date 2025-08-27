@@ -1,7 +1,7 @@
 ﻿using FFLAssistant.Client.Cache.Models;
 using FFLAssistant.Client.Cache.Services.Interfaces;
+using FFLAssistant.Models;
 using FFLAssistant.Models.Enums;
-using FFLAssistant.Models.Players;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System.Net.Http.Json;

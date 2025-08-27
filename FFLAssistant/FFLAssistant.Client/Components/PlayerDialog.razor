@@ -1,0 +1,233 @@
+﻿@using FFLAssistant.Models
+@using MudBlazor
+
+<MudPaper Class="pa-4 d-flex" Style="@GetDialogStyle()">
+    @if (IsLoading)
+    {
+        <MudGrid>
+            <MudItem xs="5">
+                <MudStack Class="ps-10 flex-grow-1">
+                    <!-- Player name -->
+                    <MudSkeleton Width="60%" Height="32px" Class="mb-4" />
+
+                    <!-- Headshot -->
+                    <MudSkeleton Variant="Circular" Width="160px" Height="160px" Class="mx-auto mb-10" />
+
+                    <!-- Team / Age / Exp area -->
+                    <MudGrid Style="background-color: var(--grassy-green-medium);">
+                        <MudItem xs="5" Class="ps-0 py-5">
+                            <MudStack Spacing="1">
+                                <MudSkeleton Width="140px" Height="20px" Class="mb-2" />
+                                <MudSkeleton Width="120px" Height="20px" Class="mb-2" />
+                                <MudSkeleton Width="100px" Height="20px" />
+                            </MudStack>
+                        </MudItem>
+
+                        <MudItem xs="7" Class="d-flex align-center justify-center ps-0 pt-0">
+                            <MudSkeleton Width="160px" Height="70px" />
+                        </MudItem>
+                    </MudGrid>
+
+                    <!-- Projections skeleton -->
+                    <MudGrid Class="pt-5">
+                        <MudStack Class="mt-2 px-3 py-3 flex-grow-1" Style="background-color: var(--grassy-green-medium);">
+                            <MudContainer Class="w-100" Gutters="false">
+                                <MudSkeleton Width="140px" Height="24px" Class="mx-auto mb-2" />
+                                <MudDivider Class="mb-3" />
+
+                                <!-- Two rows of skeleton "cells" that look like header/value with an inner line -->
+                                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; width: 100%;">
+                                    @for (int i = 0; i < 4; i++)
+                                    {
+                                        <div style="border: 1px solid var(--mud-palette-divider); min-width: 0; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:6px;">
+                                            <MudSkeleton Width="70%" Height="14px" Class="mb-1" />
+                                            <div style="height:1px; width:100%; background: var(--mud-palette-divider); margin: 2px 0;"></div>
+                                            <MudSkeleton Width="50%" Height="14px" />
+                                        </div>
+                                    }
+                                </div>
+
+                                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; width: 100%; margin-top: -1px;">
+                                    @for (int i = 0; i < 4; i++)
+                                    {
+                                        <div style="border: 1px solid var(--mud-palette-divider); border-top: 0; min-width: 0; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:6px;">
+                                            <MudSkeleton Width="70%" Height="14px" Class="mb-1" />
+                                            <div style="height:1px; width:100%; background: var(--mud-palette-divider); margin: 2px 0;"></div>
+                                            <MudSkeleton Width="50%" Height="14px" />
+                                        </div>
+                                    }
+                                </div>
+                            </MudContainer>
+
+                            <MudContainer Class="d-flex flex-grow-1 justify-center align-center">
+                                <MudSkeleton Width="100px" Height="20px" />
+                            </MudContainer>
+                        </MudStack>
+                    </MudGrid>
+                </MudStack>
+            </MudItem>
+
+            <!-- Notes skeleton -->
+            <MudItem xs="7" Class="ps-0">
+                <MudSkeleton Width="90px" Height="24px" Class="mx-auto mb-2" />
+                <MudSkeleton Width="100%" Height="700px" />
+            </MudItem>
+        </MudGrid>
+    }
+    else
+    {
+        <MudGrid>
+            <MudItem xs="5">
+                <MudStack Class="ps-10 flex-grow-1">
+                    <MudPaper Class="d-flex justify-center" Style="background-color: var(--grassy-green-medium); margin-left: -30px;" Elevation=0>
+                        <MudText Typo="Typo.h3" Style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:100%;">@Player.FullName</MudText>
+                        @if (Player.InjuryStatus is not null)
+                        {
+                            <MudText Typo="Typo.h3">&nbsp•&nbsp</MudText>
+                            <MudText Typo="Typo.h3" Style="color: red;">@Player.InjuryStatus</MudText>
+                        }
+                    </MudPaper>
+
+                    <MudContainer Class="d-flex justify-center mb-10">
+                        <MudImage Src="@HeadshotUrl" Class="rounded-lg" Height="160" Width="160" />
+                    </MudContainer>
+
+                    <MudGrid Style="background-color: var(--grassy-green-medium);  border-radius: 12px;">
+                        <MudItem Class="ps-0 py-5" xs="5">
+                            <MudStack Spacing="1">
+                                <MudContainer Class="d-flex align-center">
+                                    <MudText Typo="Typo.h5">Team:</MudText>
+                                    <MudText Typo="Typo.h6" Class="ps-2">@Player.Team</MudText>
+                                </MudContainer>
+                                <MudContainer Class="d-flex align-center">
+                                    <MudText Typo="Typo.h5">Age:</MudText>
+                                    <MudText Typo="Typo.h6" Class="ps-2">@Player.Age</MudText>
+                                </MudContainer>
+                                <MudContainer Class="d-flex align-center">
+                                    <MudText Typo="Typo.h5">Exp:</MudText>
+                                    <MudText Typo="Typo.h6" Class="ps-2">@Player.YearsExperience</MudText>
+                                </MudContainer>
+                            </MudStack>
+                        </MudItem>
+
+                        <MudItem xs="7" Class="d-flex align-center justify-center ps-0 pt-0">
+                            <MudPaper Style="@GetPositionDepthStyle()">
+                                <MudStack Spacing="1">
+                                    <MudText Typo="Typo.h2" Align="Align.Center">@Player.PrimaryPosition</MudText>
+                                    <MudContainer Class="d-flex align-center justify-center">
+                                        <MudText Typo="Typo.h5">Depth Chart:</MudText>
+                                        <MudText Typo="Typo.h6" Class="ps-2">@Player.DepthChartPosition</MudText>
+                                    </MudContainer>
+                                </MudStack>
+                            </MudPaper>
+                        </MudItem>
+                    </MudGrid>
+
+                    <MudGrid Class="pt-5">
+                        <MudStack Class="mt-2 px-3 py-3 flex-grow-1" Style="background-color: var(--grassy-green-medium);  border-radius: 12px;">
+                            <MudContainer Class="w-100" Gutters="false">
+                                <!-- Header -->
+                                <MudText Typo="Typo.h5" Align="Align.Center" Class="py-2">
+                                    Rankings
+                                </MudText>
+
+                                <div style="display: grid; grid-template-columns: repeat(@Rankings.Count, 1fr); gap: 0; width: 100%;">
+                                    @foreach (var kvp in Rankings)
+                                    {
+                                        <MudPaper Square="true" Style="border:1px solid var(--mud-palette-divider); min-width:0;">
+                                            <MudStack AlignItems="AlignItems.Center" JustifyContent="Center" Spacing="0">
+                                                <MudText Typo="Typo.subtitle2" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--grassy-green-dark); width: 100%;">
+                                                    @kvp.Key
+                                                </MudText>
+                                                <MudDivider Style="width:100%;" />
+                                                <MudText Typo="Typo.body1" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--field-line-green); width: 100%;">
+                                                    @kvp.Value
+                                                </MudText>
+                                            </MudStack>
+                                        </MudPaper>
+                                    }
+                                </div>
+                            </MudContainer>
+                            <MudContainer Class="w-100" Gutters="false">
+                                <!-- Header -->
+                                <MudText Typo="Typo.h5" Align="Align.Center" Class="py-2">
+                                    Projections
+                                </MudText>
+
+                                @* Split the dictionary into two halves *@
+                                @{
+                                    var half = (int)Math.Ceiling(Projections.Count / 2.0);
+                                    var firstRow = Projections.Take(half).ToList();
+                                    var secondRow = Projections.Skip(half).ToList();
+                                }
+
+                                <!-- First row (each cell bordered + internal divider between key and value) -->
+                                <div style="display: grid; grid-template-columns: repeat(@firstRow.Count, 1fr); gap: 0; width: 100%;">
+                                    @foreach (var kvp in firstRow)
+                                    {
+                                        <MudPaper Square="true" Style="border:1px solid var(--mud-palette-divider); min-width:0;">
+                                            <MudStack AlignItems="AlignItems.Center" JustifyContent="Center" Spacing="0">
+                                                <MudText Typo="Typo.subtitle2" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--grassy-green-dark); width: 100%;">
+                                                    @kvp.Key
+                                                </MudText>
+                                                <MudDivider Style="width:100%;" />
+                                                <MudText Typo="Typo.body1" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--field-line-green); width: 100%;">
+                                                    @kvp.Value
+                                                </MudText>
+                                            </MudStack>
+                                        </MudPaper>
+                                    }
+                                </div>
+
+                                <!-- Second row (same borders + internal divider) -->
+                                <div style="display: grid; grid-template-columns: repeat(@secondRow.Count, 1fr); gap: 0; width: 100%; margin-top: -1px;">
+                                    @foreach (var kvp in secondRow)
+                                    {
+                                        <MudPaper Square="true" Style="border:1px solid var(--mud-palette-divider); min-width:0;">
+                                            <MudStack AlignItems="AlignItems.Center" JustifyContent="Center" Spacing="0">
+                                                <MudText Typo="Typo.subtitle2" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--grassy-green-dark); width: 100%;">
+                                                    @kvp.Key
+                                                </MudText>
+                                                <MudDivider Style="width:100%;" />
+                                                <MudText Typo="Typo.body1" Align="Align.Center" Style="margin:0; padding:4px 6px; background-color: var(--field-line-green); width: 100%;">
+                                                    @kvp.Value
+                                                </MudText>
+                                            </MudStack>
+                                        </MudPaper>
+                                    }
+                                </div>
+                            </MudContainer>
+                        </MudStack>
+                    </MudGrid>
+                </MudStack>
+            </MudItem>
+
+            <MudItem xs="7" Class="ps-0">
+                <MudText Typo="Typo.h5" Class="mb-2" Align="Align.Center">Notes</MudText>
+                @if (PlayerNotes.Notes.Any())
+                {
+                    <MudContainer>
+                        @foreach (var note in PlayerNotes.Notes)
+                        {
+                            <MudPaper Class="pa-2 mb-2" Style=@GetNoteStyle() Elevation=0>
+                                <MudText Typo="Typo.body1" Class="pb-1">@note.Note</MudText>
+                                <MudGrid>
+                                    <MudItem xs="6">
+                                        <MudText Typo="Typo.caption" Class="text-primary">@note.Analyst</MudText>
+                                    </MudItem>
+                                    <MudItem xs="6" Class="d-flex justify-end">
+                                        <MudText Typo="Typo.caption" Class="text-secondary">@note.Timestamp</MudText>
+                                    </MudItem>
+                                </MudGrid>
+                            </MudPaper>
+                        }
+                    </MudContainer>
+                }
+                else
+                {
+                    <MudText>No notes available.</MudText>
+                }
+            </MudItem>
+        </MudGrid>
+    }
+</MudPaper>

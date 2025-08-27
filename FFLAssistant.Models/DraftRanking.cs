@@ -1,4 +1,4 @@
-﻿namespace FFLAssistant.Models.Players;
+﻿namespace FFLAssistant.Models;
 
 public class DraftRanking
 {
@@ -9,4 +9,5 @@ public class DraftRanking
     public int WorstRank { get; set; }
     public double AverageRank { get; set; }
     public double StandardDeviation { get; set; }
+    public bool IsDrafted { get; set; }
 }

@@ -1,8 +1,8 @@
+using FFLAssistant.Models;
 using FFLAssistant.Models.Configurations;
 using FFLAssistant.Models.Dtos;
 using FFLAssistant.Models.Enums;
-using FFLAssistant.Models.Players;
-using FFLAssistant.Services.Interfaces;
+using FFLAssistant.Models.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
@@ -39,8 +39,31 @@ public class SleeperApiService(
                 return null;
             }
 
+            // Fix defense dictionary keys by updating null keys with team-based IDs
+            var fixedSleeperPlayers = new Dictionary<string, SleeperPlayerDto>();
+            foreach (var kvp in sleeperPlayers)
+            {
+                var player = kvp.Value;
+                var key = kvp.Key;
+
+                // If this is a defense and the key is null/empty, generate a synthetic ID
+                if ((string.IsNullOrEmpty(key) || key == "null") &&
+                    player.FantasyPositions?.Contains("DEF") == true &&
+                    !string.IsNullOrEmpty(player.Team))
+                {
+                    // Use team abbreviation with "DEF" suffix as synthetic ID
+                    key = $"{player.Team}_DEF";
+                    player.PlayerId = key; // Also update the player's ID
+                }
+
+                if (!string.IsNullOrEmpty(key) && key != "null")
+                {
+                    fixedSleeperPlayers[key] = player;
+                }
+            }
+            
             var players = sleeperPlayers.Values
-                .Where(player => player.Active == true && player.Status == "Active")
+                .Where(player => player.Active == true)
                 .Select(MapToPlayer)
                 .ToList();
 
@@ -58,7 +81,7 @@ public class SleeperApiService(
     {
         var player = new Player
         {
-            Id = int.TryParse(sleeperPlayer.PlayerId, out var id) ? id : 0,
+            Id = sleeperPlayer.PlayerId ?? string.Empty,
             FirstName = sleeperPlayer.FirstName ?? string.Empty,
             LastName = sleeperPlayer.LastName ?? string.Empty,
             Age = sleeperPlayer.Age ?? 0,
@@ -87,11 +110,21 @@ public class SleeperApiService(
             player.Team = team;
         }
 
-        // Map injury status using team_abbr
-        if (!string.IsNullOrEmpty(sleeperPlayer.InjuryStatus) &&
-            Enum.TryParse<InjuryStatus>(sleeperPlayer.InjuryStatus, true, out var iStatus))
+        // Map injury status
+        if (!string.IsNullOrEmpty(sleeperPlayer.InjuryStatus))
         {
-            player.InjuryStatus = iStatus;
+            var status = sleeperPlayer.InjuryStatus;
+
+            // normalize the strings
+            status = status switch
+            {
+                "Questionable" => "Q",
+                "Doubtful" => "D",
+                _ => status
+            };
+
+            if (Enum.TryParse<InjuryStatus>(status, true, out var iStatus))
+                player.InjuryStatus = iStatus;
         }
 
         return player;
