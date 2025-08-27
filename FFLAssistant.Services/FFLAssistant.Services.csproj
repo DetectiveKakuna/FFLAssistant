@@ -24,8 +24,4 @@
     <ProjectReference Include="..\FFLAssistant.Repositories\FFLAssistant.Repositories.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Cache\" />
-  </ItemGroup>
-
 </Project>
