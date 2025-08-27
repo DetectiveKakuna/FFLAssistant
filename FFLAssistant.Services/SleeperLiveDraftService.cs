@@ -8,59 +8,65 @@ using System.Text.RegularExpressions;
 
 namespace FFLAssistant.Services;
 
-public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> logger, IOptions<SleeperConfiguration> config) : ISleeperLiveDraftService
+public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> logger, IOptions<SleeperConfiguration> config) : ISleeperLiveDraftService, IAsyncDisposable
 {
     private readonly ILogger<SleeperLiveDraftService> _logger = logger;
     private readonly SleeperConfiguration _config = config.Value;
 
     private IPlaywright? _playwright;
     private IBrowser? _browser;
-    private bool _disposed = false;
+    private IPage? _page;
+    private bool _initialized = false;
 
     public async Task<DraftState?> GetDraftStateAsync(string draftId)
     {
         try
         {
-            await InitializeBrowserAsync();
+            await EnsureInitializedAsync(draftId);
 
-            var page = await _browser!.NewPageAsync();
-            await page.GotoAsync(Path.Combine(_config.DraftBaseUrl, draftId));
-
-            // Wait for the draft board to load
-            await page.WaitForSelectorAsync(".draft-layout-container", new PageWaitForSelectorOptions
-            {
-                Timeout = 30000
-            });
+            // Refresh the draft page before scraping
+            await _page!.ReloadAsync();
+            await _page.WaitForSelectorAsync(".draft-layout-container", new PageWaitForSelectorOptions{ Timeout = 30000 });
 
             var draftState = new DraftState
             {
-                Teams = await GetTeamsAsync(page),
-                CurrentPick = await GetCurrentPickAsync(page),
-                TotalRounds = await GetTotalRoundsAsync(page),
-                Picks = await GetPicksAsync(page)
+                Teams = await GetTeamsAsync(_page),
+                CurrentPick = await GetCurrentPickAsync(_page),
+                TotalRounds = await GetTotalRoundsAsync(_page),
+                Picks = await GetPicksAsync(_page)
             };
-            await page.CloseAsync();
 
             _logger.LogInformation("Successfully scraped draft state for league");
             return draftState;
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error scraping draft state from id: {Url}", draftId);
+            _logger.LogError(ex, "Error scraping draft state");
             return null;
         }
     }
 
-    private async Task InitializeBrowserAsync()
+    private async Task EnsureInitializedAsync(string draftId)
     {
-        if (_browser != null) return;
+        if (_initialized) return;
 
         _playwright = await Playwright.CreateAsync();
         _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
         {
-            Headless = true,
+            Headless = false,
             Args = ["--no-sandbox", "--disable-dev-shm-usage"]
         });
+
+        _page = await _browser.NewPageAsync();
+        await _page.GotoAsync(Path.Combine(_config.DraftBaseUrl, draftId));
+
+        await _page.WaitForSelectorAsync(".draft-layout-container", new PageWaitForSelectorOptions
+        {
+            Timeout = 30000
+        });
+
+        _initialized = true;
+        _logger.LogInformation("Connected to draft page {DraftId}", draftId);
     }
 
     private async Task<List<DraftTeam>> GetTeamsAsync(IPage page)
@@ -293,13 +299,24 @@ public partial class SleeperLiveDraftService(ILogger<SleeperLiveDraftService> lo
         }
     }
 
-    public void Dispose()
+    public async ValueTask DisposeAsync()
     {
-        if (_disposed) return;
+        try
+        {
+            if (_page is not null)
+                await _page.CloseAsync();
 
-        _browser?.DisposeAsync();
-        _playwright?.Dispose();
-        _disposed = true;
+            if (_browser is not null)
+                await _browser.CloseAsync();
+
+            _playwright?.Dispose();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error during cleanup of Playwright resources");
+        }
+
+        GC.SuppressFinalize(this);
     }
 
     [GeneratedRegex(@"draft-cell-(\d+)")]
